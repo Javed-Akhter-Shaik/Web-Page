@@ -7,7 +7,7 @@
 
 __________________________________________________________________________________________________________
        
-<img src="https://github.com/deepanshuIITM/webpage/assets/137225940/d61d83be-5f4b-4f36-9be0-035b042c86af" alt="image" width="200" height="220">
+<img src="![Photo_page-0001](https://github.com/user-attachments/assets/9df84bdb-d564-475b-b88b-cf6bc7778947)" alt="image" width="200" height="220">
 
 
 ### Javed Akhter | M.S.  
