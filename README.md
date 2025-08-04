@@ -7,8 +7,7 @@
 
 __________________________________________________________________________________________________________
        
-<img src="https://github.com/user-attachments/assets/9df84bdb-d564-475b-b88b-cf6bc7778947" alt="image" width="200" height="220">
-
+<img src="https://github.com/user-attachments/assets/d80e7f4f-5664-4a93-bfca-d467476e8e45" alt="image" width="180" height="250">
 
 ### Javed Akhter | M.S.  
 #### *[Department of Engineering Design](https://ed.iitm.ac.in/){:target="_blank"}* | **[IIT Madras](https://www.iitm.ac.in/){:target="_blank"}**
