@@ -10,38 +10,16 @@ ________________________________________________________________________________
 <img src="https://github.com/deepanshuIITM/webpage/assets/137225940/d61d83be-5f4b-4f36-9be0-035b042c86af" alt="image" width="200" height="220">
 
 
-### Deepanshu | M.S.+ Ph.D.  
+### Javed Akhter | M.S.  
 #### *[Department of Engineering Design](https://ed.iitm.ac.in/){:target="_blank"}* | **[IIT Madras](https://www.iitm.ac.in/){:target="_blank"}**
 
-**Ph.D. Thesis:** **[An Integrated Framework for Visualization-aided Multi-criteria Decision-making](https://drive.google.com/file/d/1k1hn8twzN_LGEI21fZ7KmyyQyqNcEvKG/view?usp=sharing){:target="_blank"}**
-
-__________________________________________________________________________________________________________
-
-## Education 
-
-#### M.S. + Ph.D. in Engineering Design | [2019-2024]
-
-#### [Indian Institute of Technology Madras](https://www.iitm.ac.in/){:target="_blank"}, Chennai, Tamil Nadu, India 
-
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/14fda2f8-c607-4f04-8d5b-8b99291bf97c" alt="image" width="90" height="90">
-
-#### Mentors: [Prof. Palaniappan Ramu](https://ed.iitm.ac.in/~palramu/){:target="_blank"} and [Prof. Kalyanmoy Deb](https://www.egr.msu.edu/~kdeb/){:target="_blank"}
+**M.S. Thesis:** **[An Integrated Framework for Visualization-aided Multi-criteria Decision-making](https://drive.google.com/file/d/1k1hn8twzN_LGEI21fZ7KmyyQyqNcEvKG/view?usp=sharing){:target="_blank"}**
 
 _________________________________________________________________________________________________________
 
-#### Exchange Visitor in Electrical and Computer Engineering | [Sep-Nov 2024]
+####   B. Tech. in Mechanical Engineering | [2017-2021]
 
-#### [Michigan State University](https://msu.edu/){:target="_blank"}, East Lansing, Michigan State University, USA 
-
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/174e1146-140d-4fc9-9489-236130cfdf0b" alt="image" width="120" height="120">
-
-#### Host: [Prof. Kalyanmoy Deb](https://www.egr.msu.edu/~kdeb/){:target="_blank"}
-
-_________________________________________________________________________________________________________
-
-####   B. Tech. in Mechanical Engineering | [2012-2016]
-
-#### [National Institute of Technology Kurukshetra](https://nitkkr.ac.in/){:target="_blank"}, Haryana, India
+#### [RVR & JC College of Engineering](https://rvrjcce.ac.in/){:target="_blank"}, Guntur, India
 
 <img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/095c9b2a-441f-4375-a21e-812b692899b0" alt="image" width="90" height="90">
 
