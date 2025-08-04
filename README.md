@@ -7,7 +7,7 @@
 
 __________________________________________________________________________________________________________
        
-<img src="![Photo_page-0001](https://github.com/user-attachments/assets/9df84bdb-d564-475b-b88b-cf6bc7778947)" alt="image" width="200" height="220">
+<img src="https://github.com/user-attachments/assets/9df84bdb-d564-475b-b88b-cf6bc7778947" alt="image" width="200" height="220">
 
 
 ### Javed Akhter | M.S.  
