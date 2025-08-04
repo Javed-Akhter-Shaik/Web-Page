@@ -183,7 +183,7 @@ ________________________________________________________________________________
 
 [**Agnes Nirmala Srinivasan** B.Tech., Civil Engineering, IIT Madras](https://github.com/ansk25){:target="_blank"}   **[July 2023- May 2024]**
 
-*Visualization-assisted interactive and explainable optimization and decision-making*
+*Visualization-assisted interactive and explainable optimization and decision-making* 
 
 _________________________________________________________________________________________________________
 
