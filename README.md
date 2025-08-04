@@ -215,10 +215,6 @@ ________________________________________________________________________________
 
 <img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/9d480dd0-41c5-4a33-9c3d-43caa4fbb820" alt="image" width="120" height="40">
 
-[**C**omputational **O**ptimization and **IN**novation (**COIN**) Laboratory](https://www.coin-lab.org/content/members.html){:target="_blank"}
- 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/6b9d7e75-c121-4edd-b16b-528264005bf9" alt="image" width="120" height="40">
-
 _________________________________________________________________________________________________________
 
 
