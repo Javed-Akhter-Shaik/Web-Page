@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 #### [RVR & JC College of Engineering](https://rvrjcce.ac.in/){:target="_blank"}, Guntur, India
 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/095c9b2a-441f-4375-a21e-812b692899b0" alt="image" width="90" height="90">
+<img src="https://github.com/user-attachments/assets/17f08c13-6ad7-4e4b-9cc3-ff25ebac922b" alt="image" width="90" height="90">
 
 _________________________________________________________________________________________________________
 
