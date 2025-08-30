@@ -216,7 +216,7 @@ ________________________________________________________________________________
 [**A**dvanced **D**esign **O**ptimization and **P**robabilistic **T**echniques (**ADOPT**) Laboratory](https://ed.iitm.ac.in/~palramu/team.html){:target="_blank"}
 
 
-<img width="120" height="90" alt="ADOPT_logo" src="https://github.com/user-attachments/assets/1e7f1117-f773-4856-a556-6b956ee56066" />
+<img width="120" height="50" alt="ADOPT_logo" src="https://github.com/user-attachments/assets/1e7f1117-f773-4856-a556-6b956ee56066" />
 
 _________________________________________________________________________________________________________
 
