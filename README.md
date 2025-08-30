@@ -52,23 +52,6 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________
 
-
-#### Graduate Engineer Trainee | [Jun 2016-Dec 2016]
-
-#### [Vedanta Aluminium Limited](https://vedantaaluminium.com/){:target="_blank"}, Jharsuguda, Odisha, India
-
-#### Operations & Maintenance Engineering | [Jan 2017-Jul 2017]
-
-#### FTP, [Vedanta Aluminium Limited](https://vedantaaluminium.com/){:target="_blank"}, Jharsuguda, Odisha, India
-
-#### Assistant Manager | [Aug 2017-Jul 2018]
-
-#### O&M Aluminium Foundry, [Vedanta Aluminium Limited](https://vedantaaluminium.com/){:target="_blank"}, Jharsuguda, Odisha, India
-
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/4ffac036-8091-48f3-9666-4d78b29e3ef2" alt="image" width="175" height="50">
-
-_________________________________________________________________________________________________________
-
 ## Teaching Experience
 
 #### ED5015: Computational methods in Design [Jan-May 2025]
