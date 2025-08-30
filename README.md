@@ -33,15 +33,14 @@ ________________________________________________________________________________
 
 <img src="https://github.com/user-attachments/assets/5421c00f-d104-4a48-a26f-236c5a6440ba" alt="image" width="90" height="40">
 
-
 _________________________________________________________________________________________________________
 
 
 #### Student Intern | [Jun 2015-Aug 2015]
 
-#### [Mercedes Benz Research and Development India](https://www.mbrdi.co.in/){:target="_blank"}, Bangalore, India
+#### [South Central railways] ([https://scr.indianrailways.gov.in/view_section.jsp?fontColor=black&backgroundColor=LIGHTSTEELBLUE&lang=0&id=0,1,291,358]){:target="_blank"}, Bangalore, India
 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/5bcfd643-0d56-4a54-9838-f7793893e7f3" alt="image" width="75" height="75">
+<img src="https://github.com/user-attachments/assets/96e47e66-3417-4e44-9361-5a44db6670cd" alt="image" width="75" height="75">
 
 _________________________________________________________________________________________________________
 
