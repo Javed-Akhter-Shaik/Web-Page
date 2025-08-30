@@ -9,10 +9,12 @@ ________________________________________________________________________________
        
 <img src="https://github.com/user-attachments/assets/d80e7f4f-5664-4a93-bfca-d467476e8e45" alt="image" width="180" height="250">
 
-### Javed Akhter | M.S.  
+### Javed Akhter Shaik | M.S.  
 #### *[Department of Engineering Design](https://ed.iitm.ac.in/){:target="_blank"}* | **[IIT Madras](https://www.iitm.ac.in/){:target="_blank"}**
 
 **M.S. Thesis:** **[Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization](https://drive.google.com/file/d/1peAeJrMDAklAj-UqTs8J8MbSF8LiEjwY/view?usp=drive_link){:target="_blank"}**
+
+<img width="90" height="90" alt="IITM_Logo" src="https://github.com/user-attachments/assets/d7a1e8f7-9db5-4e57-8715-b317bd1ed1e6" />
 
 _________________________________________________________________________________________________________
 
