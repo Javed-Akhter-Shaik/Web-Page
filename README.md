@@ -140,6 +140,9 @@ ________________________________________________________________________________
 
 # THANK YOU !
 
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+<p align="center">
+  <img src="https://profile-counter.glitch.me/Javed-Akhter-Shaik/count.svg" alt="Visitor Count" />
+</p>
+
 
  
