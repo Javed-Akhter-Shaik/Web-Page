@@ -141,8 +141,9 @@ ________________________________________________________________________________
 # THANK YOU !
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/Javed-Akhter-Shaik/count.svg" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=javed-akhter-shaik&color=blue&style=flat-square" alt="Visitor Count"/>
 </p>
+
 
 
  
