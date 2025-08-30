@@ -169,41 +169,6 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________
 
-
-## Journal Publications 
-
-[1]. [**Yadav, D.**, Ramu, P., & Deb, K. Handling Objective Preference and Variable Uncertainty in Evolutionary Multi-Objective Optimization. *Swarm and Evolutionary Computation, 94, 101860*.](https://doi.org/10.1016/j.swevo.2025.101860){:target="_blank"}
-
-[2]. [**Yadav, D.**, Sekar, K., & Ramu, P. (2024). Adaptive sampling based estimation of small probability of failure using interpretable Self-Organising Map. *Structural Safety*, 102470.](https://doi.org/10.1016/j.strusafe.2024.102470){:target="_blank"}
-
-[3]. [**Yadav, D.**, Ramu, P., & Deb, K. (2023). Interpretable self-organizing map assisted interactive multi-criteria decision-making following Pareto-Race. *Applied Soft Computing*, 149 (2023): 111032.](https://doi.org/10.1016/j.asoc.2023.111032){:target="_blank"}
-
-[4]. [**Yadav, D.**, Nagar, D., Ramu, P., & Deb, K. (2023). Visualization-aided multi-criteria decision-making using interpretable self-organizing maps. *European Journal of Operational Research, 309(3), 1183-1200*.](https://www.sciencedirect.com/science/article/pii/S0377221723001145){:target="_blank"}
-
-[5]. [Pannerselvam, K., **Yadav, D.**, & Ramu, P. (2022). Scarce Sample-Based Reliability Estimation and Optimization Using Importance Sampling. *Mathematical and Computational Applications, 27(6), 99.*](https://www.mdpi.com/2297-8747/27/6/99){:target="_blank"}
-
-[6]. [Lee, I., Lee, U., Ramu, P., **Yadav, D.**, Bayrak, G., & Acar, E. (2022). Small failure probability: principles, progress and perspectives. *Structural and Multidisciplinary Optimization, 65(11), 326*.](https://link.springer.com/article/10.1007/s00158-022-03431-6){:target="_blank"}
-
-
-_________________________________________________________________________________________________________
-
-## Conference Proceedings
-
-[1]. [**Yadav, D.**, Ramu, P., & Deb, K. (2023, July). Finding Robust Solutions for Many-Objective Optimization Using NSGA-III. In *Congress on Evolutionary Computation (CEC 2023). IEEE*.](https://ieeexplore.ieee.org/document/10254160){:target="_blank"}
-
-[2]. [**Yadav, D.**, Ramu, P., & Deb, K. 2023. Multi-objective Robust Optimization and Decision-Making Using Evolutionary Algorithms. In *Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '23). Association for Computing Machinery, New York, NY, USA*, 786–794.](https://doi.org/10.1145/3583131.3590420){:target="_blank"}
-
-[3]. [**Yadav, D.**, Ramu, P., & Deb, K. (2022, December). Visualization-aided Multi-criterion Decision-making Using Reference Direction Based Pareto Race. In *2022 IEEE Symposium Series on Computational Intelligence (SSCI) (pp. 125-132). IEEE*.](https://ieeexplore.ieee.org/abstract/document/10022083/){:target="_blank"}
-
-[4]. [**Yadav, D.**, Ramu, P., & Deb, K. (2024, July). An Updated Performance Metric for Preference Based Evolutionary Multi-Objective Optimization. In *The Genetic and Evolutionary Computation Conference* ACM.](https://doi.org/10.1145/3638529.3654031){:target="_blank"} 
-
-[5]. [**Yadav, D.**, Ramu, P., & Deb, K. (2025, March). Reliability-based MCDM Using Objective Preferences Under Variable Uncertainty. In *Evolutionary Multi-Criterion Optimization. EMO 2025.* Lecture Notes in Computer Science, vol 15513. Springer, Singapore.](https://doi.org/10.1007/978-981-96-3538-2_16){:target="_blank"} 
-
-[6]. [**Yadav, D.**, Ramu, P., & Deb, K. (2025, July). Machine Learning-Assisted Constraint Handling Under Variable Uncertainty for Preference-Based Multi-Objective Optimization. In *Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '25). Association for Computing Machinery, New York, NY, USA*.](https://dl.acm.org/doi/abs/10.1145/3712256.3726462){:target="_blank"}.
-
-
-_________________________________________________________________________________________________________
-
 ## Conference Presentations
 
 [1]. [**Javed A.S.** Chander V., Ramanath V., Manivannan M. & Ramu P. (2024), "Leveraging XR to Accelerate the Design Cycle", In The 1st International Conference on Multi-disciplinary Design, Analysis, and Optimization, December 14-16, 2024, IISc Bangalore .](https://drive.google.com/file/d/1g5jozCozuV5lZlWbTAAGye1TDlKLVRo_/view?usp=sharing){:target="_blank"}  
