@@ -108,18 +108,13 @@ ________________________________________________________________________________
 
 ## Skills
 
-<img src="https://github.com/deepanshuIITM/webpage/assets/137225940/56262065-527c-426e-a95c-710fd4cdd106" alt="image" width="90" height="40">
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/733ae47c-cc23-4b17-8d59-d5ce423879b7" alt="image" width="50" height="50"> 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/2f5ead68-ab2e-4d88-bc7b-92c9f7c4f27a" alt="image" width="90" height="50">
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/ccca25b5-7dca-403b-a80a-61e656feafb3" alt="image" width="100" height="50"> 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/e7dd23af-8605-4bac-87ef-c9ff1795f658" alt="image" width="50" height="50">
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/c4036d9e-63a4-4f7e-b247-e53c6d29c1fa" alt="image" width="90" height="50">
 
+<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/733ae47c-cc23-4b17-8d59-d5ce423879b7" alt="image" width="50" height="50"> 
+<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/ccca25b5-7dca-403b-a80a-61e656feafb3" alt="image" width="100" height="50"> 
 <img width="90" height="50" alt="Unity-Logo" src="https://github.com/user-attachments/assets/e3061382-fcb3-4301-ba4d-41c322a787df" />
 <img width="90" height="50" alt="python_vertical_logo_icon" src="https://github.com/user-attachments/assets/33cd06e4-a3b6-4248-9536-a23093038d41" />
 <img width="90" height="50" alt="python_vertical_logo_icon" src="https://github.com/user-attachments/assets/f37a90e4-26fa-473d-af72-a04dde0e5e84" />
-
-
+<img width="90" height="50" alt="image" src="https://github.com/user-attachments/assets/68d67116-7b84-4004-9981-c8189f9e6ea1" />
 
 _________________________________________________________________________________________________________
 
