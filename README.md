@@ -12,10 +12,6 @@ ________________________________________________________________________________
 ### Javed Akhter Shaik | M.S.  
 #### *[Department of Engineering Design](https://ed.iitm.ac.in/){:target="_blank"}* | **[IIT Madras](https://www.iitm.ac.in/){:target="_blank"}**
 
-<img width="75" height="75" alt="ed" src="https://github.com/user-attachments/assets/42bad02d-792f-4f1c-85b0-8cf2a105b1bc" />
-
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/14fda2f8-c607-4f04-8d5b-8b99291bf97c" alt="image" width="75" height="75">
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/42bad02d-792f-4f1c-85b0-8cf2a105b1bc" alt="Dept Logo" width="75" height="75" style="margin-right:20px;"/>
   <img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/14fda2f8-c607-4f04-8d5b-8b99291bf97c" alt="IITM Logo" width="75" height="75"/>
