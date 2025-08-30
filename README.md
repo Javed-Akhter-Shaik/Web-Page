@@ -12,7 +12,7 @@ ________________________________________________________________________________
 ### Javed Akhter | M.S.  
 #### *[Department of Engineering Design](https://ed.iitm.ac.in/){:target="_blank"}* | **[IIT Madras](https://www.iitm.ac.in/){:target="_blank"}**
 
-**M.S. Thesis:** **[An Integrated Framework for Visualization-aided Multi-criteria Decision-making](https://drive.google.com/file/d/1k1hn8twzN_LGEI21fZ7KmyyQyqNcEvKG/view?usp=sharing){:target="_blank"}**
+**M.S. Thesis:** **[Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization](https://drive.google.com/file/d/1peAeJrMDAklAj-UqTs8J8MbSF8LiEjwY/view?usp=drive_link){:target="_blank"}**
 
 _________________________________________________________________________________________________________
 
