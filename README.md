@@ -204,8 +204,7 @@ ________________________________________________________________________________
 
 ## Conference Presentations
 
-[1]. [**Yadav D.** & Ramu P. (2024), "Handling Objective Preferences and Variable Uncertainty for Evolutionary Multi-objective Optimization", In _The 1st International Conference on Multi-disciplinary Design, Analysis, and Optimization, December 14-16, 2024, IISc Bangalore_.](https://drive.google.com/file/d/1g5jozCozuV5lZlWbTAAGye1TDlKLVRo_/view?usp=sharing){:target="_blank"}  
-
+[1]. [**Javed A.S.** Chander V., Ramanath V., Manivannan M. & Ramu P. (2024), "Leveraging XR to Accelerate the Design Cycle", In The 1st International Conference on Multi-disciplinary Design, Analysis, and Optimization, December 14-16, 2024, IISc Bangalore_.](https://drive.google.com/file/d/1g5jozCozuV5lZlWbTAAGye1TDlKLVRo_/view?usp=sharing){:target="_blank"}  
 
 [2]. [Kishore V. V., **Yadav D.** & Ramu P. (2024), "Feature Selection and Feature Interaction Using Interpretable Self-Organizing Map", In _The 1st International Conference on Multi-disciplinary Design, Analysis, and Optimization, December 14-16, 2024, IISc Bangalore_.](https://drive.google.com/file/d/1RL7b5jMLLiRX2mZ_evjwAC7iwX73UZ7o/view?usp=sharing){:target="_blank"} 
 
