@@ -12,9 +12,9 @@ ________________________________________________________________________________
 ### Javed Akhter Shaik | M.S.  
 #### *[Department of Engineering Design](https://ed.iitm.ac.in/){:target="_blank"}* | **[IIT Madras](https://www.iitm.ac.in/){:target="_blank"}**
 
-**M.S. Thesis:** **[Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization](https://drive.google.com/file/d/1peAeJrMDAklAj-UqTs8J8MbSF8LiEjwY/view?usp=drive_link){:target="_blank"}**
+<img src="https://github.com/user-attachments/assets/7a47c07a-dff5-408e-9228-e77c5305fb69" alt="image" width="75" height="40">
 
-<img width="90" height="90" alt="IITM_Logo" src="https://github.com/user-attachments/assets/d7a1e8f7-9db5-4e57-8715-b317bd1ed1e6" />
+**M.S. Thesis:** **[Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization](https://drive.google.com/file/d/1peAeJrMDAklAj-UqTs8J8MbSF8LiEjwY/view?usp=drive_link){:target="_blank"}**
 
 _________________________________________________________________________________________________________
 
@@ -215,7 +215,8 @@ ________________________________________________________________________________
 
 [**A**dvanced **D**esign **O**ptimization and **P**robabilistic **T**echniques (**ADOPT**) Laboratory](https://ed.iitm.ac.in/~palramu/team.html){:target="_blank"}
 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/9d480dd0-41c5-4a33-9c3d-43caa4fbb820" alt="image" width="120" height="40">
+
+<img width="120" height="90" alt="ADOPT_logo" src="https://github.com/user-attachments/assets/1e7f1117-f773-4856-a556-6b956ee56066" />
 
 _________________________________________________________________________________________________________
 
