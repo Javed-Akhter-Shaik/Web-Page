@@ -31,7 +31,7 @@ ________________________________________________________________________________
 
 #### [Infosys](https://www.infosys.com/){:target="_blank"}, Hyd, India
 
-<img src="https://github.com/user-attachments/assets/5421c00f-d104-4a48-a26f-236c5a6440ba" alt="image" width="80" height="60">
+<img src="https://github.com/user-attachments/assets/5421c00f-d104-4a48-a26f-236c5a6440ba" alt="image" width="90" height="40">
 
 
 _________________________________________________________________________________________________________
