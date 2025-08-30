@@ -16,6 +16,10 @@ ________________________________________________________________________________
 
 <img width="75" height="75" alt="ed" src="https://github.com/user-attachments/assets/42bad02d-792f-4f1c-85b0-8cf2a105b1bc" />
 
+| ![IIT Madras](iitm_logo.png) | ![Dept Logo](dept_logo.png) |
+|------------------------------|-----------------------------|
+
+
 **M.S. Thesis:** **[Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization](https://drive.google.com/file/d/1peAeJrMDAklAj-UqTs8J8MbSF8LiEjwY/view?usp=drive_link){:target="_blank"}**
 
 _________________________________________________________________________________________________________
