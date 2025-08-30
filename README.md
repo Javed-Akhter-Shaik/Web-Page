@@ -119,47 +119,11 @@ ________________________________________________________________________________
 
 ## Academic Collaborations 
 
-####   [COINLab: Computational Optimization and Innovation Laboratory](https://www.coin-lab.org/content/members.html){:target="_blank"} [2021-current]
+####   [Touch Lab](https://touchlab.iitm.ac.in/){:target="_blank"} [2024-current]
 
-**Headed by:** [Prof. Kalyanmoy Deb](https://www.egr.msu.edu/~kdeb/){:target="_blank"}, Koenig Endowed Chair Professor, *Electrical and Computer Engineering, [Michigan State University](https://msu.edu/){:target="_blank"}, USA* 
+**Headed by:** [Prof. Manivannan. M](https://apm.iitm.ac.in/pages/profile-manivannanm){:target="_blank"}, *Department of Applied Mechanics & Biomedical Engineering, [IIT Madras](https://www.iitm.ac.in/){:target="_blank"}, Chennai, India* 
 
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/174e1146-140d-4fc9-9489-236130cfdf0b" alt="image" width="120" height="120">
-
-_________________________________________________________________________________________________________
-
-
-####   [IDO: Innovative Design Optimization Laboratory](http://idol.kaist.ac.kr/courses/?ckattempt=1){:target="_blank"} [2021-2022]
-
-**Headed by:** [Prof. Ikjin Lee](http://idol.kaist.ac.kr/members/professor/){:target="_blank"}, Department of Mechanical Engineering, *[Korea Advanced Institute of Science & Technology (KAIST)](https://www.kaist.ac.kr/en/){:target="_blank"}, South Korea*
-
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/f014180f-581d-4fae-a609-09634680227e" alt="image" width="150" height="80">
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/25f293b4-c628-44b0-9620-cfb105f93fe8" alt="image" width="80" height="80">
-
-_________________________________________________________________________________________________________
-
-
-####   [TOBB University of Economics and Technology](https://www.etu.edu.tr/en){:target="_blank"} [2021-2022]
-
-**With:** [Prof. Erdem Acar](http://acar.etu.edu.tr/){:target="_blank"}, Department of Mechanical Engineering, *[TOBB University of Economics and Technology](https://www.etu.edu.tr/en){:target="_blank"}, Ankara, Turkey* 
-
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/af57ce68-89cf-427b-8849-9f7e10ece29d" alt="image" width="80" height="80">
-
-_________________________________________________________________________________________________________
-
-#### Collaboarive Projects with IIT Madras Students
-
-[**V V Kishore** MS, Engineering Design, IIT Madras](https://github.com/VVKishoreIITM){:target="_blank"}  **[July 2023- current]**
-
-*Visualization-derived Explainable AI for Engineering applications using iSOM*
-
-[**Rishwanth Myanapuri** Dual Degree, Engineering Design, IIT Madras](https://www.linkedin.com/in/rishwanth-myanapuri-2a6578221/){:target="_blank"}  **[July 2023- May 2024]**
-
-*iSOM-derived Explanable Outcomes for Engineering Design Applications*
-
-[**Agnes Nirmala Srinivasan** B.Tech., Civil Engineering, IIT Madras](https://github.com/ansk25){:target="_blank"}   **[July 2023- May 2024]**
-
-*Visualization-assisted interactive and explainable optimization and decision-making* 
-
+<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/14fda2f8-c607-4f04-8d5b-8b99291bf97c" alt="image" width="120" height="120">
 _________________________________________________________________________________________________________
 
 ## Conference Presentations
