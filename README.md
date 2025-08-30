@@ -1,5 +1,5 @@
 <img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/6a0113b8-6857-4571-b00f-fb4f2edc00c6" alt="image" width="17" height="15"> [LinkedIn](https://www.linkedin.com/in/javed-akhter-shaik-76836320b){:target="_blank"} |
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/bc07bd1d-a716-4b9b-888b-b975f489892f" alt="image" width="15" height="15"> [CV](https://drive.google.com/file/d/1UJlBhflFcrpUgtQbdO4Bp9eEQOHHwGlE/view?usp=sharing){:target="_blank"} 
+<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/bc07bd1d-a716-4b9b-888b-b975f489892f" alt="image" width="15" height="15"> [CV](https://drive.google.com/file/d/1RdhEAcJP8NWQem7dCohWF2uA2LvxS8FB/view?usp=drive_link){:target="_blank"} 
 
 __________________________________________________________________________________________________________
        
@@ -127,7 +127,7 @@ ________________________________________________________________________________
 #### **Let's Connect ...**
  
 <img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/6a0113b8-6857-4571-b00f-fb4f2edc00c6" alt="image" width="17" height="15">  [LinkedIn](https://www.linkedin.com/in/javed-akhter-shaik-76836320b){:target="_blank"} |
-<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/bc07bd1d-a716-4b9b-888b-b975f489892f" alt="image" width="15" height="15">  [CV](https://drive.google.com/file/d/1UJlBhflFcrpUgtQbdO4Bp9eEQOHHwGlE/view?usp=sharing){:target="_blank"} 
+<img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/bc07bd1d-a716-4b9b-888b-b975f489892f" alt="image" width="15" height="15">  [CV](https://drive.google.com/file/d/1RdhEAcJP8NWQem7dCohWF2uA2LvxS8FB/view?usp=drive_link){:target="_blank"} 
 
 _________________________________________________________________________________________________________
 
