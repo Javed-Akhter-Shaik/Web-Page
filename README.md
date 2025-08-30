@@ -116,9 +116,8 @@ ________________________________________________________________________________
 <img src="https://github.com/deepanshuIITM/Homepage/assets/137225940/c4036d9e-63a4-4f7e-b247-e53c6d29c1fa" alt="image" width="90" height="50">
 
 <img width="90" height="50" alt="Unity-Logo" src="https://github.com/user-attachments/assets/e3061382-fcb3-4301-ba4d-41c322a787df" />
-![MATLAB Logo](https://github.com/user-attachments/assets/6e09f0f9-00e8-4ecf-9219-668be3d88bfc)
 <img width="90" height="50" alt="python_vertical_logo_icon" src="https://github.com/user-attachments/assets/33cd06e4-a3b6-4248-9536-a23093038d41" />
-
+<img width="90" height="50" alt="python_vertical_logo_icon" src="https://github.com/user-attachments/assets/f37a90e4-26fa-473d-af72-a04dde0e5e84" />
 
 
 
