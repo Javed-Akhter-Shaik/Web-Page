@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 #### Student Intern | [Jun 2015-Aug 2015]
 
-#### [South Central railways] ([https://scr.indianrailways.gov.in/view_section.jsp?fontColor=black&backgroundColor=LIGHTSTEELBLUE&lang=0&id=0,1,291,358]){:target="_blank"}, Bangalore, India
+#### [South Central Railways] (https://scr.indianrailways.gov.in/view_section.jsp?fontColor=black&backgroundColor=LIGHTSTEELBLUE&lang=0&id=0,1,291,358) {:target="_blank"}, Bangalore, India
 
 <img src="https://github.com/user-attachments/assets/96e47e66-3417-4e44-9361-5a44db6670cd" alt="image" width="75" height="75">
 
