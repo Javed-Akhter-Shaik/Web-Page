@@ -77,11 +77,11 @@ ________________________________________________________________________________
 
 ## Teaching Experience
 
-#### ED5015: Computational methods in Design [Jan-May 2022, Jan-May 2023]
+#### ED5015: Computational methods in Design [Jan-May 2025]
 
 *[Department of Engineering Design, IIT Madras](https://ed.iitm.ac.in/){:target="_blank"}*
 
-#### ED6002: Optimization in Engineering Design [Jul-Nov 2021]
+#### ED6002: Optimization in Engineering Design [Jul-Nov 2025]
 
 *[Department of Engineering Design, IIT Madras](https://ed.iitm.ac.in/){:target="_blank"}* 
 
