@@ -23,9 +23,14 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
 
 <!-- Project 1 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="200" 
+    src="https://www.youtube.com/embed/UaA2s17bcwA" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
   <h3>Interactive Gear Box Assembly</h3>
-  <p><b>Description:</b> An interactive, step-by-step VR guide for assembling a mechanical gearbox. Helps users learn and perform assembly tasks, improving efficiency and reducing errors in real-world maintenance.</p>
+  <p><b>Description:</b>The goal of this project is to create an interactive, step-by-step guide for assembling a mechanical gearbox using VR. The project aims to assist users in learning and performing gearbox assembly. This project will enhance understanding, improve efficiency in assembly tasks, and reduce the likelihood of errors in gearbox assembly and maintenance.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Oculus SDK</p>
 </div>
 
@@ -38,7 +43,7 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
     allowfullscreen>
   </iframe>
   <h3>Inspection of Mechanical Components in VR</h3>
-  <p><b>Description:</b> A VR environment where users can grab master and target models to compare. Missing components are automatically detected, highlighted, and color-coded in real time for clear visualization.</p>
+  <p><b>Description:</b> The goal of the project is to develop an interactive VR environment where users can grab both the master and target models to compare them. In real time, the system detects any missing components, automatically highlighting them in the UI and instantly changing the color of the missing parts for clear visualization.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, OpenXR, Shader Graph</p>
 </div>
 
@@ -53,7 +58,7 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
     allowfullscreen>
   </iframe>
   <h3>Real-time Measurement of Mechanical Components</h3>
-  <p><b>Description:</b> Immersive VR environment that allows users to interact with mechanical components and measure distances and dimensions dynamically in real-time.</p>
+  <p><b>Description:</b>The goal of this project is to build an immersive VR environment where users can interact with mechanical components & Measure distances and dimensions in real-time.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics Engine</p>
 </div>
 
@@ -68,7 +73,7 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
     allowfullscreen>
   </iframe>
   <h3>Smart NPC in VR</h3>
-  <p><b>Description:</b> Developed an interactive conversational agent in VR. Integrates Speech-to-Text (HuggingFace), LLM processing (Groq LLaMA), and Text-to-Speech (Speechify), enabling seamless natural dialogues with virtual characters.</p>
+  <p><b>Description:</b> Developed an interactive conversational agent in VR that enables real-time, voice-driven dialogue with virtual characters. The core pipeline integrates Speech-to-Text (STT) using HuggingFace, text-based LLM processing via Groq’s Llama, and Text to-Speech(TTS) using Speechify, all within Unity. This architecture allows seamless audio input, natural language understanding, and expressive voice output directly within the VR environment.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, HuggingFace STT, Groq LLaMA, Speechify TTS</p>
 </div>
 
