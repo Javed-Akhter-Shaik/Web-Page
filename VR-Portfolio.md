@@ -57,18 +57,17 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
 
 <iframe width="100%" height="200" 
-src="https://youtube.com/shorts/SuJQdxP6HJc" 
+src="https://www.youtube.com/embed/SuJQdxP6HJc" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>
 </iframe>
 
  <h3>VR Table Tennis</h3>
-  <p><b>Description:</b> VR Table Tennis is an immersive, physics accurate table tennis experience built for VR platforms. The core idea is to simulate the natural feel, responsiveness, and excitement of real-world ping pong using intuitive motion controls, accurate physics, and spatial audio. </p>
+  <p><b>Description:</b> VR Table Tennis is an immersive, physics-accurate table tennis experience built for VR platforms. The core idea is to simulate the natural feel, responsiveness, and excitement of real-world ping pong using intuitive motion controls, accurate physics, and spatial audio. </p>
   <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics-based AI</p>
 </div>
 
-</div>
 
 <!-- Project 6 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
