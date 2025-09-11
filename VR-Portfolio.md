@@ -126,37 +126,30 @@ permalink: /vr-portfolio/
 <!-- Portfolio Section -->
 <h2 id="portfolio">Portfolio</h2>
 <div class="portfolio-grid">
-
   <div class="project-card" onclick="openModal('gearbox')">
     <h3>Interactive Gear Box Assembly</h3>
     <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
-
   <div class="project-card" onclick="openModal('inspection')">
     <h3>Inspection of Mechanical Components</h3>
     <p>Compare master and target models in real-time.</p>
   </div>
-
   <div class="project-card" onclick="openModal('measurement')">
     <h3>Real-time Measurement</h3>
     <p>Interact with components and measure dynamically.</p>
   </div>
-
   <div class="project-card" onclick="openModal('npc')">
     <h3>Smart NPC in VR</h3>
     <p>Voice-driven dialogue with intelligent virtual characters.</p>
   </div>
-
   <div class="project-card" onclick="openModal('tabletennis')">
     <h3>VR Table Tennis</h3>
     <p>Physics-accurate immersive VR table tennis experience.</p>
   </div>
-
   <div class="project-card" onclick="openModal('gorilla')">
     <h3>Gorilla vs 100 Men</h3>
     <p>Action-packed VR game with physics-based combat.</p>
   </div>
-
 </div>
 
 <!-- Modals -->
@@ -166,11 +159,6 @@ permalink: /vr-portfolio/
     <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" allowfullscreen></iframe>
     <h3>Interactive Gear Box Assembly</h3>
     <div class="modal-section"><b>About:</b> Interactive VR guide for gearbox assembly to enhance learning, reduce errors, and improve efficiency.</div>
-    <div class="modal-section"><b>Role:</b> Developer & Designer</div>
-    <div class="modal-section"><b>Highlights:</b> Step-by-step immersive guidance, improves assembly learning, reduces errors.</div>
-    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR Interaction, Physics-based Assembly</div>
-    <div class="modal-section"><b>Contributions:</b> Created VR assembly workflow, tested usability, optimized interaction.</div>
-    <div class="modal-section"><b>Future Goals:</b> Extend to AR-based assembly instructions.</div>
   </div>
 </div>
 
@@ -179,11 +167,6 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('inspection')">&times;</span>
     <iframe src="https://www.youtube.com/embed/sI5wcQxgHYk" allowfullscreen></iframe>
     <h3>Inspection of Mechanical Components</h3>
-    <div class="modal-section"><b>About:</b> VR environment for real-time comparison of master vs target models.</div>
-    <div class="modal-section"><b>Highlights:</b> Missing components auto-detected & highlighted instantly.</div>
-    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR UI, Real-time Detection</div>
-    <div class="modal-section"><b>Contributions:</b> Designed real-time detection & highlighting system.</div>
-    <div class="modal-section"><b>Future Goals:</b> Expand to CAD model integration.</div>
   </div>
 </div>
 
@@ -192,11 +175,6 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('measurement')">&times;</span>
     <iframe src="https://www.youtube.com/embed/ggCbe4o8uC0" allowfullscreen></iframe>
     <h3>Real-time Measurement</h3>
-    <div class="modal-section"><b>About:</b> Immersive VR project to measure distances and dimensions dynamically.</div>
-    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR Interaction, Measurement Tools</div>
-    <div class="modal-section"><b>Highlights:</b> Enabled dimension measurements directly in VR.</div>
-    <div class="modal-section"><b>Contributions:</b> Built distance calculation tool in VR.</div>
-    <div class="modal-section"><b>Future Goals:</b> Add precision calibration & CAD model export.</div>
   </div>
 </div>
 
@@ -205,11 +183,6 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('npc')">&times;</span>
     <iframe src="https://www.youtube.com/embed/a1gV8AOMNJc" allowfullscreen></iframe>
     <h3>Smart NPC in VR</h3>
-    <div class="modal-section"><b>About:</b> Conversational NPCs with voice-driven dialogue.</div>
-    <div class="modal-section"><b>Highlights:</b> STT → LLM → TTS pipeline for natural conversations.</div>
-    <div class="modal-section"><b>Tech stack:</b> Unity3D, HuggingFace, Groq Llama, Speechify</div>
-    <div class="modal-section"><b>Contributions:</b> Integrated STT, NLU, TTS inside Unity.</div>
-    <div class="modal-section"><b>Future Goals:</b> Expand NPC behavior library.</div>
   </div>
 </div>
 
@@ -218,11 +191,6 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('tabletennis')">&times;</span>
     <iframe src="https://www.youtube.com/embed/SuJQdxP6HJc" allowfullscreen></iframe>
     <h3>VR Table Tennis</h3>
-    <div class="modal-section"><b>About:</b> Physics-accurate immersive VR table tennis simulating real-world responsiveness.</div>
-    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR Physics, Spatial Audio</div>
-    <div class="modal-section"><b>Highlights:</b> Realistic motion & spatial sound.</div>
-    <div class="modal-section"><b>Contributions:</b> Physics engine for ball & paddle.</div>
-    <div class="modal-section"><b>Future Goals:</b> Add multiplayer support.</div>
   </div>
 </div>
 
@@ -231,18 +199,12 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('gorilla')">&times;</span>
     <iframe src="https://www.youtube.com/embed/2eogtswgexA" allowfullscreen></iframe>
     <h3>Gorilla vs 100 Men</h3>
-    <div class="modal-section"><b>About:</b> Action-packed VR combat game where players control a gorilla.</div>
-    <div class="modal-section"><b>Tech stack:</b> Unity3D, Physics Hand Interaction, VR Combat</div>
-    <div class="modal-section"><b>Highlights:</b> Dynamic forest combat environment.</div>
-    <div class="modal-section"><b>Contributions:</b> Built combat physics & control system.</div>
-    <div class="modal-section"><b>Future Goals:</b> Expand AI behavior & multiplayer mode.</div>
   </div>
 </div>
 
 <!-- About Section -->
 <h2 id="about">About</h2>
-<p>Experienced XR Developer specializing in Unity, C#, and AI-driven robotics. Passionate about building immersive VR/AR applications and mentoring XR development. Always eager to expand knowledge and collaborate on innovative projects.</p>
-<a href="/assets/Javed_CV.pdf" class="resume-btn" download>📄 Download Resume</a>
+<p>Experienced XR Developer specializing in Unity, C#, and AI-driven robotics. Passionate about building immersive VR/AR applications and mentoring XR development.</p>
 
 <!-- Contact Section -->
 <h2 id="contact">Contact</h2>
@@ -250,18 +212,28 @@ permalink: /vr-portfolio/
 <p><b>Based in:</b> Chennai, India</p>
 
 <footer>
-  <a href="https://github.com/yourgithub" target="_blank">🐙 GitHub</a>
-  <a href="https://linkedin.com/in/yourlinkedin" target="_blank">🔗 LinkedIn</a>
-  <a href="mailto:youremail@example.com">📧 Email</a>
+  <a href="https://github.com/Javed-Akhter-Shaik" target="_blank">🐙 GitHub</a>
+  <a href="https://www.linkedin.com/in/javed-akhter-shaik-76836320b/" target="_blank">🔗 LinkedIn</a>
+  <a href="mailto:shaikjaved672@gmail.com">📧 Email</a>
 </footer>
 
 <script>
   function openModal(id) {
-    document.getElementById(id).style.display = "flex";
+    const modal = document.getElementById(id);
+    modal.style.display = "flex";
+
+    // Add listener to close when clicking outside modal-content
+    modal.addEventListener("click", function(e) {
+      if (e.target === modal) {
+        closeModal(id);
+      }
+    });
   }
+
   function closeModal(id) {
-    document.getElementById(id).style.display = "none";
-    let iframe = document.querySelector(`#${id} iframe`);
+    const modal = document.getElementById(id);
+    modal.style.display = "none";
+    let iframe = modal.querySelector("iframe");
     if (iframe) iframe.src = iframe.src; // stop video
   }
 </script>
