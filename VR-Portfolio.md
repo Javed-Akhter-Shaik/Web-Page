@@ -32,19 +32,18 @@ permalink: /vr-portfolio/
   }
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
     padding: 40px;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
   }
   .project-card {
     background: #1e1e2f;
     border-radius: 12px;
-    padding: 20px;
+    padding: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    text-align: left;
   }
   .project-card:hover {
     transform: translateY(-5px);
@@ -54,63 +53,49 @@ permalink: /vr-portfolio/
     margin: 10px 0;
     color: #00ffcc;
   }
-  .project-card p {
-    font-size: 14px;
-    line-height: 1.6em;
-    margin: 8px 0;
-  }
-  .tech-stack {
-    font-style: italic;
-    color: #bbb;
-    font-size: 13px;
-    margin-top: 8px;
-  }
-  .read-more {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #1db954;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  .read-more:hover {
-    text-decoration: underline;
-  }
-  .extra-content {
+  .modal {
     display: none;
-    margin-top: 10px;
-    font-size: 13px;
-    line-height: 1.5em;
-    color: #ccc;
-    background: #2a2a40;
-    padding: 12px;
-    border-radius: 8px;
-  }
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
     justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
+    align-items: center;
+    overflow-y: auto;
   }
-  .skill-tag {
-    background: #2c2c44;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    color: #fff;
+  .modal-content {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 90%;
+    position: relative;
+    text-align: left;
+    color: #eee;
   }
-  .resume-btn {
-    display: inline-block;
-    padding: 12px 25px;
-    margin: 20px 0;
-    background: #1db954;
-    color: white;
-    text-decoration: none;
+  .modal iframe, .modal img {
+    width: 100%;
+    height: 400px;
     border-radius: 8px;
-    font-weight: bold;
+    margin-bottom: 20px;
   }
-  .resume-btn:hover {
-    background: #1aa34a;
+  .close-btn {
+    position: absolute;
+    top: 10px; right: 15px;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .modal h3 {
+    color: #00ffcc;
+    margin-top: 0;
+  }
+  .modal-section {
+    margin-bottom: 15px;
+  }
+  .modal-section b {
+    color: #1db954;
   }
   footer {
     background: #12121b;
@@ -124,37 +109,6 @@ permalink: /vr-portfolio/
   }
   footer a:hover {
     color: #fff;
-  }
-  /* Modal styling */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.8);
-    justify-content: center;
-    align-items: center;
-  }
-  .modal-content {
-    background: #222;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 950px;
-    width: 95%;
-    position: relative;
-  }
-  .modal iframe {
-    width: 100%;
-    height: 520px;
-    border: none;
-  }
-  .close-btn {
-    position: absolute;
-    top: 10px; right: 15px;
-    color: #fff;
-    font-size: 28px;
-    cursor: pointer;
   }
 </style>
 
@@ -172,101 +126,120 @@ permalink: /vr-portfolio/
 <h2 id="portfolio">Portfolio</h2>
 <div class="portfolio-grid">
 
-  <!-- Example Project -->
-  <div class="project-card" data-video="https://www.youtube.com/embed/UaA2s17bcwA">
+  <div class="project-card" onclick="openModal('gearbox')">
     <h3>Interactive Gear Box Assembly</h3>
-    <p>Interactive VR guide for gearbox assembly to enhance learning, reduce errors, and improve efficiency.</p>
-    <p class="tech-stack">Tech stack: Unity3D, VR Interaction, Physics-based Assembly</p>
-    <span class="read-more" onclick="toggleDetails(this)">Read More ▾</span>
-    <div class="extra-content">
-      <b>Role:</b> Developer & Designer<br>
-      <b>Highlights:</b> Step-by-step immersive guidance, improves assembly learning and reduces maintenance errors.<br>
-      <b>Contributions:</b> Created VR assembly workflow, tested usability, optimized interaction system.<br>
-      <b>Future Goals:</b> Extend to AR-based assembly instructions.<br>
-    </div>
+    <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
 
-  <div class="project-card" data-video="https://www.youtube.com/embed/sI5wcQxgHYk">
+  <div class="project-card" onclick="openModal('inspection')">
     <h3>Inspection of Mechanical Components</h3>
-    <p>VR environment to compare master and target models with real-time detection of missing parts.</p>
-    <p class="tech-stack">Tech stack: Unity3D, VR UI, Real-time Detection</p>
-    <span class="read-more" onclick="toggleDetails(this)">Read More ▾</span>
-    <div class="extra-content">
-      <b>Highlights:</b> Missing components are auto-detected & highlighted instantly in UI.<br>
-      <b>Contributions:</b> Designed real-time detection & highlighting system.<br>
-      <b>Future Goals:</b> Expand to CAD model integration for industry use.<br>
-    </div>
+    <p>Compare master and target models in real-time.</p>
   </div>
 
-  <div class="project-card" data-video="https://www.youtube.com/embed/ggCbe4o8uC0">
+  <div class="project-card" onclick="openModal('measurement')">
     <h3>Real-time Measurement</h3>
-    <p>Immersive VR to interact with mechanical components & measure distances dynamically.</p>
-    <p class="tech-stack">Tech stack: Unity3D, VR Interaction, Measurement Tools</p>
-    <span class="read-more" onclick="toggleDetails(this)">Read More ▾</span>
-    <div class="extra-content">
-      <b>Highlights:</b> Enabled dimension measurements directly in VR.<br>
-      <b>Contributions:</b> Built distance calculation tool in VR.<br>
-      <b>Future Goals:</b> Add precision calibration & CAD model export.<br>
-    </div>
+    <p>Interact with components and measure dynamically.</p>
   </div>
 
-  <div class="project-card" data-video="https://www.youtube.com/embed/a1gV8AOMNJc">
+  <div class="project-card" onclick="openModal('npc')">
     <h3>Smart NPC in VR</h3>
-    <p>Conversational NPCs with STT, LLM-based NLU, and TTS for natural interaction.</p>
-    <p class="tech-stack">Tech stack: Unity3D, HuggingFace, Groq Llama, Speechify</p>
-    <span class="read-more" onclick="toggleDetails(this)">Read More ▾</span>
-    <div class="extra-content">
-      <b>Highlights:</b> Seamless audio input, natural language understanding, expressive voice output.<br>
-      <b>Contributions:</b> Integrated STT → LLM → TTS pipeline.<br>
-      <b>Future Goals:</b> Expand NPC behavior library for game & training scenarios.<br>
-    </div>
+    <p>Voice-driven dialogue with intelligent virtual characters.</p>
   </div>
 
-  <div class="project-card" data-video="https://www.youtube.com/embed/SuJQdxP6HJc">
+  <div class="project-card" onclick="openModal('tabletennis')">
     <h3>VR Table Tennis</h3>
-    <p>Physics-accurate VR table tennis simulating real-world responsiveness & excitement.</p>
-    <p class="tech-stack">Tech stack: Unity3D, VR Physics, Spatial Audio</p>
-    <span class="read-more" onclick="toggleDetails(this)">Read More ▾</span>
-    <div class="extra-content">
-      <b>Highlights:</b> Immersive natural feel with physics & spatial audio.<br>
-      <b>Contributions:</b> Designed physics engine for ball & paddle interaction.<br>
-      <b>Future Goals:</b> Multiplayer support for competitive VR matches.<br>
-    </div>
+    <p>Physics-accurate immersive VR table tennis experience.</p>
   </div>
 
-  <div class="project-card" data-video="https://www.youtube.com/embed/2eogtswgexA">
+  <div class="project-card" onclick="openModal('gorilla')">
     <h3>Gorilla vs 100 Men</h3>
-    <p>Action-packed VR combat game featuring physics-based grabbing, throwing, and fighting.</p>
-    <p class="tech-stack">Tech stack: Unity3D, Physics Hand Interaction, VR Combat</p>
-    <span class="read-more" onclick="toggleDetails(this)">Read More ▾</span>
-    <div class="extra-content">
-      <b>Highlights:</b> Dynamic forest environment, immersive combat mechanics.<br>
-      <b>Contributions:</b> Built combat physics & player control system.<br>
-      <b>Future Goals:</b> Expand enemy AI behavior & multiplayer co-op mode.<br>
-    </div>
+    <p>Action-packed VR game with physics-based combat.</p>
   </div>
 
 </div>
 
-<!-- Video Modal -->
-<div class="modal" id="videoModal">
+<!-- Modals -->
+<div id="gearbox" class="modal">
   <div class="modal-content">
-    <span class="close-btn" onclick="closeModal()">&times;</span>
-    <iframe id="videoFrame" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <span class="close-btn" onclick="closeModal('gearbox')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" allowfullscreen></iframe>
+    <h3>Interactive Gear Box Assembly</h3>
+    <div class="modal-section"><b>About:</b> Interactive VR guide for gearbox assembly to enhance learning, reduce errors, and improve efficiency.</div>
+    <div class="modal-section"><b>Role:</b> Developer & Designer</div>
+    <div class="modal-section"><b>Highlights:</b> Step-by-step immersive guidance, improves assembly learning, reduces errors.</div>
+    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR Interaction, Physics-based Assembly</div>
+    <div class="modal-section"><b>Contributions:</b> Created VR assembly workflow, tested usability, optimized interaction.</div>
+    <div class="modal-section"><b>Future Goals:</b> Extend to AR-based assembly instructions.</div>
+  </div>
+</div>
+
+<div id="inspection" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('inspection')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/sI5wcQxgHYk" allowfullscreen></iframe>
+    <h3>Inspection of Mechanical Components</h3>
+    <div class="modal-section"><b>About:</b> VR environment for real-time comparison of master vs target models.</div>
+    <div class="modal-section"><b>Highlights:</b> Missing components auto-detected & highlighted instantly.</div>
+    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR UI, Real-time Detection</div>
+    <div class="modal-section"><b>Contributions:</b> Designed real-time detection & highlighting system.</div>
+    <div class="modal-section"><b>Future Goals:</b> Expand to CAD model integration.</div>
+  </div>
+</div>
+
+<div id="measurement" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('measurement')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/ggCbe4o8uC0" allowfullscreen></iframe>
+    <h3>Real-time Measurement</h3>
+    <div class="modal-section"><b>About:</b> Immersive VR project to measure distances and dimensions dynamically.</div>
+    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR Interaction, Measurement Tools</div>
+    <div class="modal-section"><b>Highlights:</b> Enabled dimension measurements directly in VR.</div>
+    <div class="modal-section"><b>Contributions:</b> Built distance calculation tool in VR.</div>
+    <div class="modal-section"><b>Future Goals:</b> Add precision calibration & CAD model export.</div>
+  </div>
+</div>
+
+<div id="npc" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('npc')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/a1gV8AOMNJc" allowfullscreen></iframe>
+    <h3>Smart NPC in VR</h3>
+    <div class="modal-section"><b>About:</b> Conversational NPCs with voice-driven dialogue.</div>
+    <div class="modal-section"><b>Highlights:</b> STT → LLM → TTS pipeline for natural conversations.</div>
+    <div class="modal-section"><b>Tech stack:</b> Unity3D, HuggingFace, Groq Llama, Speechify</div>
+    <div class="modal-section"><b>Contributions:</b> Integrated STT, NLU, TTS inside Unity.</div>
+    <div class="modal-section"><b>Future Goals:</b> Expand NPC behavior library.</div>
+  </div>
+</div>
+
+<div id="tabletennis" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('tabletennis')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/SuJQdxP6HJc" allowfullscreen></iframe>
+    <h3>VR Table Tennis</h3>
+    <div class="modal-section"><b>About:</b> Physics-accurate immersive VR table tennis simulating real-world responsiveness.</div>
+    <div class="modal-section"><b>Tech stack:</b> Unity3D, VR Physics, Spatial Audio</div>
+    <div class="modal-section"><b>Highlights:</b> Realistic motion & spatial sound.</div>
+    <div class="modal-section"><b>Contributions:</b> Physics engine for ball & paddle.</div>
+    <div class="modal-section"><b>Future Goals:</b> Add multiplayer support.</div>
+  </div>
+</div>
+
+<div id="gorilla" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('gorilla')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/2eogtswgexA" allowfullscreen></iframe>
+    <h3>Gorilla vs 100 Men</h3>
+    <div class="modal-section"><b>About:</b> Action-packed VR combat game where players control a gorilla.</div>
+    <div class="modal-section"><b>Tech stack:</b> Unity3D, Physics Hand Interaction, VR Combat</div>
+    <div class="modal-section"><b>Highlights:</b> Dynamic forest combat environment.</div>
+    <div class="modal-section"><b>Contributions:</b> Built combat physics & control system.</div>
+    <div class="modal-section"><b>Future Goals:</b> Expand AI behavior & multiplayer mode.</div>
   </div>
 </div>
 
 <!-- About Section -->
 <h2 id="about">About</h2>
-<div class="skills">
-  <span class="skill-tag">VR/AR Development</span>
-  <span class="skill-tag">Unity3D</span>
-  <span class="skill-tag">C#</span>
-  <span class="skill-tag">AI Robotics</span>
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">Machine Learning</span>
-  <span class="skill-tag">OpenXR</span>
-</div>
 <p>Experienced XR Developer specializing in Unity, C#, and AI-driven robotics. Passionate about building immersive VR/AR applications and mentoring XR development. Always eager to expand knowledge and collaborate on innovative projects.</p>
 <a href="/assets/Javed_CV.pdf" class="resume-btn" download>📄 Download Resume</a>
 
@@ -282,35 +255,12 @@ permalink: /vr-portfolio/
 </footer>
 
 <script>
-  // Video modal
-  const cards = document.querySelectorAll('.project-card');
-  const modal = document.getElementById('videoModal');
-  const videoFrame = document.getElementById('videoFrame');
-
-  cards.forEach(card => {
-    card.addEventListener('click', (e) => {
-      // prevent "Read More" clicks from triggering modal
-      if (e.target.classList.contains('read-more')) return;
-      const videoUrl = card.getAttribute('data-video');
-      videoFrame.src = videoUrl + "?autoplay=1";
-      modal.style.display = "flex";
-    });
-  });
-
-  function closeModal() {
-    modal.style.display = "none";
-    videoFrame.src = ""; // Stops audio when modal closes
+  function openModal(id) {
+    document.getElementById(id).style.display = "flex";
   }
-
-  // Expandable content
-  function toggleDetails(el) {
-    const extra = el.nextElementSibling;
-    if (extra.style.display === "block") {
-      extra.style.display = "none";
-      el.textContent = "Read More ▾";
-    } else {
-      extra.style.display = "block";
-      el.textContent = "Read Less ▴";
-    }
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+    let iframe = document.querySelector(`#${id} iframe`);
+    if (iframe) iframe.src = iframe.src; // stop video
   }
 </script>
