@@ -6,7 +6,7 @@ permalink: /vr-portfolio/
 
 # 🎮 VR + Unity Portfolio
 
-Here are some of my VR projects developed in Unity:
+Here are six of my highlighted VR projects developed in Unity. Each project demonstrates a unique application of immersive technology, interactive mechanics, and AI-driven experiences.  
 
 ---
 
@@ -19,28 +19,58 @@ Here are some of my VR projects developed in Unity:
 
 ## 📂 Project Demos (Grid Layout)
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px;">
 
-<div>
+<!-- Project 1 -->
+<div style="background:#f9f9f9; padding:15px; border-radius:10px;">
   <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
-  <p><b>Follow Along VR Navigation</b><br>
-  Demonstrates VR navigation with player tracking in Unity XR Toolkit.</p>
+  <h3>Interactive Gear Box Assembly</h3>
+  <p><b>Description:</b> An interactive, step-by-step VR guide for assembling a mechanical gearbox. Helps users learn and perform assembly tasks, improving efficiency and reducing errors in real-world maintenance.</p>
+  <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Oculus SDK</p>
 </div>
 
-<div>
+<!-- Project 2 -->
+<div style="background:#f9f9f9; padding:15px; border-radius:10px;">
   <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
-  <p><b>Gravity Manipulation</b><br>
-  Physics-based VR environment with custom gravity mechanics.</p>
+  <h3>Inspection of Mechanical Components in VR</h3>
+  <p><b>Description:</b> A VR environment where users can grab master and target models to compare. Missing components are automatically detected, highlighted, and color-coded in real-time for clear visualization.</p>
+  <p><b>Tech Stack:</b> Unity3D, C#, OpenXR, Shader Graph</p>
 </div>
 
-<div>
+<!-- Project 3 -->
+<div style="background:#f9f9f9; padding:15px; border-radius:10px;">
   <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
-  <p><b>VR TicTacToe</b><br>
-  Multiplayer VR TicTacToe with interactive UI.</p>
+  <h3>Real-time Measurement of Mechanical Components</h3>
+  <p><b>Description:</b> Immersive VR environment that allows users to interact with mechanical components and measure distances and dimensions dynamically in real-time.</p>
+  <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics Engine</p>
+</div>
+
+<!-- Project 4 -->
+<div style="background:#f9f9f9; padding:15px; border-radius:10px;">
+  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+  <h3>Smart NPC in VR</h3>
+  <p><b>Description:</b> Developed an interactive conversational agent in VR. Integrates Speech-to-Text (HuggingFace), LLM processing (Groq LLaMA), and Text-to-Speech (Speechify), enabling seamless natural dialogues with virtual characters.</p>
+  <p><b>Tech Stack:</b> Unity3D, C#, HuggingFace STT, Groq LLaMA, Speechify TTS</p>
+</div>
+
+<!-- Project 5 -->
+<div style="background:#f9f9f9; padding:15px; border-radius:10px;">
+  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_5" frameborder="0" allowfullscreen></iframe>
+  <h3>VR Table Tennis</h3>
+  <p><b>Description:</b> Physics-accurate VR table tennis experience. Simulates real-world responsiveness and immersion with accurate motion controls, realistic physics, and spatial audio.</p>
+  <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Spatial Audio</p>
+</div>
+
+<!-- Project 6 -->
+<div style="background:#f9f9f9; padding:15px; border-radius:10px;">
+  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_6" frameborder="0" allowfullscreen></iframe>
+  <h3>Gorilla vs 100 Men</h3>
+  <p><b>Description:</b> A VR action game where the player controls a gorilla battling waves of human enemies. Features physics-based hand interactions for grabbing, throwing, and attacking enemies in a dynamic forest environment.</p>
+  <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics-based AI</p>
 </div>
 
 </div>
 
 ---
 
-👉 [View Full Playlist](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID)
+👉 [View Full VR Portfolio Playlist](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID)
