@@ -39,11 +39,17 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
 
 <!-- Project 3 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="200" 
+    src="https://www.youtube.com/embed/ggCbe4o8uC0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
   <h3>Real-time Measurement of Mechanical Components</h3>
   <p><b>Description:</b> Immersive VR environment that allows users to interact with mechanical components and measure distances and dimensions dynamically in real-time.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics Engine</p>
 </div>
+
 
 
 <!-- Project 4 -->
