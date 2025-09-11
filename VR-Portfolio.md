@@ -55,11 +55,13 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
 
 <!-- Project 5 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_5" frameborder="0" allowfullscreen></iframe>
-  <h3>VR Table Tennis</h3>
-  <p><b>Description:</b> Physics-accurate VR table tennis experience. Simulates real-world responsiveness and immersion with accurate motion controls, realistic physics, and spatial audio.</p>
-  <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Spatial Audio</p>
-</div>
+
+<iframe width="100%" height="200" 
+src="https://youtube.com/shorts/SuJQdxP6HJc" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
 
 <!-- Project 6 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
