@@ -63,7 +63,7 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
 
 <!-- Project 6 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_6" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="200" src="https://youtu.be/2eogtswgexA" frameborder="0" allowfullscreen></iframe>
   <h3>Gorilla vs 100 Men</h3>
   <p><b>Description:</b> A VR action game where the player controls a gorilla battling waves of human enemies. Features physics-based hand interactions for grabbing, throwing, and attacking enemies in a dynamic forest environment.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics-based AI</p>
