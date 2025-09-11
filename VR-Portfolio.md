@@ -31,11 +31,17 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
 
 <!-- Project 2 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="200" 
+    src="https://www.youtube.com/embed/ggCbe4o8uC0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
   <h3>Inspection of Mechanical Components in VR</h3>
   <p><b>Description:</b> A VR environment where users can grab master and target models to compare. Missing components are automatically detected, highlighted, and color-coded in real-time for clear visualization.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, OpenXR, Shader Graph</p>
 </div>
+
 
 <!-- Project 3 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
