@@ -34,8 +34,8 @@ permalink: /vr-portfolio/
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Exactly 3 per row */
+    gap: 25px;
   }
   .card {
     background: #111;
@@ -103,110 +103,104 @@ permalink: /vr-portfolio/
   <h2>Portfolio</h2>
   <div class="grid">
     <!-- Project 1 -->
-    <div class="card" onclick="openModal('modal1')">
+    <div class="card" onclick="openModal('modal1','https://www.youtube.com/embed/UaA2s17bcwA')">
       <img src="/assets/images/gearbox.png" alt="Gearbox VR">
       <div class="card-title">Interactive Gear Box Assembly</div>
     </div>
 
     <!-- Project 2 -->
-    <div class="card" onclick="openModal('modal2')">
+    <div class="card" onclick="openModal('modal2','https://www.youtube.com/embed/sI5wcQxgHYk')">
       <img src="/assets/images/inspection.png" alt="Inspection VR">
       <div class="card-title">Inspection of Mechanical Components</div>
     </div>
 
     <!-- Project 3 -->
-    <div class="card" onclick="openModal('modal3')">
+    <div class="card" onclick="openModal('modal3','https://www.youtube.com/embed/ggCbe4o8uC0')">
       <img src="/assets/images/measurement.png" alt="Measurement VR">
       <div class="card-title">Real-time Measurement</div>
     </div>
 
     <!-- Project 4 -->
-    <div class="card" onclick="openModal('modal4')">
+    <div class="card" onclick="openModal('modal4','https://www.youtube.com/embed/a1gV8AOMNJc')">
       <img src="/assets/images/npc.png" alt="NPC VR">
       <div class="card-title">Smart NPC in VR</div>
     </div>
 
     <!-- Project 5 -->
-    <div class="card" onclick="openModal('modal5')">
+    <div class="card" onclick="openModal('modal5','https://www.youtube.com/embed/SuJQdxP6HJc')">
       <img src="/assets/images/tabletennis.png" alt="Table Tennis VR">
       <div class="card-title">VR Table Tennis</div>
     </div>
 
     <!-- Project 6 -->
-    <div class="card" onclick="openModal('modal6')">
+    <div class="card" onclick="openModal('modal6','https://www.youtube.com/embed/2eogtswgexA')">
       <img src="/assets/images/gorilla.png" alt="Gorilla VR">
       <div class="card-title">Gorilla vs 100 Men</div>
     </div>
   </div>
 </section>
 
-<!-- Modal Templates -->
-
-<div id="modal1" class="modal">
+<!-- Modal (shared) -->
+<div id="videoModal" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h2>Interactive Gear Box Assembly</h2>
-    <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" frameborder="0" allowfullscreen></iframe>
-    <p><b>About:</b> Step-by-step VR guide for assembling a gearbox, improving efficiency and reducing errors.</p>
-    <p><b>Tech Stack:</b> Unity3D, C#, XR Toolkit, Oculus SDK</p>
-  </div>
-</div>
-
-<div id="modal2" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h2>Inspection of Mechanical Components</h2>
-    <iframe src="https://www.youtube.com/embed/sI5wcQxgHYk" frameborder="0" allowfullscreen></iframe>
-    <p><b>About:</b> VR system highlights missing mechanical parts in real time for clear visualization.</p>
-    <p><b>Tech Stack:</b> Unity3D, C#, OpenXR, Shader Graph</p>
-  </div>
-</div>
-
-<div id="modal3" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal3')">&times;</span>
-    <h2>Real-time Measurement</h2>
-    <iframe src="https://www.youtube.com/embed/ggCbe4o8uC0" frameborder="0" allowfullscreen></iframe>
-    <p><b>About:</b> Immersive VR environment where users measure distances/dimensions in real-time.</p>
-    <p><b>Tech Stack:</b> Unity3D, C#, XR Toolkit, Physics Engine</p>
-  </div>
-</div>
-
-<div id="modal4" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal4')">&times;</span>
-    <h2>Smart NPC in VR</h2>
-    <iframe src="https://www.youtube.com/embed/a1gV8AOMNJc" frameborder="0" allowfullscreen></iframe>
-    <p><b>About:</b> AI-powered NPC with speech recognition (HuggingFace STT, Groq LLaMA, Speechify TTS).</p>
-    <p><b>Tech Stack:</b> Unity3D, C#, HuggingFace STT, Groq LLaMA, Speechify TTS</p>
-  </div>
-</div>
-
-<div id="modal5" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal5')">&times;</span>
-    <h2>VR Table Tennis</h2>
-    <iframe src="https://www.youtube.com/embed/SuJQdxP6HJc" frameborder="0" allowfullscreen></iframe>
-    <p><b>About:</b> Physics-accurate VR table tennis with realistic responsiveness.</p>
-    <p><b>Tech Stack:</b> Unity3D, C#, XR Toolkit, Physics-based AI</p>
-  </div>
-</div>
-
-<div id="modal6" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal6')">&times;</span>
-    <h2>Gorilla vs 100 Men</h2>
-    <iframe src="https://www.youtube.com/embed/2eogtswgexA" frameborder="0" allowfullscreen></iframe>
-    <p><b>About:</b> Action VR game with physics-based combat where a gorilla faces waves of enemies.</p>
-    <p><b>Tech Stack:</b> Unity3D, C#, XR Toolkit, Physics-based AI</p>
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <iframe id="modalVideo" src="" frameborder="0" allowfullscreen></iframe>
+    <p id="modalDesc"></p>
+    <p id="modalTech"></p>
   </div>
 </div>
 
 <script>
-  function openModal(id) {
-    document.getElementById(id).style.display = "flex";
+  function openModal(id, videoUrl) {
+    const modal = document.getElementById("videoModal");
+    const iframe = document.getElementById("modalVideo");
+
+    // Set video URL
+    iframe.src = videoUrl + "?autoplay=1";
+
+    // Example titles/descriptions (you can customize with a JSON object)
+    const titles = {
+      modal1: "Interactive Gear Box Assembly",
+      modal2: "Inspection of Mechanical Components",
+      modal3: "Real-time Measurement",
+      modal4: "Smart NPC in VR",
+      modal5: "VR Table Tennis",
+      modal6: "Gorilla vs 100 Men"
+    };
+
+    const descs = {
+      modal1: "Step-by-step VR guide for assembling a gearbox.",
+      modal2: "VR system highlights missing mechanical parts in real time.",
+      modal3: "Measure distances & dimensions dynamically in VR.",
+      modal4: "AI-powered NPC with HuggingFace STT + Groq LLaMA.",
+      modal5: "Physics-accurate VR table tennis simulation.",
+      modal6: "VR combat game where a gorilla fights human enemies."
+    };
+
+    const tech = {
+      modal1: "Unity3D, C#, XR Toolkit, Oculus SDK",
+      modal2: "Unity3D, C#, OpenXR, Shader Graph",
+      modal3: "Unity3D, C#, XR Toolkit, Physics Engine",
+      modal4: "Unity3D, C#, HuggingFace STT, Groq LLaMA, Speechify TTS",
+      modal5: "Unity3D, C#, XR Toolkit, Physics-based AI",
+      modal6: "Unity3D, C#, XR Toolkit, Physics-based AI"
+    };
+
+    document.getElementById("modalTitle").innerText = titles[id];
+    document.getElementById("modalDesc").innerText = descs[id];
+    document.getElementById("modalTech").innerText = "Tech Stack: " + tech[id];
+
+    modal.style.display = "flex";
   }
-  function closeModal(id) {
-    document.getElementById(id).style.display = "none";
+
+  function closeModal() {
+    const modal = document.getElementById("videoModal");
+    const iframe = document.getElementById("modalVideo");
+
+    modal.style.display = "none";
+
+    // Stop the video (clear src)
+    iframe.src = "";
   }
 </script>
