@@ -45,9 +45,15 @@ Here are six of my highlighted VR projects developed in Unity. Each project demo
   <p><b>Tech Stack:</b> Unity3D, C#, XR Interaction Toolkit, Physics Engine</p>
 </div>
 
+
 <!-- Project 4 -->
 <div style="background:#f9f9f9; padding:15px; border-radius:10px;">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="200" 
+    src="https://www.youtube.com/embed/a1gV8AOMNJc" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
   <h3>Smart NPC in VR</h3>
   <p><b>Description:</b> Developed an interactive conversational agent in VR. Integrates Speech-to-Text (HuggingFace), LLM processing (Groq LLaMA), and Text-to-Speech (Speechify), enabling seamless natural dialogues with virtual characters.</p>
   <p><b>Tech Stack:</b> Unity3D, C#, HuggingFace STT, Groq LLaMA, Speechify TTS</p>
