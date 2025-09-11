@@ -30,59 +30,29 @@ permalink: /vr-portfolio/
   h1, h2 {
     margin-top: 20px;
   }
-
-  /* Portfolio grid */
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
     padding: 40px;
     max-width: 1200px;
     margin: auto;
   }
-
-  /* Project card with thumbnail */
   .project-card {
-    position: relative;
+    background: #1e1e2f;
     border-radius: 12px;
-    overflow: hidden;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    transition: transform 0.3s ease;
   }
   .project-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
   }
-  .project-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-  }
-
-  /* Overlay text */
-  .project-info {
-    position: absolute;
-    bottom: 0;
-    left: 0; right: 0;
-    background: rgba(0,0,0,0.65);
-    color: #fff;
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-  }
-  .project-info h3 {
-    margin: 0;
-    font-size: 16px;
+  .project-card h3 {
+    margin: 10px 0;
     color: #00ffcc;
   }
-  .project-info p {
-    margin: 5px 0 0;
-    font-size: 12px;
-    color: #ddd;
-  }
-
-  /* Modal */
   .modal {
     display: none;
     position: fixed;
@@ -117,7 +87,16 @@ permalink: /vr-portfolio/
     font-size: 28px;
     cursor: pointer;
   }
-
+  .modal h3 {
+    color: #00ffcc;
+    margin-top: 0;
+  }
+  .modal-section {
+    margin-bottom: 15px;
+  }
+  .modal-section b {
+    color: #1db954;
+  }
   footer {
     background: #12121b;
     padding: 30px;
@@ -147,68 +126,90 @@ permalink: /vr-portfolio/
 <!-- Portfolio Section -->
 <h2 id="portfolio">Portfolio</h2>
 <div class="portfolio-grid">
-
   <div class="project-card" onclick="openModal('gearbox')">
-    <img src="/assets/thumbnails/gearbox.jpg" alt="Gearbox Project">
-    <div class="project-info">
-      <h3>Interactive Gear Box Assembly</h3>
-      <p>Immersive VR guide for assembly</p>
-    </div>
+    <h3>Interactive Gear Box Assembly</h3>
+    <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
-
   <div class="project-card" onclick="openModal('inspection')">
-    <img src="/assets/thumbnails/inspection.jpg" alt="Inspection Project">
-    <div class="project-info">
-      <h3>Inspection of Components</h3>
-      <p>Master vs target model detection</p>
-    </div>
+    <h3>Inspection of Mechanical Components</h3>
+    <p>Compare master and target models in real-time.</p>
   </div>
-
   <div class="project-card" onclick="openModal('measurement')">
-    <img src="/assets/thumbnails/measurement.jpg" alt="Measurement Project">
-    <div class="project-info">
-      <h3>Real-time Measurement</h3>
-      <p>Dynamic VR measurement tools</p>
-    </div>
+    <h3>Real-time Measurement</h3>
+    <p>Interact with components and measure dynamically.</p>
   </div>
-
   <div class="project-card" onclick="openModal('npc')">
-    <img src="/assets/thumbnails/npc.jpg" alt="NPC Project">
-    <div class="project-info">
-      <h3>Smart NPC in VR</h3>
-      <p>Voice-driven intelligent NPC</p>
-    </div>
+    <h3>Smart NPC in VR</h3>
+    <p>Voice-driven dialogue with intelligent virtual characters.</p>
   </div>
-
   <div class="project-card" onclick="openModal('tabletennis')">
-    <img src="/assets/thumbnails/tabletennis.jpg" alt="Table Tennis Project">
-    <div class="project-info">
-      <h3>VR Table Tennis</h3>
-      <p>Physics-accurate VR gameplay</p>
-    </div>
+    <h3>VR Table Tennis</h3>
+    <p>Physics-accurate immersive VR table tennis experience.</p>
   </div>
-
   <div class="project-card" onclick="openModal('gorilla')">
-    <img src="/assets/thumbnails/gorilla.jpg" alt="Gorilla Project">
-    <div class="project-info">
-      <h3>Gorilla vs 100 Men</h3>
-      <p>Action-packed VR combat</p>
-    </div>
+    <h3>Gorilla vs 100 Men</h3>
+    <p>Action-packed VR game with physics-based combat.</p>
   </div>
-
 </div>
 
-<!-- Example Modal -->
+<!-- Modals -->
 <div id="gearbox" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('gearbox')">&times;</span>
     <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" allowfullscreen></iframe>
     <h3>Interactive Gear Box Assembly</h3>
-    <p><b>About:</b> Interactive VR guide for gearbox assembly to enhance learning, reduce errors, and improve efficiency.</p>
+    <div class="modal-section"><b>About:</b> Interactive VR guide for gearbox assembly to enhance learning, reduce errors, and improve efficiency.</div>
   </div>
 </div>
 
-<!-- Repeat your other modals here -->
+<div id="inspection" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('inspection')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/sI5wcQxgHYk" allowfullscreen></iframe>
+    <h3>Inspection of Mechanical Components</h3>
+  </div>
+</div>
+
+<div id="measurement" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('measurement')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/ggCbe4o8uC0" allowfullscreen></iframe>
+    <h3>Real-time Measurement</h3>
+  </div>
+</div>
+
+<div id="npc" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('npc')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/a1gV8AOMNJc" allowfullscreen></iframe>
+    <h3>Smart NPC in VR</h3>
+  </div>
+</div>
+
+<div id="tabletennis" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('tabletennis')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/SuJQdxP6HJc" allowfullscreen></iframe>
+    <h3>VR Table Tennis</h3>
+  </div>
+</div>
+
+<div id="gorilla" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('gorilla')">&times;</span>
+    <iframe src="https://www.youtube.com/embed/2eogtswgexA" allowfullscreen></iframe>
+    <h3>Gorilla vs 100 Men</h3>
+  </div>
+</div>
+
+<!-- About Section -->
+<h2 id="about">About</h2>
+<p>Experienced XR Developer specializing in Unity, C#, and AI-driven robotics. Passionate about building immersive VR/AR applications and mentoring XR development.</p>
+
+<!-- Contact Section -->
+<h2 id="contact">Contact</h2>
+<p>Feel free to reach out, I’d love to connect with you!</p>
+<p><b>Based in:</b> Chennai, India</p>
 
 <footer>
   <a href="https://github.com/Javed-Akhter-Shaik" target="_blank">🐙 GitHub</a>
@@ -221,9 +222,11 @@ permalink: /vr-portfolio/
     const modal = document.getElementById(id);
     modal.style.display = "flex";
 
-    // Close if clicking outside content
+    // Add listener to close when clicking outside modal-content
     modal.addEventListener("click", function(e) {
-      if (e.target === modal) closeModal(id);
+      if (e.target === modal) {
+        closeModal(id);
+      }
     });
   }
 
@@ -231,6 +234,6 @@ permalink: /vr-portfolio/
     const modal = document.getElementById(id);
     modal.style.display = "none";
     let iframe = modal.querySelector("iframe");
-    if (iframe) iframe.src = iframe.src; // reset video
+    if (iframe) iframe.src = iframe.src; // stop video
   }
 </script>
