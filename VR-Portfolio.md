@@ -449,13 +449,59 @@ permalink: /vr-portfolio/
 </div>
 
 
+<!-- VR Table Tennis -->
 <div id="tabletennis" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('tabletennis')">&times;</span>
-    <iframe src="https://www.youtube.com/embed/SuJQdxP6HJc" allowfullscreen></iframe>
-    <h3>VR Table Tennis</h3>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/SuJQdxP6HJc" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">VR Table Tennis</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>VR Table Tennis is an immersive, physics-accurate table tennis experience built for VR platforms. The core idea is to simulate the natural feel, responsiveness, and excitement of real-world ping pong using intuitive motion controls, accurate physics, and spatial audio.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole developer.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Single-Player Practice Mode</li>
+          <li>Physics-based Ball Dynamics</li>
+          <li>Spatial Audio Feedback</li>
+          <li>VR Controller-based / Hand Tracking-based Racket Movement</li>
+          <li>Score Tracking + Game Logic</li>
+        </ul>
+        <p>Prototype built within 1 week</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Future Goals</h4>
+        <p>Extension to AR</p>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <div id="gorilla" class="modal">
   <div class="modal-content">
