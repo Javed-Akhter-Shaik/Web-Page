@@ -341,13 +341,60 @@ permalink: /vr-portfolio/
 
 
 
+<!-- Real-time Measurement -->
 <div id="measurement" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('measurement')">&times;</span>
-    <iframe src="https://www.youtube.com/embed/ggCbe4o8uC0" allowfullscreen></iframe>
-    <h3>Real-time Measurement</h3>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/ggCbe4o8uC0" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Real-time Measurement</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Immersive VR environment for interacting with mechanical components and performing real-time distance and dimension measurements.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole developer.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Interactive Manipulation of Components</li>
+          <li>Real-Time Measurement Tool</li>
+          <li>Real-time Color feedback</li>
+          <li>UI for real-time display of measurements</li>
+        </ul>
+        <p>Implemented within 3 days</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Future Goals</h4>
+        <p>Extension to AR</p>
+      </div>
+    </div>
   </div>
 </div>
+
+
+
 
 <div id="npc" class="modal">
   <div class="modal-content">
