@@ -170,7 +170,7 @@ permalink: /vr-portfolio/
 </div>
 
 <div class="project-card" onclick="openModal('tabletennis')">
-  <img src="https://github.com/user-attachments/assets/6caee9bb-95c7-46b9-865f-869b2600e568?raw=true" 
+  <img src="VR_Table_Tennis.png" 
        alt="VR Table Tennis" class="project-image">
   <h3>VR Table Tennis</h3>
   <p>Physics-accurate immersive VR table tennis experience.</p>
