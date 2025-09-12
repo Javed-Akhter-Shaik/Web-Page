@@ -394,15 +394,60 @@ permalink: /vr-portfolio/
 </div>
 
 
-
-
+<!-- Smart NPC in VR -->
 <div id="npc" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('npc')">&times;</span>
-    <iframe src="https://www.youtube.com/embed/a1gV8AOMNJc" allowfullscreen></iframe>
-    <h3>Smart NPC in VR</h3>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/a1gV8AOMNJc" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Smart NPC in VR</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Developed a VR conversational agent with real-time voice interaction, integrating HuggingFace STT, Groq Llama LLM, and Speechify TTS within Unity for seamless immersive dialogue.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole developer.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Real-time conversational responsiveness</li>
+          <li>Real-time voice input and recognition using HuggingFace STT</li>
+          <li>Natural language understanding via Groq Llama LLM</li>
+          <li>Expressive voice output through Speechify TTS</li>
+          <li>Fully integrated within Unity VR environment</li>
+          <li>Immersive interaction with virtual characters</li>
+        </ul>
+        <p>Prototype built within 3 days</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Future Goals</h4>
+        <p>Extension to AR</p>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <div id="tabletennis" class="modal">
   <div class="modal-content">
