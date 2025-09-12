@@ -138,24 +138,23 @@ permalink: /vr-portfolio/
 <h1>Hi, I am Javed</h1>
 <p class="tagline">XR Developer – VR Prototyper </p>
 
-<!-- Portfolio Section -->
 <h2 id="portfolio">Portfolio</h2>
 <div class="portfolio-grid">
 
   <div class="project-card" onclick="openModal('gearbox')">
-    <img src="./Gear Box Assembly VR.png" alt="Gear Box Assembly VR" class="project-image">
+    <img src="./Gear%20Box%20Assembly%20VR.png" alt="Gear Box Assembly VR" class="project-image">
     <h3>Interactive Gear Box Assembly</h3>
     <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
 
   <div class="project-card" onclick="openModal('inspection')">
-    <img src="./Inspection VR.png" alt="Inspection VR" class="project-image">
+    <img src="./Inspection%20VR.png" alt="Inspection VR" class="project-image">
     <h3>Real Time Inspection of Mechanical Components in VR</h3>
     <p>Compare master and target models in real-time.</p>
   </div>
 
   <div class="project-card" onclick="openModal('measurement')">
-    <img src="./Meaurement_VR.png" alt="Measurement VR" class="project-image">
+    <img src="./Measurement_VR.png" alt="Measurement VR" class="project-image">
     <h3>Real-time Measurement</h3>
     <p>Interact with components and measure dynamically.</p>
   </div>
