@@ -246,7 +246,12 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('inspection')">&times;</span>
     
     <!-- Video -->
-    <iframe src="https://www.youtube.com/shorts/sI5wcQxgHYk" allowfullscreen></iframe>
+    <iframe 
+      src="https://www.youtube.com/embed/sI5wcQxgHYk" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
 
     <!-- Title -->
     <h3 class="modal-title">Inspection of Mechanical Components</h3>
@@ -286,6 +291,7 @@ permalink: /vr-portfolio/
     </div>
   </div>
 </div>
+
 
 <!-- Add CSS -->
 <style>
