@@ -131,7 +131,7 @@ permalink: /vr-portfolio/
     <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
   <div class="project-card" onclick="openModal('inspection')">
-    <h3>Inspection of Mechanical Components</h3>
+    <h3>Real Time Inspection of Mechanical Components in VR </h3>
     <p>Compare master and target models in real-time.</p>
   </div>
   <div class="project-card" onclick="openModal('measurement')">
@@ -248,6 +248,103 @@ permalink: /vr-portfolio/
     <h3>Inspection of Mechanical Components</h3>
   </div>
 </div>
+
+
+
+<!-- Inspection of Mechanical Components -->
+<div id="inspection" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('inspection')">&times;</span>
+    
+    <!-- Video -->
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Inspection of Mechanical Components</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Interactive VR target–model comparison tool with real-time missing part detection, UI highlights, and dynamic color visualization.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole developer.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Reference & Target Model Alignment</li>
+          <li>Mesh Collider position and size</li>
+          <li>Real Time Color feedback</li>
+          <li>UI Integration</li>
+        </ul>
+        <p>Implemented within 3 days</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Future Goals</h4>
+        <p>Extension to AR</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add CSS -->
+<style>
+  .modal-content {
+    text-align: center; /* Centers everything */
+    padding: 20px;
+  }
+
+  .modal-title {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .modal-details {
+    margin-top: 20px;
+  }
+
+  .modal-section {
+    margin: 15px 0;
+  }
+
+  .modal-section h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ffcc; /* Highlighted heading */
+  }
+
+  .modal-section p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .modal-section ul {
+    list-style-type: disc;
+    text-align: left; /* Bullets aligned left */
+    display: inline-block; /* Keeps bullets centered as a block */
+    margin: 0 auto 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+</style>
+
+
+
 
 <div id="measurement" class="modal">
   <div class="modal-content">
