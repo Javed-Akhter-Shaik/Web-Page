@@ -141,37 +141,37 @@ permalink: /vr-portfolio/
 <div class="portfolio-grid">
 
   <div class="project-card" onclick="openModal('gearbox')">
-    <img src="/assets/images/gearbox.png" alt="Gear Box Assembly VR" class="project-image">
+    <img src="./assets/images/gearbox.png" alt="Gear Box Assembly VR" class="project-image">
     <h3>Interactive Gear Box Assembly</h3>
     <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
 
   <div class="project-card" onclick="openModal('inspection')">
-    <img src="/assets/images/inspection.png" alt="Inspection VR" class="project-image">
+    <img src="./assets/images/inspection.png" alt="Inspection VR" class="project-image">
     <h3>Real Time Inspection of Mechanical Components in VR</h3>
     <p>Compare master and target models in real-time.</p>
   </div>
 
   <div class="project-card" onclick="openModal('measurement')">
-    <img src="/assets/images/measurement.png" alt="Measurement VR" class="project-image">
+    <img src="./assets/images/measurement.png" alt="Measurement VR" class="project-image">
     <h3>Real-time Measurement</h3>
     <p>Interact with components and measure dynamically.</p>
   </div>
 
   <div class="project-card" onclick="openModal('npc')">
-    <img src="/assets/images/npc.png" alt="NPC VR" class="project-image">
+    <img src="./assets/images/npc.png" alt="NPC VR" class="project-image">
     <h3>Smart NPC in VR</h3>
     <p>Voice-driven dialogue with intelligent virtual characters.</p>
   </div>
 
   <div class="project-card" onclick="openModal('tabletennis')">
-    <img src="/assets/images/vr_table_tennis.png" alt="VR Table Tennis" class="project-image">
+    <img src="./assets/images/vr_table_tennis.png" alt="VR Table Tennis" class="project-image">
     <h3>VR Table Tennis</h3>
     <p>Physics-accurate immersive VR table tennis experience.</p>
   </div>
 
   <div class="project-card" onclick="openModal('gorilla')">
-    <img src="/assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
+    <img src="./assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
     <h3>Gorilla vs 100 Men</h3>
     <p>Action-packed VR game with physics-based combat.</p>
   </div>
