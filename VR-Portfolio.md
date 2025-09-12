@@ -110,7 +110,20 @@ permalink: /vr-portfolio/
   footer a:hover {
     color: #fff;
   }
+
+
+  .project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+  
 </style>
+
+
 
 <!-- Navigation -->
 <nav>
@@ -118,6 +131,20 @@ permalink: /vr-portfolio/
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
 </nav>
+
+
+
+<img width="446" height="443" alt="Gear Box Assembly VR" src="https://github.com/user-attachments/assets/dd1d0f99-764a-46c0-92c6-0ef357c3bc24" />
+![Gorilla_vs_100Men](https://github.com/user-attachments/assets/63a65ab5-f841-46e0-bf96-76f423f80587)
+<img width="253" height="251" alt="VR_Table_Tennis" src="https://github.com/user-attachments/assets/6acee89b-95c7-4b69-865f-869b2600c568" />
+<img width="199" height="197" alt="Meaurement_VR" src="https://github.com/user-attachments/assets/a5cf7523-60d4-48cb-8812-3cacbb071531" />
+<img width="249" height="231" alt="Inspection VR" src="https://github.com/user-attachments/assets/696cdb1d-531a-41d4-91c7-03491525f79f" />
+<img width="245" height="262" alt="NPC_VR" src="https://github.com/user-attachments/assets/9cc5b2db-6a90-4ef3-b234-0a1dc47a8150" />
+
+
+
+
+
 
 <!-- Intro -->
 <h1>Hi, I am Javed</h1>
@@ -127,30 +154,47 @@ permalink: /vr-portfolio/
 <h2 id="portfolio">Portfolio</h2>
 <div class="portfolio-grid">
   <div class="project-card" onclick="openModal('gearbox')">
-    <h3>Interactive Gear Box Assembly</h3>
-    <p>Step-by-step immersive VR guide for gearbox assembly.</p>
-  </div>
-  <div class="project-card" onclick="openModal('inspection')">
-    <h3>Real Time Inspection of Mechanical Components in VR </h3>
-    <p>Compare master and target models in real-time.</p>
-  </div>
-  <div class="project-card" onclick="openModal('measurement')">
-    <h3>Real-time Measurement</h3>
-    <p>Interact with components and measure dynamically.</p>
-  </div>
-  <div class="project-card" onclick="openModal('npc')">
-    <h3>Smart NPC in VR</h3>
-    <p>Voice-driven dialogue with intelligent virtual characters.</p>
-  </div>
-  <div class="project-card" onclick="openModal('tabletennis')">
-    <h3>VR Table Tennis</h3>
-    <p>Physics-accurate immersive VR table tennis experience.</p>
-  </div>
-  <div class="project-card" onclick="openModal('gorilla')">
-    <h3>Gorilla vs 100 Men</h3>
-    <p>Action-packed VR game with physics-based combat.</p>
-  </div>
+  <img src="https://github.com/user-attachments/assets/dd10df99-76da-46c0-92c6-0ef357c3bc24" 
+       alt="Gear Box Assembly VR" class="project-image">
+  <h3>Interactive Gear Box Assembly</h3>
+  <p>Step-by-step immersive VR guide for gearbox assembly.</p>
 </div>
+
+<div class="project-card" onclick="openModal('inspection')">
+  <img src="https://github.com/user-attachments/assets/69cdb1d4-5131-414d-91c7-94391525f79f" 
+       alt="Inspection VR" class="project-image">
+  <h3>Real Time Inspection of Mechanical Components in VR</h3>
+  <p>Compare master and target models in real-time.</p>
+</div>
+
+<div class="project-card" onclick="openModal('measurement')">
+  <img src="https://github.com/user-attachments/assets/c5cf7523-6804-4bcb-8812-3cacbb871531" 
+       alt="Measurement VR" class="project-image">
+  <h3>Real-time Measurement</h3>
+  <p>Interact with components and measure dynamically.</p>
+</div>
+
+<div class="project-card" onclick="openModal('npc')">
+  <img src="https://github.com/user-attachments/assets/9cc5b2db-6a90-4ef3-b234-0a1dc47a8150" 
+       alt="NPC VR" class="project-image">
+  <h3>Smart NPC in VR</h3>
+  <p>Voice-driven dialogue with intelligent virtual characters.</p>
+</div>
+
+<div class="project-card" onclick="openModal('tabletennis')">
+  <img src="https://github.com/user-attachments/assets/6caee9bb-95c7-46b9-865f-869b2600e568" 
+       alt="VR Table Tennis" class="project-image">
+  <h3>VR Table Tennis</h3>
+  <p>Physics-accurate immersive VR table tennis experience.</p>
+</div>
+
+<div class="project-card" onclick="openModal('gorilla')">
+  <img src="https://github.com/user-attachments/assets/56a53bb5-f841-46e0-bf96-76f423f88087" 
+       alt="Gorilla vs 100 Men" class="project-image">
+  <h3>Gorilla vs 100 Men</h3>
+  <p>Action-packed VR game with physics-based combat.</p>
+</div>
+
 
 <!-- Modals -->
 <div id="gearbox" class="modal">
