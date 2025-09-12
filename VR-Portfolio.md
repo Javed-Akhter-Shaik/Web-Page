@@ -142,46 +142,47 @@ permalink: /vr-portfolio/
 <h2 id="portfolio">Portfolio</h2>
 <div class="portfolio-grid">
   <div class="project-card" onclick="openModal('gearbox')">
-  <img src="https://github.com/user-attachments/assets/dd10df99-76da-46c0-92c6-0ef357c3bc24" 
+  <img src="https://github.com/user-attachments/assets/dd10df99-76da-46c0-92c6-0ef357c3bc24?raw=true" 
        alt="Gear Box Assembly VR" class="project-image">
   <h3>Interactive Gear Box Assembly</h3>
   <p>Step-by-step immersive VR guide for gearbox assembly.</p>
 </div>
 
 <div class="project-card" onclick="openModal('inspection')">
-  <img src="https://github.com/user-attachments/assets/69cdb1d4-5131-414d-91c7-94391525f79f" 
+  <img src="https://github.com/user-attachments/assets/69cdb1d4-5131-414d-91c7-94391525f79f?raw=true" 
        alt="Inspection VR" class="project-image">
   <h3>Real Time Inspection of Mechanical Components in VR</h3>
   <p>Compare master and target models in real-time.</p>
 </div>
 
 <div class="project-card" onclick="openModal('measurement')">
-  <img src="https://github.com/user-attachments/assets/c5cf7523-6804-4bcb-8812-3cacbb871531" 
+  <img src="https://github.com/user-attachments/assets/c5cf7523-6804-4bcb-8812-3cacbb871531?raw=true" 
        alt="Measurement VR" class="project-image">
   <h3>Real-time Measurement</h3>
   <p>Interact with components and measure dynamically.</p>
 </div>
 
 <div class="project-card" onclick="openModal('npc')">
-  <img src="https://github.com/user-attachments/assets/9cc5b2db-6a90-4ef3-b234-0a1dc47a8150" 
+  <img src="https://github.com/user-attachments/assets/9cc5b2db-6a90-4ef3-b234-0a1dc47a8150?raw=true" 
        alt="NPC VR" class="project-image">
   <h3>Smart NPC in VR</h3>
   <p>Voice-driven dialogue with intelligent virtual characters.</p>
 </div>
 
 <div class="project-card" onclick="openModal('tabletennis')">
-  <img src="https://github.com/user-attachments/assets/6caee9bb-95c7-46b9-865f-869b2600e568" 
+  <img src="https://github.com/user-attachments/assets/6caee9bb-95c7-46b9-865f-869b2600e568?raw=true" 
        alt="VR Table Tennis" class="project-image">
   <h3>VR Table Tennis</h3>
   <p>Physics-accurate immersive VR table tennis experience.</p>
 </div>
 
 <div class="project-card" onclick="openModal('gorilla')">
-  <img src="https://github.com/user-attachments/assets/56a53bb5-f841-46e0-bf96-76f423f88087" 
+  <img src="https://github.com/user-attachments/assets/56a53bb5-f841-46e0-bf96-76f423f88087?raw=true" 
        alt="Gorilla vs 100 Men" class="project-image">
   <h3>Gorilla vs 100 Men</h3>
   <p>Action-packed VR game with physics-based combat.</p>
 </div>
+
 
 
 <!-- Modals -->
