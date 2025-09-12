@@ -503,13 +503,61 @@ permalink: /vr-portfolio/
 </div>
 
 
+<!-- Gorilla vs 100 Men -->
 <div id="gorilla" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('gorilla')">&times;</span>
-    <iframe src="https://www.youtube.com/embed/2eogtswgexA" allowfullscreen></iframe>
-    <h3>Gorilla vs 100 Men</h3>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/2eogtswgexA" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Gorilla vs 100 Men</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Gorilla vs 100 Men is a VR action game where the player controls a gorilla facing off against waves of human enemies in a dynamic forest environment. The game features physics-based hand interactions for attacking, grabbing, and throwing enemies, using VR controllers for full immersion.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Handled Animations, Enemy and player collision detection and health management Scripts (Group Project).</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Enemy Wave base core game loop</li>
+          <li>UI/UX for Enemy and Player Health Tracking</li>
+          <li>Visual Effects (Cartoon FX Remastered)</li>
+          <li>Enemy damage detection via collisions</li>
+          <li>Enemy death animation</li>
+          <li>Final IK & Puppet Master integration</li>
+          <li>Low poly optimized environment</li>
+        </ul>
+        <p>Prototype built within 2 weeks</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, Meta XR Interaction Toolkit, Maximo, Puppet Master</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Future Goals</h4>
+        <p>Extension to AR</p>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- About Section -->
 <h2 id="about">About</h2>
