@@ -120,6 +120,47 @@ permalink: /vr-portfolio/
   margin-bottom: 10px;
 }
 
+
+  .project-image-container {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.project-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.plus {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
   
 </style>
 
@@ -140,43 +181,80 @@ permalink: /vr-portfolio/
 
 <div class="portfolio-grid">
 
+  <!-- Gearbox -->
   <div class="project-card" onclick="openModal('gearbox')">
-    <img src="/Web-Page/assets/images/gearbox.png" alt="Gear Box Assembly VR" class="project-image">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/gearbox.png" alt="Gear Box Assembly VR" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
     <h3>Interactive Gear Box Assembly</h3>
     <p>Step-by-step immersive VR guide for gearbox assembly.</p>
   </div>
 
+  <!-- Inspection -->
   <div class="project-card" onclick="openModal('inspection')">
-    <img src="/Web-Page/assets/images/inspection.png" alt="Inspection VR" class="project-image">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/inspection.png" alt="Inspection VR" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
     <h3>Real Time Inspection of Mechanical Components in VR</h3>
     <p>Compare master and target models in real-time.</p>
   </div>
 
+  <!-- Measurement -->
   <div class="project-card" onclick="openModal('measurement')">
-    <img src="/Web-Page/assets/images/measurement.png" alt="Measurement VR" class="project-image">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/measurement.png" alt="Measurement VR" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
     <h3>Real-time Measurement</h3>
     <p>Interact with components and measure dynamically.</p>
   </div>
 
+  <!-- NPC -->
   <div class="project-card" onclick="openModal('npc')">
-    <img src="/Web-Page/assets/images/npc.png" alt="NPC VR" class="project-image">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/npc.png" alt="NPC VR" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
     <h3>Smart NPC in VR</h3>
     <p>Voice-driven dialogue with intelligent virtual characters.</p>
   </div>
 
+  <!-- VR Table Tennis -->
   <div class="project-card" onclick="openModal('tabletennis')">
-    <img src="/Web-Page/assets/images/vr_table_tennis.png" alt="VR Table Tennis" class="project-image">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/vr_table_tennis.png" alt="VR Table Tennis" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
     <h3>VR Table Tennis</h3>
     <p>Physics-accurate immersive VR table tennis experience.</p>
   </div>
 
+  <!-- Gorilla -->
   <div class="project-card" onclick="openModal('gorilla')">
-    <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
     <h3>Gorilla vs 100 Men</h3>
     <p>Action-packed VR game with physics-based combat.</p>
   </div>
 
 </div>
+
 
 
 
