@@ -549,11 +549,6 @@ permalink: /vr-portfolio/
         <h4>Tech Stack</h4>
         <p>Unity, Meta All-in-One SDK, Meta XR Interaction Toolkit, Maximo, Puppet Master</p>
       </div>
-
-      <div class="modal-section">
-        <h4>Future Goals</h4>
-        <p>Extension to AR</p>
-      </div>
     </div>
   </div>
 </div>
