@@ -161,7 +161,7 @@ permalink: /vr-portfolio/
     <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" allowfullscreen></iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Interactive Gear Box Assembly</h3>
+    <h3 class="modal-title">Interactive Gear Box Assembly in VR</h3>
 
     <!-- Content Section -->
     <div class="modal-details">
@@ -176,7 +176,12 @@ permalink: /vr-portfolio/
       </div>
       
       <div class="modal-section">
-        <h4>Highlights</h4>
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Step-by-step guided assembly</li>
+          <li>Interactive VR component handling</li>
+          <li>Intuitive VR UI for navigation & instructions</li>
+        </ul>
         <p>Implemented within 3 days</p>
       </div>
       
@@ -217,11 +222,23 @@ permalink: /vr-portfolio/
   }
 
   .modal-section p {
-    margin: 0;
+    margin: 5px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .modal-section ul {
+    list-style-type: disc;
+    text-align: left; /* Keep bullets aligned */
+    display: inline-block; /* Center as a block */
+    margin: 0 auto 10px;
+    padding-left: 20px;
     font-size: 16px;
     line-height: 1.5;
   }
 </style>
+
+
 
 
 <div id="inspection" class="modal">
