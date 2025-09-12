@@ -156,14 +156,73 @@ permalink: /vr-portfolio/
 <div id="gearbox" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('gearbox')">&times;</span>
+    
+    <!-- Video -->
     <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" allowfullscreen></iframe>
-    <h3>Interactive Gear Box Assembly</h3>
-    <div class="modal-section"><b>About:</b> VR-based mechanical gearbox assembly simulation enabling hands-on learning, improved task efficiency, and reduced assembly errors</div>
-    <div class="modal-section"><b>Role::</b> Sole developer.</div>
-    <div class="modal-section"><b>Highlights:Implemented within 3 days</b> </div> 
-    <div class="modal-section"><b>Tech Stack:Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</b> </div>
+
+    <!-- Title -->
+    <h3 class="modal-title">Interactive Gear Box Assembly</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>VR-based mechanical gearbox assembly simulation enabling hands-on learning, improved task efficiency, and reduced assembly errors.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole developer.</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Highlights</h4>
+        <p>Implemented within 3 days</p>
+      </div>
+      
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</p>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- Add CSS -->
+<style>
+  .modal-content {
+    text-align: center; /* Centers everything */
+    padding: 20px;
+  }
+
+  .modal-title {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .modal-details {
+    margin-top: 20px;
+  }
+
+  .modal-section {
+    margin: 15px 0;
+  }
+
+  .modal-section h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ffcc; /* Highlighted heading */
+  }
+
+  .modal-section p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+</style>
+
 
 <div id="inspection" class="modal">
   <div class="modal-content">
