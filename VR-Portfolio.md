@@ -158,7 +158,10 @@ permalink: /vr-portfolio/
     <span class="close-btn" onclick="closeModal('gearbox')">&times;</span>
     <iframe src="https://www.youtube.com/embed/UaA2s17bcwA" allowfullscreen></iframe>
     <h3>Interactive Gear Box Assembly</h3>
-    <div class="modal-section"><b>About:</b> Interactive VR guide for gearbox assembly to enhance learning, reduce errors, and improve efficiency.</div>
+    <div class="modal-section"><b>About:</b> VR-based mechanical gearbox assembly simulation enabling hands-on learning, improved task efficiency, and reduced assembly errors</div>
+    <div class="modal-section"><b>Role::</b> Sole developer.</div>
+    <div class="modal-section"><b>Highlights:Implemented within 3 days</b> </div> 
+    <div class="modal-section"><b>Tech Stack:Unity, Meta All-in-One SDK, and Meta XR Interaction Toolkit</b> </div>
   </div>
 </div>
 
