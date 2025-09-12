@@ -204,7 +204,7 @@ permalink: /vr-portfolio/
 
 <!-- About Section -->
 <h2 id="about">About</h2>
-<p>Experienced XR Developer specializing in Unity, C#, and AI-driven robotics. Passionate about building immersive VR/AR applications and mentoring XR development.</p>
+<p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
 
 <!-- Contact Section -->
 <h2 id="contact">Contact</h2>
