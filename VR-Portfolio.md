@@ -803,25 +803,26 @@ permalink: /vr-portfolio/
       </div>
 
       <div class="modal-section">
-        <h4>Future Goals</h4>
-        <p>Extension to AR</p>
       </div>
     </div>
   </div>
-</div>
-
-
+</div> <!-- END of .portfolio-grid -->
 
 
 
 <!-- About Section -->
-<h2 id="about">About</h2>
-<p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
+<section id="about" class="about-section">
+  <h2>About</h2>
+  <p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
+</section>
 
 <!-- Contact Section -->
-<h2 id="contact">Contact</h2>
-<p>Feel free to reach out, I’d love to connect with you!</p>
-<p><b>Based in:</b> Chennai, India</p>
+<section id="contact" class="contact-section">
+  <h2>Contact</h2>
+  <p>Feel free to reach out, I’d love to connect with you!</p>
+  <p><b>Based in:</b> Chennai, India</p>
+</section>
+
 
 <footer>
   <a href="https://github.com/Javed-Akhter-Shaik" target="_blank">🐙 GitHub</a>
