@@ -861,8 +861,9 @@ footer img:hover {
 
 <footer>
   <a href="https://github.com/Javed-Akhter-Shaik" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30" height="30">
-  </a>
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="30" height="30">
+</a>
+
   <a href="https://www.linkedin.com/in/javed-akhter-shaik-76836320b/" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="30" height="30">
   </a>
