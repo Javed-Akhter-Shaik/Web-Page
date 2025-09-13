@@ -229,7 +229,43 @@ footer img:hover {
 }
 
 
+.skills-section {
+  margin: 60px auto;
+  max-width: 1000px;
+  text-align: center;
+}
 
+.skills-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skill {
+  background: #3a3a4d;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.skill:hover {
+  background: #00ffcc;
+  color: #101820;
+}
+
+
+
+  
 
   
 </style>
@@ -874,6 +910,47 @@ footer img:hover {
   <h2>About</h2>
   <p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
 </section>
+
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <h2>About</h2>
+  <p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <span class="skill">VR Development</span>
+    <span class="skill">Unity 3D</span>
+    <span class="skill">C#</span>
+    <span class="skill">Python</span>
+    <span class="skill">C</span>
+    <span class="skill">MatLab</span>
+    <span class="skill">Ansys</span>
+    <span class="skill">SAP MM/PP</span>
+    <span class="skill">Fusion 360</span>
+    <span class="skill">Machine Learning</span>
+    <span class="skill">SQL</span>
+    <span class="skill">Microsoft Office</span>
+    <span class="skill">GitHub</span>
+    <span class="skill">Problem solving</span>
+    <span class="skill">Analytical mind</span>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <h2>Contact</h2>
+  <p>Feel free to reach out, I’d love to connect with you!</p>
+  <p><b>Based in:</b> Chennai, India</p>
+</section>
+
+
+
 
 <!-- Resume Download Button -->
 <a href="/Web-Page/assets/files/Javed_Akhter_Shaik_Resume.pdf" download class="resume-btn">Download Resume</a>
