@@ -298,22 +298,17 @@ permalink: /vr-portfolio/
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Gorilla vs 100 Men is a VR action game where the player controls a gorilla facing off against waves of human enemies...</p>
+        <p>Gorilla vs 100 Men is a VR action game where the player controls a gorilla facing off against waves of human enemies in a dynamic forest environment. The game features physics-based hand interactions for attacking, grabbing, and throwing enemies, using VR controllers for full immersion</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Handled animations, enemy and player collision detection...</p>
+        <p>Handled Animations, Enemy and player collision detection and health management Scripts (Group project of 5 members)</p>
       </div>
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Enemy wave base game loop</li>
-          <li>Health tracking UI</li>
-          <li>Cartoon FX Remastered effects</li>
-          <li>Collision-based damage</li>
-          <li>Final IK & Puppet Master integration</li>
-        </ul>
-      </div>
+          <li>Enemy death animation</li> <li>Final IK & Puppet Master integration</li> 
+          <li>Low poly optimized environment</li> </ul> <p>Prototype built within 2 weeks</p> </div>
       <div class="modal-section">
         <h4>Tech Stack</h4>
         <p>Unity, Meta All-in-One SDK, Meta XR Interaction Toolkit, Maximo, Puppet Master</p>
@@ -325,7 +320,7 @@ permalink: /vr-portfolio/
 
 <!-- Gorilla Featured Project -->
 <div class="project-card" onclick="openModal('gorilla')" 
-     style="max-width:1100px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
+     style="max-width:700px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
   
   <!-- Image Container -->
   <div class="project-image-container" style="height:400px;">
@@ -340,7 +335,7 @@ permalink: /vr-portfolio/
 
   <!-- Title + Subtitle -->
   <h3 style="margin-top:15px; color:#00ffcc;">Gorilla vs 100 Men</h3>
-  <p style="font-size:18px; color:#ddd;">Action-packed VR game with physics-based combat.</p>
+  <p style="font-size:18px; color:#ddd;">Action-packed VR game with physics-based combat</p>
 </div>
 
 
