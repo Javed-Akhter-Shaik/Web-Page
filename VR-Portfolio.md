@@ -266,7 +266,7 @@ permalink: /vr-portfolio/
      style="max-width:1100px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
 
   <!-- Image -->
-  <div class="project-image-container" style="height:400px;">
+  <div class="project-image-container" style="height:500px;">
     <img src="/Web-Page/assets/images/viz_of_pf.png" 
          alt="Visualization of Pareto Front Thumbnail" 
          class="project-image" 
@@ -431,7 +431,7 @@ permalink: /vr-portfolio/
       
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Sole developer.</p>
+        <p>Sole Developer</p>
       </div>
       
       <div class="modal-section">
@@ -573,7 +573,7 @@ permalink: /vr-portfolio/
       
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Sole developer.</p>
+        <p>Sole Developer</p>
       </div>
       
       <div class="modal-section">
@@ -674,7 +674,7 @@ permalink: /vr-portfolio/
       
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Sole developer.</p>
+        <p>Sole Developer</p>
       </div>
       
       <div class="modal-section">
@@ -727,7 +727,7 @@ permalink: /vr-portfolio/
       
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Sole developer.</p>
+        <p>Sole Developer</p>
       </div>
       
       <div class="modal-section">
@@ -782,7 +782,7 @@ permalink: /vr-portfolio/
       
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Sole developer.</p>
+        <p>Sole Developer</p>
       </div>
       
       <div class="modal-section">
