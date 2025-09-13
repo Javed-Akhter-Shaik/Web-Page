@@ -323,6 +323,19 @@ permalink: /vr-portfolio/
 </div>
 
 
+<!-- Gorilla -->
+<div class="project-card" onclick="openModal('gorilla')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+  <h3>Gorilla vs 100 Men</h3>
+  <p>Action-packed VR game with physics-based combat.</p>
+</div>
+
+
 
 <div class="portfolio-grid">
 
@@ -385,22 +398,6 @@ permalink: /vr-portfolio/
     <h3>VR Table Tennis</h3>
     <p>Physics-accurate immersive VR table tennis experience.</p>
   </div>
-
-  <!-- Gorilla -->
-  <div class="project-card" onclick="openModal('gorilla')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
-    </div>
-    <h3>Gorilla vs 100 Men</h3>
-    <p>Action-packed VR game with physics-based combat.</p>
-  </div>
-
-</div>
-
-
 
 
 
