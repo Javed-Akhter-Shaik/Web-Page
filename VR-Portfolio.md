@@ -278,8 +278,8 @@ permalink: /vr-portfolio/
   </div>
 
   <!-- Title + Subtitle -->
-  <h3 style="margin-top:15px; color:#00ffcc;">New VR Project</h3>
-  <p style="font-size:18px; color:#ddd;">Immersive VR project with interactive mechanics.</p>
+  <h3 style="margin-top:15px; color:#00ffcc;">Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization</h3>
+  <p style="font-size:18px; color:#ddd;">Master’s Project</p>
 </div>
 
 
@@ -466,33 +466,35 @@ permalink: /vr-portfolio/
     </iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">New VR Project</h3>
+    <h3 class="modal-title">Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization</h3>
 
     <!-- Content -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>This VR project focuses on immersive mechanics, user interaction, and dynamic 3D visualization for enhanced learning and engagement.</p>
+        <p>Developed an interactive VR-based decision-support framework/system for Engineering Design problems, enabling real-time exploration of Pareto-optimal solutions in Multi-Objective Optimization through immersive 3D CAD visualization</p>
       </div>
 
       <div class="modal-section">
         <h4>Role</h4>
-        <p>Lead developer and designer, responsible for gameplay mechanics, UI/UX integration, and performance optimization.</p>
+        <p>Sole Developer</p>
       </div>
 
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Physics-driven interactions</li>
-          <li>Real-time feedback and animations</li>
-          <li>Optimized low-latency VR experience</li>
+          <li>Developed a Virtual Reality semi automated framework to enhance decision-making in Multi-Objective Optimization (MOO)</li>
+          <li>Built immersive Pareto front visualizations to explore trade-offs across high-dimensional objectives</li>
+          <li>Applied framework to case studies including structural design & energy efficiency building problems</li>
+          <li>Linked objective and solution spaces using immersive VR to enable intuitive exploration of multi-objective trade-offs</li>
+          
         </ul>
-        <p>Prototype completed in 3 weeks.</p>
+        <p></p>
       </div>
 
       <div class="modal-section">
         <h4>Tech Stack</h4>
-        <p>Unity, Meta XR SDK, C#, Blender, and WebXR integration.</p>
+        <p>Unity, C#, MatLab, python, Fusion 360, Meta XR SDK, Meta Interactions ToolKit, Full Body IK using Meta Movements SDK </p>
       </div>
     </div>
   </div>
