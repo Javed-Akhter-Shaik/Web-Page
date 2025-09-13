@@ -283,10 +283,11 @@ permalink: /vr-portfolio/
 
   <!-- Image -->
   <div class="project-image-container" style="height:400px;">
-    <img src="/Web-Page/assets/images/Viz_of_PF.png" 
-     alt="New VR Project Thumbnail" 
+    <img src="/assets/images/Viz_of_PF.png" 
+     alt="Visualization of Pareto Front Thumbnail" 
      class="project-image" 
      style="height:100%; object-fit:cover; border-radius:12px;">
+
     <div class="overlay">
       <span class="plus">+</span>
     </div>
