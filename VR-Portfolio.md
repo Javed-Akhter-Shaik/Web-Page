@@ -183,6 +183,30 @@ permalink: /vr-portfolio/
 }
 
 
+  footer {
+  background: #12121b;
+  padding: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0.85);
+  transition: 0.3s ease;
+}
+
+footer img:hover {
+  filter: brightness(1.2);
+}
+
+
   
 </style>
 
@@ -836,10 +860,17 @@ permalink: /vr-portfolio/
 
 
 <footer>
-  <a href="https://github.com/Javed-Akhter-Shaik" target="_blank">🐙 GitHub</a>
-  <a href="https://www.linkedin.com/in/javed-akhter-shaik-76836320b/" target="_blank">🔗 LinkedIn</a>
-  <a href="mailto:shaikjaved672@gmail.com">📧 Email</a>
+  <a href="https://github.com/Javed-Akhter-Shaik" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30" height="30">
+  </a>
+  <a href="https://www.linkedin.com/in/javed-akhter-shaik-76836320b/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="30" height="30">
+  </a>
+  <a href="mailto:shaikjaved672@gmail.com">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="30" height="30">
+  </a>
 </footer>
+
 
 <script>
   function openModal(id) {
