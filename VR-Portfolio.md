@@ -277,6 +277,27 @@ permalink: /vr-portfolio/
   </p>
 </section>
 
+<!-- New Featured Project -->
+<div class="project-card" onclick="openModal('newproject')" 
+     style="max-width:700px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
+
+  <!-- Image -->
+  <div class="project-image-container" style="height:400px;">
+    <img src="/Web-Page/assets/images/newproject.jpg" 
+         alt="New VR Project" 
+         class="project-image" 
+         style="height:100%; object-fit:cover; border-radius:12px;">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+
+  <!-- Title + Subtitle -->
+  <h3 style="margin-top:15px; color:#00ffcc;">New VR Project</h3>
+  <p style="font-size:18px; color:#ddd;">Immersive VR project with interactive mechanics.</p>
+</div>
+
+
 
 <!-- Gorilla vs 100 Men -->
 <div id="gorilla" class="modal">
@@ -444,6 +465,53 @@ permalink: /vr-portfolio/
     </div>
   </div>
 </div>
+
+<!-- New Project Modal -->
+<div id="newproject" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('newproject')">&times;</span>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/wFQMptUKP4U" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">New VR Project</h3>
+
+    <!-- Content -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>This VR project focuses on immersive mechanics, user interaction, and dynamic 3D visualization for enhanced learning and engagement.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Lead developer and designer, responsible for gameplay mechanics, UI/UX integration, and performance optimization.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Physics-driven interactions</li>
+          <li>Real-time feedback and animations</li>
+          <li>Optimized low-latency VR experience</li>
+        </ul>
+        <p>Prototype completed in 3 weeks.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta XR SDK, C#, Blender, and WebXR integration.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Add CSS -->
 <style>
