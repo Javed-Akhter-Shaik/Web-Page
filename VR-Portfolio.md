@@ -323,16 +323,24 @@ permalink: /vr-portfolio/
 </div>
 
 
-<!-- Gorilla -->
-<div class="project-card" onclick="openModal('gorilla')">
-  <div class="project-image-container">
-    <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" alt="Gorilla vs 100 Men" class="project-image">
+<!-- Gorilla Featured Project -->
+<div class="project-card" onclick="openModal('gorilla')" 
+     style="max-width:1100px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
+  
+  <!-- Image Container -->
+  <div class="project-image-container" style="height:400px;">
+    <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" 
+         alt="Gorilla vs 100 Men" 
+         class="project-image" 
+         style="height:100%; object-fit:cover; border-radius:12px;">
     <div class="overlay">
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Gorilla vs 100 Men</h3>
-  <p>Action-packed VR game with physics-based combat.</p>
+
+  <!-- Title + Subtitle -->
+  <h3 style="margin-top:15px; color:#00ffcc;">Gorilla vs 100 Men</h3>
+  <p style="font-size:18px; color:#ddd;">Action-packed VR game with physics-based combat.</p>
 </div>
 
 
