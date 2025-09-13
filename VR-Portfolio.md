@@ -273,7 +273,25 @@ permalink: /vr-portfolio/
     </iframe>
   </div>
   <p style="margin-top:15px; font-size:18px; color:#ddd;">
-   <b>Master’s Thesis Projec</b>
+   <b>Master’s Thesis Project</b>
+  </p>
+</section>
+
+
+<!-- Gorilla Video Section -->
+<section id="gorilla-featured" style="margin: 40px auto; max-width: 1100px; text-align: center;">
+  <h2 style="color:#00ffcc; margin-bottom:20px;">Gorilla vs 100 Men</h2>
+  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.6);">
+    <iframe 
+      src="https://www.youtube.com/embed/2eogtswgexA" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;">
+    </iframe>
+  </div>
+  <p style="margin-top:15px; font-size:18px; color:#ddd;">
+   <b>Action-packed VR game with physics-based combat</b>
   </p>
 </section>
 
