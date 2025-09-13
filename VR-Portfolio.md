@@ -211,22 +211,23 @@ footer img:hover {
   display: inline-block;
   margin: 20px auto;
   padding: 12px 24px;
-  border: 2px solid #a8d5a2;  /* soft green border */
+  border: 2px solid #00ffcc;  /* same color as heading */
   border-radius: 10px;
   background: transparent;
-  color: #a8d5a2;
+  color: #00ffcc;   /* button text color */
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   text-align: center;
   transition: all 0.3s ease;
 }
 
 .resume-btn:hover {
-  background: #a8d5a2;
-  color: #1e1e2f; /* dark text when hovered */
+  background: #00ffcc;   /* fill background on hover */
+  color: #1e1e2f;        /* dark text on hover */
   transform: scale(1.05);
 }
+
 
 
 
