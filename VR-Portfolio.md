@@ -260,22 +260,6 @@ permalink: /vr-portfolio/
 <h1>Hi, I am Javed</h1>
 <p class="tagline">XR Developer – VR Prototyper </p>
 
-<!-- Master Thesis Video Section -->
-<section id="thesis" style="margin: 40px auto; max-width: 1100px; text-align: center;">
-  <h2 style="color:#00ffcc; margin-bottom:20px;">Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization</h2>
-  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.6);">
-    <iframe 
-      src="https://www.youtube.com/embed/wFQMptUKP4U" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen
-      style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;">
-    </iframe>
-  </div>
-  <p style="margin-top:15px; font-size:18px; color:#ddd;">
-   <b>Master’s Thesis Project</b>
-  </p>
-</section>
 
 <!-- New Featured Project -->
 <div class="project-card" onclick="openModal('newproject')" 
@@ -283,10 +267,10 @@ permalink: /vr-portfolio/
 
   <!-- Image -->
   <div class="project-image-container" style="height:400px;">
-    <img src="/assets/images/viz_of_pf.png" 
-     alt="Visualization of Pareto Front Thumbnail" 
-     class="project-image" 
-     style="height:100%; object-fit:cover; border-radius:12px;">
+    <img src="/Web-Page/assets/images/viz_of_pf.png" 
+         alt="Visualization of Pareto Front Thumbnail" 
+         class="project-image" 
+         style="height:100%; object-fit:cover; border-radius:12px;">
 
     <div class="overlay">
       <span class="plus">+</span>
@@ -297,6 +281,7 @@ permalink: /vr-portfolio/
   <h3 style="margin-top:15px; color:#00ffcc;">New VR Project</h3>
   <p style="font-size:18px; color:#ddd;">Immersive VR project with interactive mechanics.</p>
 </div>
+
 
 
 
