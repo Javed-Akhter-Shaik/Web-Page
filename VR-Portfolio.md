@@ -174,6 +174,15 @@ permalink: /vr-portfolio/
   background: linear-gradient(to bottom, #101820, #1b2735); /* fallback if WebGL fails */
 }
 
+
+  .about-section,
+.contact-section {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+
   
 </style>
 
