@@ -815,7 +815,9 @@ permalink: /vr-portfolio/
       </div>
     </div>
   </div>
+</div> <!-- END of TT -->
 </div> <!-- END of .portfolio-grid -->
+
 
 
 
