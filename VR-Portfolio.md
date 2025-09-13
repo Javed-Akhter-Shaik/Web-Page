@@ -34,7 +34,7 @@ permalink: /vr-portfolio/
   }
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 30px;
     padding: 40px;
     max-width: 1200px;
