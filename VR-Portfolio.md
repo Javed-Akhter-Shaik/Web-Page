@@ -912,13 +912,6 @@ footer img:hover {
 </section>
 
 
-<!-- About Section -->
-<section id="about" class="about-section">
-  <h2>About</h2>
-  <p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
-</section>
-
-
 <!-- Skills Section -->
 <section id="skills" class="skills-section">
   <h2>Skills</h2>
