@@ -262,10 +262,10 @@ permalink: /vr-portfolio/
 
 <!-- Master Thesis Video Section -->
 <section id="thesis" style="margin: 40px auto; max-width: 1100px; text-align: center;">
-  <h2 style="color:#00ffcc; margin-bottom:20px;">Master’s Thesis Project</h2>
+  <h2 style="color:#00ffcc; margin-bottom:20px;">Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization</h2>
   <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.6);">
     <iframe 
-      src="https://youtu.be/wFQMptUKP4U" 
+      src="https://www.youtube.com/embed/wFQMptUKP4U" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen
@@ -273,7 +273,8 @@ permalink: /vr-portfolio/
     </iframe>
   </div>
   <p style="margin-top:15px; font-size:18px; color:#ddd;">
-    Master’s thesis : <b>Virtual Reality for Enhanced Decision Making in Multi-Objective Optimization</b>
+   <b>Master’s Thesis Projec</b>
+  </p>
 </section>
 
 
