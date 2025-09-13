@@ -207,6 +207,29 @@ footer img:hover {
 }
 
 
+  .resume-btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  border: 2px solid #a8d5a2;  /* soft green border */
+  border-radius: 10px;
+  background: transparent;
+  color: #a8d5a2;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background: #a8d5a2;
+  color: #1e1e2f; /* dark text when hovered */
+  transform: scale(1.05);
+}
+
+
+
   
 </style>
 
@@ -850,6 +873,12 @@ footer img:hover {
   <h2>About</h2>
   <p>Master’s in Engineering Design, IITM | Crafting VR Experiences with AI</p>
 </section>
+
+<!-- Resume Download Button -->
+<a href="/Web-Page/assets/files/Javed_Akhter_Shaik_Resume.pdf" download class="resume-btn">
+  ⬇️ Download Resume
+</a>
+
 
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
