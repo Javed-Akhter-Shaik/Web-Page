@@ -263,7 +263,7 @@ permalink: /vr-portfolio/
 
 <!-- New Featured Project -->
 <div class="project-card" onclick="openModal('newproject')" 
-     style="max-width:700px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
+     style="max-width:1100px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
 
   <!-- Image -->
   <div class="project-image-container" style="height:400px;">
