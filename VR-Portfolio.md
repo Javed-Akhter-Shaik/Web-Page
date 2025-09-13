@@ -278,22 +278,50 @@ permalink: /vr-portfolio/
 </section>
 
 
-<!-- Gorilla Video Section -->
-<section id="gorilla-featured" style="margin: 40px auto; max-width: 1100px; text-align: center;">
-  <h2 style="color:#00ffcc; margin-bottom:20px;">Gorilla vs 100 Men</h2>
-  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.6);">
+<!-- Gorilla vs 100 Men -->
+<div id="gorilla" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('gorilla')">&times;</span>
+    
+    <!-- Video -->
     <iframe 
       src="https://www.youtube.com/embed/2eogtswgexA" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen
-      style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:12px;">
+      allowfullscreen>
     </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Gorilla vs 100 Men</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Gorilla vs 100 Men is a VR action game where the player controls a gorilla facing off against waves of human enemies...</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Handled animations, enemy and player collision detection...</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Enemy wave base game loop</li>
+          <li>Health tracking UI</li>
+          <li>Cartoon FX Remastered effects</li>
+          <li>Collision-based damage</li>
+          <li>Final IK & Puppet Master integration</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, Meta XR Interaction Toolkit, Maximo, Puppet Master</p>
+      </div>
+    </div>
   </div>
-  <p style="margin-top:15px; font-size:18px; color:#ddd;">
-   <b>Action-packed VR game with physics-based combat</b>
-  </p>
-</section>
+</div>
+
 
 
 <div class="portfolio-grid">
