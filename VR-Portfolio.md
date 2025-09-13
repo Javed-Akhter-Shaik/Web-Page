@@ -842,8 +842,6 @@ footer img:hover {
       </div>
 
       <div class="modal-section">
-        <h4>Future Goals</h4>
-        <p>Extension to AR</p>
       </div>
     </div>
   </div>
