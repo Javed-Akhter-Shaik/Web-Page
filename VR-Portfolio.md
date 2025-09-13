@@ -283,7 +283,7 @@ permalink: /vr-portfolio/
 
   <!-- Image -->
   <div class="project-image-container" style="height:400px;">
-    <img src="/assets/images/Viz_of_PF.PNG" 
+    <img src="/assets/images/viz_of_pf.png" 
      alt="Visualization of Pareto Front Thumbnail" 
      class="project-image" 
      style="height:100%; object-fit:cover; border-radius:12px;">
