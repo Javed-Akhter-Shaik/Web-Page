@@ -876,9 +876,7 @@ footer img:hover {
 </section>
 
 <!-- Resume Download Button -->
-<a href="/Web-Page/assets/files/Javed_Akhter_Shaik_Resume.pdf" download class="resume-btn">
-  ⬇️ Download Resume
-</a>
+<a href="/Web-Page/assets/files/Javed_Akhter_Shaik_Resume.pdf" download class="resume-btn">Download Resume</a>
 
 
 <!-- Contact Section -->
