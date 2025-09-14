@@ -503,6 +503,20 @@ footer img:hover {
   </div>
 
 
+  <!-- VR Gun Game -->
+<div class="project-card" onclick="openModal('vrgungame')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/vr_gun_game.png" alt="VR Gun Game" class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+  <h3>VR Gun Game</h3>
+  <p>Interactive VR shooting range with modular gun system.</p>
+</div>
+
+
+
 
 <!-- Modals -->
 <div id="gearbox" class="modal">
@@ -592,6 +606,8 @@ footer img:hover {
     </div>
   </div>
 </div>
+
+
 
 
 <!-- Add CSS -->
@@ -898,6 +914,58 @@ footer img:hover {
     </div>
   </div>
 </div> <!-- END of TT -->
+
+
+<!-- VR Gun Game Modal -->
+<div id="vrgungame" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('vrgungame')">&times;</span>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/qR7igsJuGhc" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">VR Gun Game</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>VR Gun Game is an interactive shooting range built in VR, where players practice aiming and hitting targets using a modular gun system. The project allows dynamic weapon customization by combining parts with different attributes (fire rate, impact force, ammo type, etc.).</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Modular gun system with interchangeable parts</li>
+          <li>Target shooting range for testing accuracy and performance</li>
+          <li>Dynamic weapon attributes: fire rate, impact force, ammo type</li>
+          <li>Physics-based interactions with rigidbodies</li>
+          <li>Open-ended gameplay encouraging creative solutions</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta All-in-One SDK, and Meta XR Interaction Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 </div> <!-- END of .portfolio-grid -->
 
 
