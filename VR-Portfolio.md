@@ -999,7 +999,6 @@ footer img:hover {
       </div>
     </div>
     <h3>StormBreaker (Thor’s Axe Replica)</h3>
-    <p>Short description of project 1.</p>
   </div>
 
   <!-- Project 2 -->
@@ -1011,7 +1010,6 @@ footer img:hover {
       </div>
     </div>
     <h3>Tin Can Toss – VR Game</h3>
-    <p>Short description of project 2.</p>
   </div>
 
   <!-- Project 3 -->
@@ -1023,8 +1021,44 @@ footer img:hover {
       </div>
     </div>
     <h3>Control Volume – VR Spaceship Interaction</h3>
-    <p>Short description of project 3.</p>
   </div>
+
+
+  <!-- Project 4 -->
+  <div class="project-card" onclick="openModal('project4')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project1.png" alt="Project 4" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Storm</h3>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="project-card" onclick="openModal('project5')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project2.png" alt="Project 5" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Tin</h3>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="project-card" onclick="openModal('project6')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project3.png" alt="Project 6" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Control</h3>
+  </div>
+
+
+  
 
 </div> <!-- END of portfolio-grid -->
 
@@ -1145,6 +1179,127 @@ footer img:hover {
     </div>
   </div>
 </div>
+
+
+
+<!-- 🔹 Modal for Project 4 -->
+<div id="project1" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project4')">&times;</span>
+    
+    <!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cpDL4y6sBUE" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">StormBreaker (Thor’s Axe Replica)</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Built a VR throwing axe inspired by Thor’s StormBreaker, featuring natural spin, realistic embedding, and recall-to-hand mechanics for immersive gameplay.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Physics-based throwable axe with natural spin</li>
+          <li>Embeds into walls and enemies on impact</li>
+          <li>Recall mechanic via button press </li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 🔹 Modal for Project 5 -->
+<div id="project2" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project5')">&times;</span>
+    
+    <!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ispDiNu3H4s" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Tin Can Toss – VR Game</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Developed a VR carnival game where players throw balls to knock down cans, with win/lose detection and automatic game reset mechanics.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Interactive ball throwing with physics-based collisions</li>
+          <li>Rigidbody-enabled cans that react realistically</li>
+          <li>Win/lose detection with limited throws</li>
+          <li>Automatic game reset system</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 🔹 Modal for Project 6 -->
+<div id="project3" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project6')">&times;</span>
+    
+    <!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xDc444dvHvM" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Control Volume – VR Spaceship Interaction</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Built an innovative VR interaction system that lets players control a spaceship using hand movements inside a designated control volume.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Custom control volume requiring hand presence for activation</li>
+          <li>Spaceship acceleration, deceleration, and rotation mapped to hand movement</li>
+          <li>Support for tilt and roll based on hand gestures</li>
+          <li>Button-press activation for immersive control</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 
