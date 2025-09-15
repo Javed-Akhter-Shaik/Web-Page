@@ -987,6 +987,57 @@ footer img:hover {
   XR Bootcamp Projects (Sole Developer)
 </h2>
 
+
+<h2 style="text-align:center; color:#00ffcc; margin-top:60px; margin-bottom:20px;">
+  XR Bootcamp Projects (Sole Developer)
+</h2>
+
+<div class="portfolio-grid">
+
+  <!-- Example Project 1 -->
+  <div class="project-card" onclick="openModal('project1')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project1.png" alt="Project 1" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Project 1 Title</h3>
+    <p>Short description of project 1.</p>
+  </div>
+
+  <!-- Example Project 2 -->
+  <div class="project-card" onclick="openModal('project2')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project2.png" alt="Project 2" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Project 2 Title</h3>
+    <p>Short description of project 2.</p>
+  </div>
+
+  <!-- Example Project 3 -->
+  <div class="project-card" onclick="openModal('project3')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project3.png" alt="Project 3" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Project 3 Title</h3>
+    <p>Short description of project 3.</p>
+  </div>
+
+  <!-- Add more projects as needed -->
+
+</div> <!-- END of .portfolio-grid -->
+
+
+
+
+
 <!-- About Section -->
 <section id="about" class="about-section">
   <h2>About</h2>
