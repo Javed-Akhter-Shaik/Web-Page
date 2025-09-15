@@ -354,7 +354,7 @@ footer img:hover {
 <p class="tagline">XR Developer – VR Prototyper </p>
 
 
-<h2 style="text-align:center; color:#00ffcc; margin-top:70px; margin-bottom:20px;">
+<h2 style="text-align:center; color:#00ffcc; margin-top:50px; margin-bottom:20px;">
   Master's Project (IIT Madras, Ongoing*)
 </h2>
 
@@ -423,7 +423,7 @@ footer img:hover {
   </div>
 </div>
 
-<h2 style="text-align:center; color:#00ffcc; margin-top:90px; margin-bottom:20px;">
+<h2 style="text-align:center; color:#00ffcc; margin-top:70px; margin-bottom:20px;">
   XR Bootcamp MVP (Group Project)
 </h2>
 
@@ -983,7 +983,9 @@ footer img:hover {
 </div> <!-- END of .portfolio-grid -->
 
 
-
+<h2 style="text-align:center; color:#00ffcc; margin-top:60px; margin-bottom:20px;">
+  XR Bootcamp Projects (Sole Developer)
+</h2>
 
 <!-- About Section -->
 <section id="about" class="about-section">
