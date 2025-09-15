@@ -1103,10 +1103,6 @@ footer img:hover {
 
   <!-- Add more projects as needed -->
 
-</div> <!-- END of .portfolio-grid -->
-
-
-
 
 
 <!-- About Section -->
@@ -1136,14 +1132,6 @@ footer img:hover {
     <span class="skill">Problem solving</span>
     <span class="skill">Analytical mind</span>
   </div>
-</section>
-
-
-<!-- Contact Section -->
-<section id="contact" class="contact-section">
-  <h2>Contact</h2>
-  <p>Feel free to reach out, I’d love to connect with you!</p>
-  <p><b>Based in:</b> Chennai, India</p>
 </section>
 
 
