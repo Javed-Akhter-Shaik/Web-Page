@@ -1010,7 +1010,7 @@ footer img:hover {
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Project 2 Title</h3>
+    <h3>Tin Can Toss – VR Game</h3>
     <p>Short description of project 2.</p>
   </div>
 
@@ -1022,7 +1022,7 @@ footer img:hover {
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Project 3 Title</h3>
+    <h3>Control Volume – VR Spaceship Interaction</h3>
     <p>Short description of project 3.</p>
   </div>
 
@@ -1113,15 +1113,17 @@ footer img:hover {
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('project3')">&times;</span>
     
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+    <!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xDc444dvHvM" frameborder="0" allowfullscreen></iframe>
+
     <!-- Title -->
-    <h3 class="modal-title">Project 3 Title</h3>
+    <h3 class="modal-title">Control Volume – VR Spaceship Interaction</h3>
 
     <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Project 1.</p>
+        <p>Built an innovative VR interaction system that lets players control a spaceship using hand movements inside a designated control volume.</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1130,9 +1132,10 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Feature A</li>
-          <li>Feature B</li>
-          <li>Feature C</li>
+          <li>Custom control volume requiring hand presence for activation</li>
+          <li>Spaceship acceleration, deceleration, and rotation mapped to hand movement</li>
+          <li>Support for tilt and roll based on hand gestures</li>
+          <li>Button-press activation for immersive control</li>
         </ul>
       </div>
       <div class="modal-section">
@@ -1142,6 +1145,7 @@ footer img:hover {
     </div>
   </div>
 </div>
+
 
 
   <!-- Add more projects as needed -->
