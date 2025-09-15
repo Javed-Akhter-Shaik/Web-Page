@@ -439,6 +439,9 @@ footer img:hover {
 </div>
 
 
+<h2 style="text-align:center; color:#00ffcc; margin-top:40px; margin-bottom:20px;">
+  XR Bootcamp Prototypes (Sole Developer)
+</h2>
 
 <div class="portfolio-grid">
 
