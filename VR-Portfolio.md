@@ -1074,10 +1074,30 @@ footer img:hover {
     
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
     <h3 class="modal-title">Project 2 Title</h3>
+    <!-- Title -->
+    <h3 class="modal-title">Project 2 Title</h3>
+
+    <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Project 2.</p>
+        <p>Detailed description of Project 1.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Feature A</li>
+          <li>Feature B</li>
+          <li>Feature C</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
       </div>
     </div>
   </div>
@@ -1090,11 +1110,30 @@ footer img:hover {
     <span class="close-btn" onclick="closeModal('project3')">&times;</span>
     
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+    <!-- Title -->
     <h3 class="modal-title">Project 3 Title</h3>
+
+    <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Project 3.</p>
+        <p>Detailed description of Project 1.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Feature A</li>
+          <li>Feature B</li>
+          <li>Feature C</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
       </div>
     </div>
   </div>
