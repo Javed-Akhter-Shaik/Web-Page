@@ -998,7 +998,7 @@ footer img:hover {
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Project 1 Title</h3>
+    <h3>StormBreaker (Thor’s Axe Replica)</h3>
     <p>Short description of project 1.</p>
   </div>
 
@@ -1073,16 +1073,17 @@ footer img:hover {
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('project2')">&times;</span>
     
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
-    
+    <!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ispDiNu3H4s" frameborder="0" allowfullscreen></iframe>
+
     <!-- Title -->
-    <h3 class="modal-title">Project 2 Title</h3>
+    <h3 class="modal-title">Tin Can Toss – VR Game</h3>
 
     <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Project 1.</p>
+        <p>Developed a VR carnival game where players throw balls to knock down cans, with win/lose detection and automatic game reset mechanics.</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1091,18 +1092,20 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Feature A</li>
-          <li>Feature B</li>
-          <li>Feature C</li>
+          <li>Interactive ball throwing with physics-based collisions</li>
+          <li>Rigidbody-enabled cans that react realistically</li>
+          <li>Win/lose detection with limited throws</li>
+          <li>Automatic game reset system</li>
         </ul>
       </div>
       <div class="modal-section">
         <h4>Tech Stack</h4>
-        <p>Unity, C#, Meta XR Toolkit</p>
+        <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
       </div>
     </div>
   </div>
 </div>
+
 
 
 <!-- 🔹 Modal for Project 3 -->
