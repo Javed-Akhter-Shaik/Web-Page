@@ -1183,7 +1183,7 @@ footer img:hover {
 
 
 <!-- 🔹 Modal for Project 4 -->
-<div id="project1" class="modal">
+<div id="project4" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('project4')">&times;</span>
     
@@ -1222,7 +1222,7 @@ footer img:hover {
 
 
 <!-- 🔹 Modal for Project 5 -->
-<div id="project2" class="modal">
+<div id="project5" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('project5')">&times;</span>
     
@@ -1262,7 +1262,7 @@ footer img:hover {
 
 
 <!-- 🔹 Modal for Project 6 -->
-<div id="project3" class="modal">
+<div id="project6" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('project6')">&times;</span>
     
