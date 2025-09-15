@@ -417,6 +417,10 @@ footer img:hover {
   </div>
 </div>
 
+<h2 style="text-align:center; color:#00ffcc; margin-top:90px; margin-bottom:20px;">
+  XR Bootcamp MVP (Group Project)
+</h2>
+
 
 <!-- Gorilla Featured Project -->
 <div class="project-card" onclick="openModal('gorilla')" 
@@ -439,9 +443,10 @@ footer img:hover {
 </div>
 
 
-<h2 style="text-align:center; color:#00ffcc; margin-top:40px; margin-bottom:20px;">
+<h2 style="text-align:center; color:#00ffcc; margin-top:90px; margin-bottom:20px;">
   XR Bootcamp Prototypes (Sole Developer)
 </h2>
+
 
 <div class="portfolio-grid">
 
