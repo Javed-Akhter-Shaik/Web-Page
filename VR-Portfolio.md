@@ -354,6 +354,12 @@ footer img:hover {
 <p class="tagline">XR Developer – VR Prototyper </p>
 
 
+<h2 style="text-align:center; color:#00ffcc; margin-top:70px; margin-bottom:20px;">
+  IIT Madras Master's Project (Ongoing*)
+</h2>
+
+
+
 <!-- New Featured Project -->
 <div class="project-card" onclick="openModal('newproject')" 
      style="max-width:1100px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
