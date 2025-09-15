@@ -983,18 +983,14 @@ footer img:hover {
 </div> <!-- END of .portfolio-grid -->
 
 
-<h2 style="text-align:center; color:#00ffcc; margin-top:60px; margin-bottom:20px;">
-  XR Bootcamp Projects (Sole Developer)
-</h2>
-
-
+<!-- New Grid Section -->
 <h2 style="text-align:center; color:#00ffcc; margin-top:60px; margin-bottom:20px;">
   XR Bootcamp Projects (Sole Developer)
 </h2>
 
 <div class="portfolio-grid">
 
-  <!-- Example Project 1 -->
+  <!-- Project 1 -->
   <div class="project-card" onclick="openModal('project1')">
     <div class="project-image-container">
       <img src="/Web-Page/assets/images/project1.png" alt="Project 1" class="project-image">
@@ -1006,7 +1002,7 @@ footer img:hover {
     <p>Short description of project 1.</p>
   </div>
 
-  <!-- Example Project 2 -->
+  <!-- Project 2 -->
   <div class="project-card" onclick="openModal('project2')">
     <div class="project-image-container">
       <img src="/Web-Page/assets/images/project2.png" alt="Project 2" class="project-image">
@@ -1018,7 +1014,7 @@ footer img:hover {
     <p>Short description of project 2.</p>
   </div>
 
-  <!-- Example Project 3 -->
+  <!-- Project 3 -->
   <div class="project-card" onclick="openModal('project3')">
     <div class="project-image-container">
       <img src="/Web-Page/assets/images/project3.png" alt="Project 3" class="project-image">
@@ -1029,6 +1025,81 @@ footer img:hover {
     <h3>Project 3 Title</h3>
     <p>Short description of project 3.</p>
   </div>
+
+</div> <!-- END of portfolio-grid -->
+
+
+<!-- 🔹 Modal for Project 1 -->
+<div id="project1" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project1')">&times;</span>
+    
+    <!-- Video -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Project 1 Title</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Detailed description of Project 1.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Feature A</li>
+          <li>Feature B</li>
+          <li>Feature C</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🔹 Modal for Project 2 -->
+<div id="project2" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project2')">&times;</span>
+    
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+    <h3 class="modal-title">Project 2 Title</h3>
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Detailed description of Project 2.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🔹 Modal for Project 3 -->
+<div id="project3" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project3')">&times;</span>
+    
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+    <h3 class="modal-title">Project 3 Title</h3>
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Detailed description of Project 3.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <!-- Add more projects as needed -->
 
