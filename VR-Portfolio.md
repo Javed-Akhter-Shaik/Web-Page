@@ -1073,7 +1073,7 @@ footer img:hover {
     <span class="close-btn" onclick="closeModal('project2')">&times;</span>
     
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
-    <h3 class="modal-title">Project 2 Title</h3>
+    
     <!-- Title -->
     <h3 class="modal-title">Project 2 Title</h3>
 
