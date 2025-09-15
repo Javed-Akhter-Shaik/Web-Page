@@ -355,7 +355,7 @@ footer img:hover {
 
 
 <h2 style="text-align:center; color:#00ffcc; margin-top:70px; margin-bottom:20px;">
-  IIT Madras Master's Project (Ongoing*)
+  Master's Project (IIT Madras, Ongoing*)
 </h2>
 
 
