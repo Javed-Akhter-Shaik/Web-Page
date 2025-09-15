@@ -1035,16 +1035,16 @@ footer img:hover {
     <span class="close-btn" onclick="closeModal('project1')">&times;</span>
     
     <!-- Video -->
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cpDL4y6sBUE" frameborder="0" allowfullscreen></iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Project 1 Title</h3>
+    <h3 class="modal-title">StormBreaker (Thor’s Axe Replica)</h3>
 
     <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Project 1.</p>
+        <p>Built a VR throwing axe inspired by Thor’s StormBreaker, featuring natural spin, realistic embedding, and recall-to-hand mechanics for immersive gameplay.</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1053,18 +1053,19 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Feature A</li>
-          <li>Feature B</li>
-          <li>Feature C</li>
+          <li>Physics-based throwable axe with natural spin</li>
+          <li>Embeds into walls and enemies on impact</li>
+          <li>Recall mechanic via button press </li>
         </ul>
       </div>
       <div class="modal-section">
         <h4>Tech Stack</h4>
-        <p>Unity, C#, Meta XR Toolkit</p>
+        <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
       </div>
     </div>
   </div>
 </div>
+
 
 
 <!-- 🔹 Modal for Project 2 -->
