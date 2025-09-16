@@ -1601,36 +1601,59 @@ footer img:hover {
 
 
 
-<!-- Project Title -->
-    <h3 style="color:#00ffcc; text-align:center; margin-top:15px;">
-      Tic Tac Toe AI – PC Game
-    </h3>
+<!-- Modal for Tic Tac Toe AI -->
+<div id="tictactoe" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('tictactoe')">&times;</span>
+    
+    <!-- YouTube Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
 
-    <!-- About Section -->
-    <h4 style="color:#00ffcc;">About</h4>
-    <p style="text-align:justify;">
-      Developed a 3D Tic Tac Toe game in Unity with an AI opponent that adapts to player moves. The AI was designed to prioritize winning moves or actively block the player from winning instantly
-    </p>
+    <!-- Title -->
+    <h3 class="modal-title">Tic Tac Toe AI – Unity Strategy Game</h3>
 
-    <!-- Role Section -->
-    <h4 style="color:#00ffcc;">Role</h4>
-    <p>Sole Developer</p>
+    <!-- Content Section -->
+    <div class="modal-details">
+      
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>
+          Developed a 3D Tic Tac Toe game in Unity with an AI opponent that adapts to player moves. The AI was designed to prioritize winning moves or actively block the player from winning instantly</p>
+      </div>
 
-    <!-- Core Mechanics / Highlights -->
-    <h4 style="color:#00ffcc;">Core Mechanics / Highlights</h4>
-    <ul style="list-style-type:disc; margin-left:20px;">
-      <li>Implemented turn-based gameplay between AI and player</li>
-      <li>Custom AI logic to predict/block moves without Min-Max algorithm</li>
-      <li>Real-time win, lose, or tie condition checks</li>
-      <li>Color-coded visuals: <span style="color:red;">X</span> in red, <span style="color:skyblue;">O</span> in blue, <span style="color:yellow;">grid</span> in yellow</li>
-      <li>Interactive gameplay</li>
-    </ul>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
 
-    <!-- Tech Stack -->
-    <h4 style="color:#00ffcc;">Tech Stack</h4>
-    <p>Unity, C#, Game AI Logic</p>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Implemented turn-based system between AI and player</li>
+          <li>AI logic to predict and block moves without Min-Max algorithm</li>
+          <li>Real-time detection of win, lose, or tie conditions</li>
+          <li>Interactive 3D visuals with 
+              <span style="color:red;">X</span>, 
+              <span style="color:skyblue;">O</span>, 
+              and <span style="color:yellow;">grid</span> highlights</li>
+          <li>Integrated Unity colliders for piece placement validation</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Game AI Logic</p>
+      </div>
+
+    </div>
   </div>
 </div>
+
 
 
 
