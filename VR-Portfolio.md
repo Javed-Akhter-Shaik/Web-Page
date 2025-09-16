@@ -1272,22 +1272,25 @@ footer img:hover {
 
 
 
-<!-- 🔹 Modal for Project 6 -->
-<div id="project6" class="modal">
+<!-- 🔹 Modal for Project - Catching Fire -->
+<div id="projectFire" class="modal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModal('project6')">&times;</span>
     
     <!-- Video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/xDc444dvHvM" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/O7R61cFFRUw" 
+      frameborder="0" allowfullscreen>
+    </iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Control Volume – VR Spaceship Interaction</h3>
+    <h3 class="modal-title">Catching Fire – VR Fire Interaction System</h3>
 
     <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Built an innovative VR interaction system that lets players control a spaceship using hand movements inside a designated control volume.</p>
+        <p>Designed an interactive VR fire simulation where players can ignite and extinguish objects, with fire spreading and fire mechanics for immersive gameplay.</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1296,19 +1299,20 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Custom control volume requiring hand presence for activation</li>
-          <li>Spaceship acceleration, deceleration, and rotation mapped to hand movement</li>
-          <li>Support for tilt and roll based on hand gestures</li>
-          <li>Button-press activation for immersive control</li>
+          <li>Fire source creation (torch, flame pit, flamethrower)</li>
+          <li>Objects catch fire when brought near flames</li>
+          <li>Extinguishing by immersing objects in water</li>
+          <li>Dynamic fire spread across objects</li>
         </ul>
       </div>
       <div class="modal-section">
         <h4>Tech Stack</h4>
-        <p>Unity, C#, Meta XR Toolkit</p>
+        <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
       </div>
     </div>
   </div>
 </div>
+
 
 
 
