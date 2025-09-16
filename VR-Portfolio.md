@@ -1137,7 +1137,7 @@ footer img:hover {
     </div>
   </div>
   <h3>Tic Tac Toe AI</h3>
-  <p>3D Tic Tac Toe game with adaptive AI that predicts and blocks player moves</p>
+  <p>Tic Tac Toe game which predicts and blocks player moves (Min _ Max Algorithm)</p>
 </div>
 
 
@@ -1622,7 +1622,7 @@ footer img:hover {
       <div class="modal-section">
         <h4>About</h4>
         <p>
-          Developed a 3D Tic Tac Toe game in Unity with an AI opponent that adapts to player moves. The AI was designed to prioritize winning moves or actively block the player from winning instantly</p>
+          Tic Tac Toe (PC Game) with : Easy mode (random moves) and Hard mode (strategic blocking & winning, Min_Max Algorithm).</p>
       </div>
 
       <div class="modal-section">
