@@ -1226,7 +1226,7 @@ footer img:hover {
 <!-- 🔹 Modal for Gravity Manipulation -->
 <div id="gravity" class="modal">
   <div class="modal-content">
-    <span class="close-btn" onclick="closeModal('gravity')">&times;</span>
+    <span class="close-btn" onclick="closeModal('project5')">&times;</span>
     
     <!-- Video -->
     <iframe width="560" height="315" 
