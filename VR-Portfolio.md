@@ -1057,6 +1057,39 @@ footer img:hover {
     <h3>Control</h3>
   </div>
 
+  <!-- Project 7 -->
+  <div class="project-card" onclick="openModal('project7')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project3.png" alt="Project 7" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Control</h3>
+  </div>
+
+  <!-- Project 8 -->
+  <div class="project-card" onclick="openModal('project8')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project3.png" alt="Project 8" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Control</h3>
+  </div>
+
+  <!-- Project 9 -->
+  <div class="project-card" onclick="openModal('project9')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/project3.png" alt="Project 9" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Control</h3>
+  </div>
+
 
   
 
