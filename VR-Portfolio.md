@@ -1188,16 +1188,16 @@ footer img:hover {
     <span class="close-btn" onclick="closeModal('project4')">&times;</span>
     
     <!-- Video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/cpDL4y6sBUE" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oh7enSJzgxE" frameborder="0" allowfullscreen></iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">StormBreaker (Thor’s Axe Replica)</h3>
+    <h3 class="modal-title">Safe Cracking – VR Puzzle Interaction</h3>
 
     <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Built a VR throwing axe inspired by Thor’s StormBreaker, featuring natural spin, realistic embedding, and recall-to-hand mechanics for immersive gameplay.</p>
+        <p>Developed a VR puzzle where players rotate a dial to unlock a safe by entering the correct combination, featuring realistic locking and unlocking mechanics.</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1206,18 +1206,20 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Physics-based throwable axe with natural spin</li>
-          <li>Embeds into walls and enemies on impact</li>
-          <li>Recall mechanic via button press </li>
+          <li>Interactive dial rotation with VR hand tracking</li>
+          <li>Number counting system for left/right turns</li>
+          <li>Locking and unlocking functionality</li>
+          <li>Door opening mechanism after correct code entry</li>
         </ul>
       </div>
       <div class="modal-section">
         <h4>Tech Stack</h4>
-        <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
+        <p>Unity, C#, Meta XR Toolkit</p>
       </div>
     </div>
   </div>
 </div>
+
 
 
 
