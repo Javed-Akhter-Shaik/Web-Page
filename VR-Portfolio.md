@@ -1127,9 +1127,9 @@ footer img:hover {
 
 
 <!-- Project: Tic Tac Toe AI -->
-<div class="project-card" onclick="openModal('tictactoeai')">
+<div class="project-card" onclick="openModal('tictactoe')">
   <div class="project-image-container">
-    <img src="/Web-Page/assets/images/tictactoeai.png" 
+    <img src="/Web-Page/assets/images/tictactoe.png" 
          alt="Tic Tac Toe AI Unity" 
          class="project-image">
     <div class="overlay">
