@@ -1027,7 +1027,7 @@ footer img:hover {
   <!-- Project 4 -->
   <div class="project-card" onclick="openModal('project4')">
     <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project1.png" alt="Project 4" class="project-image">
+      <img src="/Web-Page/assets/images/project1.png" alt="Safe Cracking" class="project-image">
       <div class="overlay">
         <span class="plus">+</span>
       </div>
@@ -1038,7 +1038,7 @@ footer img:hover {
   <!-- Project 5 -->
   <div class="project-card" onclick="openModal('project5')">
     <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project2.png" alt="Project 5" class="project-image">
+      <img src="/Web-Page/assets/images/project2.png" alt="Gravity Manipulation" class="project-image">
       <div class="overlay">
         <span class="plus">+</span>
       </div>
@@ -1223,36 +1223,44 @@ footer img:hover {
 
 
 
-<!-- 🔹 Modal for Project 5 -->
-<div id="project5" class="modal">
+<!-- 🔹 Modal for Gravity Manipulation -->
+<div id="gravity" class="modal">
   <div class="modal-content">
-    <span class="close-btn" onclick="closeModal('project5')">&times;</span>
+    <span class="close-btn" onclick="closeModal('gravity')">&times;</span>
     
     <!-- Video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ispDiNu3H4s" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/lJJvhNAL8-8" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Tin Can Toss – VR Game</h3>
+    <h3 class="modal-title">Gravity Manipulation – VR Physics Interaction</h3>
 
     <!-- Details -->
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Developed a VR carnival game where players throw balls to knock down cans, with win/lose detection and automatic game reset mechanics.</p>
+        <p>Developed a VR system that allows players to manipulate objects using gravity-inspired push and pull devices. Each hand controls a plunger that pushes or pulls rigidbodies in the scene, enabling intuitive object movement, suspension, and placement in 3D space.</p>
       </div>
+
       <div class="modal-section">
         <h4>Role</h4>
         <p>Sole Developer</p>
       </div>
+
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Interactive ball throwing with physics-based collisions</li>
-          <li>Rigidbody-enabled cans that react realistically</li>
-          <li>Win/lose detection with limited throws</li>
-          <li>Automatic game reset system</li>
+          <li>Dual plunger system for push/pull rigidbody manipulation</li>
+          <li>Realistic force fields to suspend or reposition objects</li>
+          <li>Physics-driven VR interactions for immersive gameplay</li>
+          <li>Dynamic control combining both hands for precision placement</li>
         </ul>
       </div>
+
       <div class="modal-section">
         <h4>Tech Stack</h4>
         <p>Unity, C#, Meta XR Toolkit, ProBuilder</p>
@@ -1260,6 +1268,7 @@ footer img:hover {
     </div>
   </div>
 </div>
+
 
 
 
