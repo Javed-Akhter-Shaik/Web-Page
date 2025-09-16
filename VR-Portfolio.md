@@ -999,6 +999,7 @@ footer img:hover {
       </div>
     </div>
     <h3>StormBreaker (Thor’s Axe Replica)</h3>
+    <p>Immersive VR throwing axe with natural spin, recall-to-hand, and impact embedding</p>
   </div>
 
   <!-- Project 2 -->
@@ -1010,6 +1011,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Tin Can Toss – VR Game</h3>
+    <p>Classic VR game challenge where players knock down cans with limited throws</p>
   </div>
 
   <!-- Project 3 -->
@@ -1021,6 +1023,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Control Volume</h3>
+    <p>Innovative VR control system using hand gestures to pilot & control a spaceship</p>
   </div>
 
 
@@ -1033,6 +1036,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Safe Cracking</h3>
+    <p>Immersive VR puzzle where players unlock a safe by rotating dials in the correct sequence</p>
   </div>
 
  <!-- Project 5 (Gravity Manipulation) -->
@@ -1044,6 +1048,7 @@ footer img:hover {
     </div>
   </div>
   <h3>Gravity Manipulation</h3>
+  <p>Interactive VR mechanic using push-pull forces to move and control objects in space</p>
 </div>
 
 <!-- Project 6 (Catching Fire) -->
@@ -1055,6 +1060,7 @@ footer img:hover {
     </div>
   </div>
   <h3>Catching Fire</h3>
+  <p>Interactive VR fire simulation with mechanics for ignition, spread, and extinguishing</p>
 </div>
 
 
@@ -1067,7 +1073,7 @@ footer img:hover {
     </div>
   </div>
   <h3>Target Hunt – VR Shooting Gallery</h3>
-  <p>Carnival-style VR shooting game with scoring system.</p>
+  <p>Carnival style VR shooting game with scoring system</p>
 </div>
 
 
@@ -1082,20 +1088,24 @@ footer img:hover {
     </div>
   </div>
   <h3>Swinging Blades – VR Obstacle Challenge</h3>
-  <p>Animated swinging blades with teleport mechanics for obstacle evasion.</p>
+  <p>Animated swinging blades with teleport mechanics for obstacle evasion</p>
 </div>
 
 
-  <!-- Project 9 -->
-  <div class="project-card" onclick="openModal('project9')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project3.png" alt="Project 9" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
+ <!-- Project 9: Debug Sandbox -->
+<div class="project-card" onclick="openModal('project-debug-sandbox')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/debugsandbox.png" 
+         alt="Debug Sandbox VR" 
+         class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
     </div>
-    <h3>Control</h3>
   </div>
+  <h3>Interactive UI Control System – VR Sandbox</h3>
+  <p>VR sandbox with dynamic UI panels for controlling lights, colors, materials, and gravity via player input.</p>
+</div>
+
 
 
   
@@ -1453,6 +1463,45 @@ footer img:hover {
 
 
 
+
+
+
+<!-- 🔹 Modal for Debug Sandbox -->
+<div id="project-debug-sandbox" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project-debug-sandbox')">&times;</span>
+    
+    <!-- Video -->
+    <iframe src="https://www.youtube.com/embed/bBvtuFpZttM" allowfullscreen></iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Debug Sandbox – Interactive UI Control System</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Designed a VR sandbox showcasing dynamic UI-driven scene manipulation. Players interact with on-screen UI panels to control lighting, colors, materials, and gravity in real time, while monitoring system performance through the Developer HUD overlay.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Interactive VR UI for live scene adjustments</li>
+          <li>Input-based control of lights, colors, materials, and gravity</li>
+          <li>Performance monitoring integrated with Developer HUD</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
