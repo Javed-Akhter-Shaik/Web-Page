@@ -1059,26 +1059,32 @@ footer img:hover {
 
 
   <!-- Project 7 -->
-  <div class="project-card" onclick="openModal('project7')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project3.png" alt="Project 7" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
+<div class="project-card" onclick="openModal('project7')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/project7.png" alt="Target Hunt VR" class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
     </div>
-    <h3>Control</h3>
   </div>
+  <h3>Target Hunt – VR Shooting Gallery</h3>
+  <p>Carnival-style VR shooting game with scoring system.</p>
+</div>
 
-  <!-- Project 8 -->
-  <div class="project-card" onclick="openModal('project8')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project3.png" alt="Project 8" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
+
+  <!-- Project 7: Swinging Blades -->
+<div class="project-card" onclick="openModal('swingingblades')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/swingingblades.png" 
+         alt="Swinging Blades VR" 
+         class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
     </div>
-    <h3>Control</h3>
   </div>
+  <h3>Swinging Blades – VR Obstacle Challenge</h3>
+  <p>Animated swinging blades with teleport mechanics for obstacle evasion.</p>
+</div>
+
 
   <!-- Project 9 -->
   <div class="project-card" onclick="openModal('project9')">
@@ -1346,6 +1352,109 @@ footer img:hover {
     </div>
   </div>
 </div>
+
+
+
+<!-- 🔹 Modal for Project - Target Hunt -->
+<div id="project7" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('project7')">&times;</span>
+    
+    <!-- Video -->
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/YHpy6BfT2BE" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Target Hunt – VR Shooting Gallery</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Developed a VR carnival-style shooting gallery where players use a virtual gun to hit moving targets, earning points based on accuracy. Includes win/lose logic, scoring system, and reset mechanics for replayability.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Physics-based shooting with grab-interactable gun</li>
+          <li>Moving target system with dynamic difficulty</li>
+          <li>Accuracy-based scoring with bonus points for center hits</li>
+          <li>Reset system for automated or manual game restart</li>
+          <li>Optional: Ammo and reloading mechanics</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- 🔹 Modal for Swinging Blades -->
+<div id="swingingblades" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('swingingblades')">&times;</span>
+    
+    <!-- Video -->
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/Zpx1sqAi3R4" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Swinging Blades – VR Obstacle Challenge</h3>
+
+    <!-- Details -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Designed an interactive VR obstacle system with animated swinging blades using sinusoidal and ping-pong motion functions. Players must time their teleportation to avoid collisions, enhancing reflex-based gameplay.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Procedural blade motion using Mathf.Sin and Mathf.PingPong</li>
+          <li>Collision detection with player for immersive danger feedback</li>
+          <li>Integrated teleportation mechanics for obstacle evasion</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 
 
 
