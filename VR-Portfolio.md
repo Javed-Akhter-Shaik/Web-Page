@@ -1126,6 +1126,27 @@ footer img:hover {
 
 
 
+<!-- Project: Tic Tac Toe AI -->
+<div class="project-card" onclick="openModal('tictactoeai')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/tictactoeai.png" 
+         alt="Tic Tac Toe AI Unity" 
+         class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+  <h3>Tic Tac Toe AI – Unity Strategy Game</h3>
+  <p>3D Tic Tac Toe game with adaptive AI that predicts and blocks player moves.</p>
+</div>
+
+
+
+
+
+
+
+
 
 
   
@@ -1578,6 +1599,34 @@ footer img:hover {
   </div>
 </div>
 
+
+
+<!-- Modal Content -->
+<div id="tictactoeai" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('tictactoeai')">&times;</span>
+    <iframe width="100%" height="400" 
+      src="https://youtube.com/shorts/YOUR-LINK-HERE" 
+      frameborder="0" allowfullscreen></iframe>
+    <h3>Tic Tac Toe AI – Unity Strategy Game</h3>
+    <h4>About</h4>
+    <p>Developed a 3D Tic Tac Toe game in Unity with an AI opponent that adapts to player moves. The AI was designed to prioritize winning moves or actively block the player from winning instantly.</p>
+    
+    <h4>Role</h4>
+    <p>Sole Developer</p>
+    
+    <h4>Core Mechanics / Highlights</h4>
+    <ul>
+      <li>Implemented turn-based system between AI and player</li>
+      <li>AI logic designed to predict and block winning conditions without Min-Max algorithm</li>
+      <li>Real-time detection of win, lose, or tie conditions</li>
+      <li>Interactive 3D visuals with Unity game objects and colliders</li>
+    </ul>
+    
+    <h4>Tech Stack</h4>
+    <p>Unity, C#, Game AI Logic</p>
+  </div>
+</div>
 
 
 
