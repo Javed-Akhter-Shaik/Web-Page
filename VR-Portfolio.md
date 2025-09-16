@@ -390,29 +390,33 @@ footer img:hover {
 
 
 <!-- Gorilla vs 100 Men Card -->
-<div class="project-card" onclick="openModal('gorilla')">
-  <div class="project-image-container">
+<div class="project-card" onclick="openModal('gorilla')" 
+     style="max-width:700px; margin:40px auto; text-align:center; background:#1e1e2f; border-radius:12px; padding:20px;">
+  
+  <div class="project-image-container" style="height:300px; overflow:hidden; border-radius:12px;">
     <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" 
          alt="Gorilla vs 100 Men" 
-         class="project-image">
+         class="project-image" 
+         style="width:100%; height:100%; object-fit:cover;">
     <div class="overlay">
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Gorilla vs 100 Men</h3>
-  <p>VR action game with physics-based combat</p>
 
-   <!-- Meta Quest Store Link -->
-        <p style="font-size:16px; color:#aaa;">
-          Available on the 
-          <a href="https://www.meta.com/en-gb/experiences/gorilla-vs-100-men/24276974678594511/?srsltid=AfmBOorfnJD0bvAsiGc8EKombxHR-IVQNXNzJvxzq1oICIcrHH60nrZo" 
-             target="_blank" 
-             style="color:#00ffcc; text-decoration:none;">
-             Meta Quest Store
-          </a>
-        </p>
-      </div>
+  <h3 style="margin-top:15px; color:#00ffcc;">Gorilla vs 100 Men</h3>
+  <p style="font-size:18px; color:#ddd;">VR action game with physics-based combat</p>
+
+  <!-- Meta Quest Store Link -->
+  <p style="font-size:16px; color:#aaa;">
+    Available on the 
+    <a href="https://www.meta.com/en-gb/experiences/gorilla-vs-100-men/24276974678594511/" 
+       target="_blank" 
+       style="color:#00ffcc; text-decoration:none;">
+       Meta Quest Store
+    </a>
+  </p>
 </div>
+
 
 <!-- Gorilla vs 100 Men -->
 <div id="gorilla" class="modal">
