@@ -1035,27 +1035,28 @@ footer img:hover {
     <h3>Storm</h3>
   </div>
 
-  <!-- Project 5 -->
-  <div class="project-card" onclick="openModal('project5')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project2.png" alt="Gravity Manipulation" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
+ <!-- Project 5 (Gravity Manipulation) -->
+<div class="project-card" onclick="openModal('gravity')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/project2.png" alt="Gravity Manipulation" class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
     </div>
-    <h3>Tin</h3>
   </div>
+  <h3>Gravity Manipulation – VR Physics Interaction</h3>
+</div>
 
-  <!-- Project 6 -->
-  <div class="project-card" onclick="openModal('project6')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project3.png" alt="Project 6" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
+<!-- Project 6 (Catching Fire) -->
+<div class="project-card" onclick="openModal('projectFire')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/project3.png" alt="Catching Fire" class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
     </div>
-    <h3>Control</h3>
   </div>
+  <h3>Catching Fire – VR Fire Interaction</h3>
+</div>
+
 
   <!-- Project 7 -->
   <div class="project-card" onclick="openModal('project7')">
