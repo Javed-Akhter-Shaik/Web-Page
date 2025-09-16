@@ -387,6 +387,22 @@ footer img:hover {
 
 
 
+
+
+<!-- Gorilla vs 100 Men Card -->
+<div class="project-card" onclick="openModal('gorilla')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/gorilla_vs_100men.jpg" 
+         alt="Gorilla vs 100 Men" 
+         class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+  <h3>Gorilla vs 100 Men</h3>
+  <p>VR action game with physics-based combat</p>
+</div>
+
 <!-- Gorilla vs 100 Men -->
 <div id="gorilla" class="modal">
   <div class="modal-content">
