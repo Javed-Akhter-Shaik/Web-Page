@@ -401,6 +401,17 @@ footer img:hover {
   </div>
   <h3>Gorilla vs 100 Men</h3>
   <p>VR action game with physics-based combat</p>
+
+   <!-- Meta Quest Store Link -->
+        <p style="font-size:16px; color:#aaa;">
+          Available on the 
+          <a href="https://www.meta.com/en-gb/experiences/gorilla-vs-100-men/24276974678594511/?srsltid=AfmBOorfnJD0bvAsiGc8EKombxHR-IVQNXNzJvxzq1oICIcrHH60nrZo" 
+             target="_blank" 
+             style="color:#00ffcc; text-decoration:none;">
+             Meta Quest Store
+          </a>
+        </p>
+      </div>
 </div>
 
 <!-- Gorilla vs 100 Men -->
