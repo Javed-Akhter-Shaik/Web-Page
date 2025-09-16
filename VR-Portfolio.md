@@ -404,50 +404,52 @@ footer img:hover {
     <h3 class="modal-title">Gorilla vs 100 Men</h3>
 
     <!-- Content Section -->
-<div class="modal-details">
-  <div class="modal-section">
-    <h4>About</h4>
-    <p>Gorilla vs 100 Men is a VR action game where the player controls a gorilla facing off against waves of human enemies in a dynamic forest environment. The game features physics-based hand interactions for attacking, grabbing, and throwing enemies, using VR controllers for full immersion.</p>
-    
-    <!-- Meta Quest Store Link -->
-    <p style="font-size:16px; color:#aaa;">
-      Available on the 
-      <a href="https://www.meta.com/en-gb/experiences/gorilla-vs-100-men/24276974678594511/?srsltid=AfmBOorfnJD0bvAsiGc8EKombxHR-IVQNXNzJvxzq1oICIcrHH60nrZo" 
-         target="_blank" 
-         style="color:#00ffcc; text-decoration:none;">
-         Meta Quest Store
-      </a>
-    </p>
-  </div>
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Gorilla vs 100 Men is a VR action game where the player controls a gorilla facing off against waves of human enemies in a dynamic forest environment. The game features physics-based hand interactions for attacking, grabbing, and throwing enemies, using VR controllers for full immersion.</p>
+        
+        <!-- Meta Quest Store Link -->
+        <p style="font-size:16px; color:#aaa;">
+          Available on the 
+          <a href="https://www.meta.com/en-gb/experiences/gorilla-vs-100-men/24276974678594511/?srsltid=AfmBOorfnJD0bvAsiGc8EKombxHR-IVQNXNzJvxzq1oICIcrHH60nrZo" 
+             target="_blank" 
+             style="color:#00ffcc; text-decoration:none;">
+             Meta Quest Store
+          </a>
+        </p>
+      </div>
 
-  <div class="modal-section">
-    <h4>Role</h4>
-    <p>Handled Animations, Enemy and player collision detection and health management Scripts (Group project of 5 members)</p>
-  </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Handled Animations, Enemy and player collision detection and health management Scripts (Group project of 5 members)</p>
+      </div>
 
-  <div class="modal-section">
-    <h4>Core Mechanics / Highlights</h4>
-    <ul>
-      <li>Enemy death animation</li>
-      <li>Final IK & Puppet Master integration</li>
-      <li>Low poly optimized environment</li>
-    </ul>
-    <p>Prototype built within 2 weeks</p>
-  </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Enemy death animation</li>
+          <li>Final IK & Puppet Master integration</li>
+          <li>Low poly optimized environment</li>
+        </ul>
+        <p>Prototype built within 2 weeks</p>
+      </div>
 
-  <div class="modal-section">
-    <h4>Tech Stack</h4>
-    <p>Unity, Meta All-in-One SDK, Meta XR Interaction Toolkit, Maximo, Puppet Master</p>
-  </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, Meta All-in-One SDK, Meta XR Interaction Toolkit, Maximo, Puppet Master</p>
+      </div>
 
-  <!-- New Section: Team Members -->
-  <div class="modal-section">
-    <h4>Team Members</h4>
-    <p>Javed, Richard, Amir, Vijay, Michael, Julian</p>
-  </div>
-</div>
-</div>
-</div>
+      <!-- New Section: Team Members -->
+      <div class="modal-section">
+        <h4>Team Members</h4>
+        <p>Javed, Richard, Amir, Vijay, Michael, Julian</p>
+      </div>
+    </div> <!-- end of modal-details -->
+  </div> <!-- end of modal-content -->
+</div> <!-- end of gorilla modal -->
+
+
 
 
 
