@@ -1110,6 +1110,23 @@ footer img:hover {
 </div>
 
 
+<!-- Project: Flash Step -->
+<div class="project-card" onclick="openModal('flashstep')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/flashstep.png" 
+         alt="Flash Step VR" 
+         class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+  <h3>Flash Step – VR Teleportation Transition System</h3>
+  <p>Smooth teleportation with vignette effect for immersive VR locomotion.</p>
+</div>
+
+
+
+
 
   
 
@@ -1506,6 +1523,60 @@ footer img:hover {
   </div>
 </div>
 
+
+
+
+<!-- Modal for Flash Step -->
+<div id="flashstep" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('flashstep')">&times;</span>
+    
+    <!-- YouTube Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/Qla4y3ET1BU" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Flash Step – VR Teleportation Transition System</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>
+          Enhanced the VR teleportation system by introducing smooth translation 
+          between teleportation points instead of instant warping. Added a vignette 
+          visual effect during transitions to improve player comfort and reduce motion sickness.
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Smooth interpolation between teleportation points</li>
+          <li>Vignette transition effect to minimize motion discomfort</li>
+          <li>Improved immersion compared to instant teleportation</li>
+          <li>Fully integrated with existing VR locomotion system</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 
