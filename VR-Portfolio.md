@@ -468,7 +468,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Interactive Gear Box Assembly</h3>
-    <p>Step-by-step immersive VR guide for gearbox assembly.</p>
+    <p>Step-by-step immersive VR guide for gearbox assembly</p>
   </div>
 
   <!-- Inspection -->
@@ -480,7 +480,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Real Time Inspection of Mechanical Components in VR</h3>
-    <p>Compare master and target models in real-time.</p>
+    <p>Compare master and target models in real-time</p>
   </div>
 
   <!-- Measurement -->
@@ -492,7 +492,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Real-time Measurement</h3>
-    <p>Interact with components and measure dynamically.</p>
+    <p>Interact with components and measure dynamically</p>
   </div>
 
   <!-- NPC -->
@@ -504,7 +504,7 @@ footer img:hover {
       </div>
     </div>
     <h3>Smart NPC in VR</h3>
-    <p>Voice-driven dialogue with intelligent virtual characters.</p>
+    <p>Voice-driven dialogue with intelligent virtual characters</p>
   </div>
 
   <!-- VR Table Tennis -->
@@ -516,7 +516,7 @@ footer img:hover {
       </div>
     </div>
     <h3>VR Table Tennis</h3>
-    <p>Physics-accurate immersive VR table tennis experience.</p>
+    <p>Physics-accurate immersive VR table tennis experience</p>
   </div>
 
 
@@ -529,7 +529,7 @@ footer img:hover {
     </div>
   </div>
   <h3>VR Gun Game</h3>
-  <p>Interactive VR shooting range with modular gun system.</p>
+  <p>Interactive VR shooting range with modular gun system</p>
 </div>
 
 
@@ -1013,7 +1013,7 @@ footer img:hover {
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Tin Can Toss – VR Game</h3>
+    <h3>Tin Can Toss</h3>
     <p>Classic VR game challenge where players knock down cans with limited throws</p>
   </div>
 
@@ -1075,7 +1075,7 @@ footer img:hover {
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Target Hunt – VR Shooting Gallery</h3>
+  <h3>Target Hunt</h3>
   <p>Carnival style VR shooting game with scoring system</p>
 </div>
 
@@ -1090,7 +1090,7 @@ footer img:hover {
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Swinging Blades – VR Obstacle Challenge</h3>
+  <h3>Swinging Blades</h3>
   <p>Animated swinging blades with teleport mechanics for obstacle evasion</p>
 </div>
 
@@ -1105,7 +1105,7 @@ footer img:hover {
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Interactive UI Control System – VR Sandbox</h3>
+  <h3>Interactive UI Control System</h3>
   <p>VR sandbox with dynamic UI panels for controlling lights, colors, materials, and gravity via player input</p>
 </div>
 
@@ -1120,7 +1120,7 @@ footer img:hover {
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Flash Step – VR Teleportation Transition System</h3>
+  <h3>Teleportation Transition System</h3>
   <p>Smooth teleportation with vignette effect for immersive VR locomotion</p>
 </div>
 
@@ -1169,7 +1169,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Built a VR throwing axe inspired by Thor’s StormBreaker, featuring natural spin, realistic embedding, and recall-to-hand mechanics for immersive gameplay.</p>
+        <p>Built a VR throwing axe inspired by Thor’s StormBreaker, featuring natural spin, realistic embedding, and recall-to-hand mechanics for immersive gameplay</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1208,7 +1208,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Developed a VR carnival game where players throw balls to knock down cans, with win/lose detection and automatic game reset mechanics.</p>
+        <p>Developed a VR carnival game where players throw balls to knock down cans, with win/lose detection and automatic game reset mechanics</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1248,7 +1248,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Built an innovative VR interaction system that lets players control a spaceship using hand movements inside a designated control volume.</p>
+        <p>Built an innovative VR interaction system that lets players control a spaceship using hand movements inside a designated control volume</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1288,7 +1288,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Developed a VR puzzle where players rotate a dial to unlock a safe by entering the correct combination, featuring realistic locking and unlocking mechanics.</p>
+        <p>Developed a VR puzzle where players rotate a dial to unlock a safe by entering the correct combination, featuring realistic locking and unlocking mechanics</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1334,7 +1334,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Developed a VR system that allows players to manipulate objects using gravity-inspired push and pull devices. Each hand controls a plunger that pushes or pulls rigidbodies in the scene, enabling intuitive object movement, suspension, and placement in 3D space.</p>
+        <p>Developed a VR system that allows players to manipulate objects using gravity-inspired push and pull devices. Each hand controls a plunger that pushes or pulls rigidbodies in the scene, enabling intuitive object movement and placement in 3D space</p>
       </div>
 
       <div class="modal-section">
@@ -1381,7 +1381,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Designed an interactive VR fire simulation where players can ignite and extinguish objects, with fire spreading and fire mechanics for immersive gameplay.</p>
+        <p>Designed an interactive VR fire simulation where players can ignite and extinguish objects, with fire spreading and fire mechanics for immersive gameplay</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1426,7 +1426,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Developed a VR carnival-style shooting gallery where players use a virtual gun to hit moving targets, earning points based on accuracy. Includes win/lose logic, scoring system, and reset mechanics for replayability.</p>
+        <p>Developed a VR carnival-style shooting gallery where players use a virtual gun to hit moving targets, earning points based on accuracy. Includes win/lose logic, scoring system, and reset mechanics for replayability</p>
       </div>
 
       <div class="modal-section">
@@ -1441,7 +1441,6 @@ footer img:hover {
           <li>Moving target system with dynamic difficulty</li>
           <li>Accuracy-based scoring with bonus points for center hits</li>
           <li>Reset system for automated or manual game restart</li>
-          <li>Optional: Ammo and reloading mechanics</li>
         </ul>
       </div>
 
@@ -1477,7 +1476,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Designed an interactive VR obstacle system with animated swinging blades using sinusoidal and ping-pong motion functions. Players must time their teleportation to avoid collisions, enhancing reflex-based gameplay.</p>
+        <p>Designed an interactive VR obstacle system with animated swinging blades using ping-pong motion functions. Players must time their teleportation to avoid collisions, enhancing reflex-based gameplay</p>
       </div>
 
       <div class="modal-section">
@@ -1488,7 +1487,7 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Procedural blade motion using Mathf.Sin and Mathf.PingPong</li>
+          <li>Procedural blade motion using Mathf.PingPong</li>
           <li>Collision detection with player for immersive danger feedback</li>
           <li>Integrated teleportation mechanics for obstacle evasion</li>
         </ul>
@@ -1522,7 +1521,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Designed a VR sandbox showcasing dynamic UI-driven scene manipulation. Players interact with on-screen UI panels to control lighting, colors, materials, and gravity in real time, while monitoring system performance through the Developer HUD overlay.</p>
+        <p>Designed a VR sandbox showcasing dynamic UI-driven scene manipulation. Players interact with on-screen UI panels to control lighting, colors, materials, and gravity in real time</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1533,7 +1532,7 @@ footer img:hover {
         <ul>
           <li>Interactive VR UI for live scene adjustments</li>
           <li>Input-based control of lights, colors, materials, and gravity</li>
-          <li>Performance monitoring integrated with Developer HUD</li>
+          <li></li>
         </ul>
       </div>
       <div class="modal-section">
@@ -1571,7 +1570,7 @@ footer img:hover {
         <p>
           Enhanced the VR teleportation system by introducing smooth translation 
           between teleportation points instead of instant warping. Added a vignette 
-          visual effect during transitions to improve player comfort and reduce motion sickness.
+          visual effect during transitions to improve player comfort and reduce motion sickness
         </p>
       </div>
 
