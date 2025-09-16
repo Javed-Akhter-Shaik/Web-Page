@@ -447,7 +447,7 @@ footer img:hover {
   </div>
 </div>
 </div>
-
+</div>
 
 
 
