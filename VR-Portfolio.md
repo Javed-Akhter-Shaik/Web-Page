@@ -9,7 +9,9 @@ permalink: /vr-portfolio/
 <style>
   body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #101820, #1b2735);
+/*     background: linear-gradient(to bottom, #101820, #1b2735); */
+    background: linear-gradient(to bottom, #0d1117, #1b2735);
+
     color: #f2f2f2;
     margin: 0;
     padding: 0;
