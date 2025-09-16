@@ -1020,7 +1020,7 @@ footer img:hover {
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Control Volume – VR Spaceship Interaction</h3>
+    <h3>Control Volume</h3>
   </div>
 
 
@@ -1032,7 +1032,7 @@ footer img:hover {
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Storm</h3>
+    <h3>Safe Cracking</h3>
   </div>
 
  <!-- Project 5 (Gravity Manipulation) -->
@@ -1043,7 +1043,7 @@ footer img:hover {
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Gravity Manipulation – VR Physics Interaction</h3>
+  <h3>Gravity Manipulation</h3>
 </div>
 
 <!-- Project 6 (Catching Fire) -->
@@ -1054,7 +1054,7 @@ footer img:hover {
       <span class="plus">+</span>
     </div>
   </div>
-  <h3>Catching Fire – VR Fire Interaction</h3>
+  <h3>Catching Fire</h3>
 </div>
 
 
@@ -1346,6 +1346,9 @@ footer img:hover {
     </div>
   </div>
 </div>
+
+
+
 
 
 
