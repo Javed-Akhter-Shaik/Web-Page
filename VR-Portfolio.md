@@ -79,11 +79,24 @@ permalink: /vr-portfolio/
     text-align: left;
     color: #eee;
   }
-  .modal iframe, .modal img {
+/*   .modal iframe, .modal img {
     width: 100%;
     height: 400px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
+
+  .modal iframe {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9; /* keeps proper proportions */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+  
   }
   .close-btn {
     position: absolute;
