@@ -503,17 +503,23 @@ footer img:hover {
     <p>Step-by-step immersive VR guide for gearbox assembly</p>
   </div>
 
-  <!-- Inspection -->
-  <div class="project-card" onclick="openModal('inspection')">
+
+
+<!-- NPC -->
+  <div class="project-card" onclick="openModal('npc')">
     <div class="project-image-container">
-      <img src="/Web-Page/assets/images/inspection.png" alt="Inspection VR" class="project-image">
+      <img src="/Web-Page/assets/images/npc.png" alt="NPC VR" class="project-image">
       <div class="overlay">
         <span class="plus">+</span>
       </div>
     </div>
-    <h3>Real Time Inspection of Mechanical Components in VR</h3>
-    <p>Compare master and target models in real-time</p>
+    <h3>Smart NPC in VR</h3>
+    <p>Voice-driven dialogue with intelligent virtual characters</p>
   </div>
+
+
+  
+ 
 
   <!-- Measurement -->
   <div class="project-card" onclick="openModal('measurement')">
@@ -527,18 +533,9 @@ footer img:hover {
     <p>Interact with components and measure dynamically</p>
   </div>
 
-  <!-- NPC -->
-  <div class="project-card" onclick="openModal('npc')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/npc.png" alt="NPC VR" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
-    </div>
-    <h3>Smart NPC in VR</h3>
-    <p>Voice-driven dialogue with intelligent virtual characters</p>
-  </div>
 
+
+ 
   <!-- VR Table Tennis -->
   <div class="project-card" onclick="openModal('tabletennis')">
     <div class="project-image-container">
@@ -550,6 +547,24 @@ footer img:hover {
     <h3>VR Table Tennis</h3>
     <p>Physics-accurate immersive VR table tennis experience</p>
   </div>
+
+
+
+  
+ <!-- Inspection -->
+  <div class="project-card" onclick="openModal('inspection')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/inspection.png" alt="Inspection VR" class="project-image">
+      <div class="overlay">
+        <span class="plus">+</span>
+      </div>
+    </div>
+    <h3>Real Time Inspection of Mechanical Components in VR</h3>
+    <p>Compare master and target models in real-time</p>
+  </div>
+
+
+ 
 
 
   <!-- VR Gun Game -->
