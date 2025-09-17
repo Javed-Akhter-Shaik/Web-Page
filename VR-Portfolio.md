@@ -212,15 +212,17 @@ footer a {
 }
 
 footer img {
-  width: 32px;
-  height: 32px;
+  width: 56px;   /* bigger icons */
+  height: 56px;
   filter: brightness(0.85);
   transition: 0.3s ease;
 }
 
 footer img:hover {
   filter: brightness(1.2);
+  transform: scale(1.1); /* optional - adds a hover zoom effect */
 }
+
 
 
   .resume-btn {
