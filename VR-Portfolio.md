@@ -1198,6 +1198,23 @@ footer img:hover {
 
 
 
+<!-- Project Card: ED-Inspired 3D Scene -->
+<div class="project-card" onclick="openModal('edscene')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/edep.png" 
+         alt="ED-Inspired 3D Environment" 
+         class="project-image">
+    <div class="overlay">
+      <span class="plus">+</span>
+    </div>
+  </div>
+  <h3>ED Department Entrance (IITM)</h3>
+  <p>Interactive Unity scene inspired by IITM ED entrance</p>
+</div>
+
+
+
+
 
 
 
@@ -1707,6 +1724,65 @@ footer img:hover {
     </div>
   </div>
 </div>
+
+
+
+
+<!-- Modal for ED-Inspired 3D Scene -->
+<div id="edscene" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('edscene')">&times;</span>
+    
+    <!-- YouTube Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/3C-_wtcaLhA" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">ED-Inspired 3D Environment – Unity Scene Design</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>
+          Developed a 3D first-person environment in Unity, inspired by the 
+          <b>Engineering Design Department entrance (IIT Madras)</b>. 
+          The project demonstrates scene blocking, environment design, and navigation setup, 
+          focusing on creating a realistic and interactive walkthrough experience
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Blocked out scene layout using ProBuilder in Unity</li>
+          <li>Integrated foliage, props, and architectural elements for realism</li>
+          <li>Added first-person controller for interactive walkthrough</li>
+          <li>Optimized scene lighting and materials</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, ProBuilder, Asset Store Props</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
 
 
 
