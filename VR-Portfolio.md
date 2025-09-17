@@ -1062,41 +1062,36 @@ footer img:hover {
   </div>
 
 
-  <!-- Project 4 -->
-  <div class="project-card" onclick="openModal('project4')">
-    <div class="project-image-container">
-      <img src="/Web-Page/assets/images/project1.png" alt="Safe Cracking" class="project-image">
-      <div class="overlay">
-        <span class="plus">+</span>
-      </div>
-    </div>
-    <h3>Safe Cracking</h3>
-    <p>Immersive VR puzzle where players unlock a safe by rotating dials in the correct sequence</p>
+<!-- Project 4 -->
+<div class="project-card" onclick="openModal('project4')">
+  <div class="project-image-container">
+    <img src="/Web-Page/assets/images/project4.png" alt="Safe Cracking" class="project-image">
+    <div class="overlay"><span class="plus">+</span></div>
   </div>
+  <h3>Safe Cracking</h3>
+  <p>Immersive VR puzzle where players unlock a safe by rotating dials in the correct sequence</p>
+</div>
 
- <!-- Project 5 (Gravity Manipulation) -->
+<!-- Project 5 -->
 <div class="project-card" onclick="openModal('gravity')">
   <div class="project-image-container">
-    <img src="/Web-Page/assets/images/project2.png" alt="Gravity Manipulation" class="project-image">
-    <div class="overlay">
-      <span class="plus">+</span>
-    </div>
+    <img src="/Web-Page/assets/images/project5.png" alt="Gravity Manipulation" class="project-image">
+    <div class="overlay"><span class="plus">+</span></div>
   </div>
   <h3>Gravity Manipulation</h3>
   <p>Interactive VR mechanic using push-pull forces to move and control objects in space</p>
 </div>
 
-<!-- Project 6 (Catching Fire) -->
+<!-- Project 6 -->
 <div class="project-card" onclick="openModal('projectFire')">
   <div class="project-image-container">
-    <img src="/Web-Page/assets/images/project3.png" alt="Catching Fire" class="project-image">
-    <div class="overlay">
-      <span class="plus">+</span>
-    </div>
+    <img src="/Web-Page/assets/images/project6.png" alt="Catching Fire" class="project-image">
+    <div class="overlay"><span class="plus">+</span></div>
   </div>
   <h3>Catching Fire</h3>
   <p>Interactive VR fire simulation with mechanics for ignition, spread, and extinguishing</p>
 </div>
+
 
 
   <!-- Project 7 -->
