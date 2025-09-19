@@ -289,8 +289,8 @@ footer img:hover {
 #course1 .modal-content iframe,
 #course2 .modal-content iframe {
   width: 100%;       /* take full modal width */
-  height: 500px;     /* adjust height as needed */
-  max-width: 900px;  /* don’t let it grow too wide */
+  height: 1000px;     /* adjust height as needed */
+  max-width: 1000px;  /* don’t let it grow too wide */
   display: block;
   margin: 0 auto;
   border-radius: 8px;
