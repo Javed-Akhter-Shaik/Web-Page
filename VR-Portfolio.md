@@ -10,12 +10,14 @@ permalink: /vr-portfolio/
   body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #101820, #1b2735);
+    
+
     color: #f2f2f2;
+   
     margin: 0;
     padding: 0;
     text-align: center;
   }
-
   nav {
     background: transparent;
     padding: 20px;
@@ -30,21 +32,17 @@ permalink: /vr-portfolio/
   nav a:hover {
     color: #fff;
   }
-
   h1, h2 {
     margin-top: 20px;
   }
-
-  /* === Portfolio Grid === */
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 30px;
     padding: 40px;
     max-width: 1200px;
     margin: auto;
   }
-
   .project-card {
     background: #1e1e2f;
     border-radius: 12px;
@@ -60,8 +58,6 @@ permalink: /vr-portfolio/
     margin: 10px 0;
     color: #00ffcc;
   }
-
-  /* === Modal === */
   .modal {
     display: none;
     position: fixed;
@@ -72,28 +68,36 @@ permalink: /vr-portfolio/
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    padding: 20px;
   }
-
   .modal-content {
     background: #222;
     padding: 20px;
     border-radius: 12px;
     max-width: 900px;
-    width: 95%;
+    width: 90%;
     position: relative;
     text-align: left;
     color: #eee;
   }
-
-  /* Responsive Video (YouTube iframe) */
-  .modal iframe {
+/*   .modal iframe, .modal img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 400px;
     border-radius: 8px;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px; */
 
+  .modal iframe {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9; /* keeps proper proportions */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+  
+  }
   .close-btn {
     position: absolute;
     top: 10px; right: 15px;
@@ -101,225 +105,197 @@ permalink: /vr-portfolio/
     font-size: 28px;
     cursor: pointer;
   }
-
   .modal h3 {
     color: #00ffcc;
     margin-top: 0;
   }
-
   .modal-section {
     margin-bottom: 15px;
   }
-
-  .modal-section h4 {
-    margin-bottom: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #00ffcc;
+  .modal-section b {
+    color: #1db954;
   }
-
-  .modal-section p, .modal-section ul {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  /* === Project Image Overlay === */
-  .project-image-container {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-    border-radius: 10px;
-  }
-  .project-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .overlay {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.6);
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.3s ease;
-    border-radius: 10px;
-  }
-  .project-image-container:hover .overlay {
-    opacity: 1;
-  }
-  .plus {
-    font-size: 48px;
-    font-weight: bold;
-    color: #00ffcc;
-  }
-
-  /* === Footer === */
   footer {
     background: #12121b;
     padding: 30px;
     margin-top: 50px;
-    text-align: center;
   }
   footer a {
-    margin: 0 20px;
-    display: inline-block;
+    margin: 0 10px;
+    color: #bbb;
+    font-size: 20px;
   }
-  footer img {
-    width: 56px;
-    height: 56px;
-    filter: brightness(0.85);
-    transition: 0.3s ease;
-  }
-  footer img:hover {
-    filter: brightness(1.2);
-    transform: scale(1.1);
-  }
-
-  /* === Resume Button === */
-  .resume-btn {
-    display: inline-block;
-    margin: 20px auto;
-    padding: 12px 24px;
-    border: 2px solid #00ffcc;
-    border-radius: 10px;
-    background: transparent;
-    color: #00ffcc;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease;
-  }
-  .resume-btn:hover {
-    background: #00ffcc;
-    color: #1e1e2f;
-    transform: scale(1.05);
-  }
-
-  /* === Skills === */
-  .skills-section {
-    margin: 60px auto;
-    max-width: 1000px;
-    text-align: center;
-  }
-  .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-  }
-  .skill {
-    background: #3a3a4d;
+  footer a:hover {
     color: #fff;
-    padding: 10px 18px;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 15px;
-    transition: all 0.3s ease;
-  }
-  .skill:hover {
-    background: #00ffcc;
-    color: #101820;
   }
 
-  /* === Responsive Tweaks === */
-  @media (max-width: 1024px) {
-    nav a { font-size: 16px; margin: 0 12px; }
-    h1 { font-size: 32px; }
-    h2 { font-size: 24px; }
-    .modal-content { width: 90%; }
-  }
-  @media (max-width: 768px) {
-    .portfolio-grid {
-      grid-template-columns: 1fr;
-      padding: 20px;
-    }
-    .project-image-container { height: 160px; }
-    .modal iframe { aspect-ratio: 4/3; }
-    .resume-btn { font-size: 16px; padding: 10px 20px; }
-  }
-  @media (max-width: 480px) {
-    nav a { font-size: 14px; margin: 0 8px; }
-    h1 { font-size: 26px; }
-    h2 { font-size: 20px; }
-    .modal-content { padding: 15px; }
-    .project-image-container { height: 140px; }
-    .modal iframe { aspect-ratio: 1/1; } /* square video on tiny phones */
-  }
+
+  .project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+  .project-image-container {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.project-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.plus {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+
+  #bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* keep it behind all content */
+  background: linear-gradient(to bottom, #101820, #1b2735); /* fallback if WebGL fails */
+}
+
+
+  .about-section,
+.contact-section {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+
+  footer {
+  background: #12121b;
+  padding: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+footer img {
+  width: 56px;   /* bigger icons */
+  height: 56px;
+  filter: brightness(0.85);
+  transition: 0.3s ease;
+}
+
+footer img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.1); /* optional - adds a hover zoom effect */
+}
+
+
+
+  .resume-btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  border: 2px solid #00ffcc;  /* same color as heading */
+  border-radius: 10px;
+  background: transparent;
+  color: #00ffcc;   /* button text color */
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background: #00ffcc;   /* fill background on hover */
+  color: #1e1e2f;        /* dark text on hover */
+  transform: scale(1.05);
+}
+
+
+.skills-section {
+  margin: 60px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skill {
+  background: #3a3a4d;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.skill:hover {
+  background: #00ffcc;
+  color: #101820;
+}
+
+
+
+
+
+  
+  
+
+  
 </style>
-
 
 
 <canvas id="bg"></canvas>
 <script src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js"></script>
 
 <script>
-  // === Setup ===
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(
-    75,
-    window.innerWidth / window.innerHeight,
-    0.1,
-    1000
-  );
-
-  const renderer = new THREE.WebGLRenderer({
-    canvas: document.getElementById("bg"),
-    alpha: true
-  });
-  renderer.setSize(window.innerWidth, window.innerHeight);
-
-  // === Particles ===
-  const particlesGeometry = new THREE.BufferGeometry();
-  const particlesCount = 500;
-  const posArray = new Float32Array(particlesCount * 3);
-
-  for (let i = 0; i < particlesCount * 3; i++) {
-    posArray[i] = (Math.random() - 0.5) * 50;
-  }
-
-  particlesGeometry.setAttribute(
-    "position",
-    new THREE.BufferAttribute(posArray, 3)
-  );
-
-  const particlesMaterial = new THREE.PointsMaterial({
-    size: 0.05,
-    color: "#00ffcc"
-  });
-
-  const particlesMesh = new THREE.Points(
-    particlesGeometry,
-    particlesMaterial
-  );
-  scene.add(particlesMesh);
-
-  camera.position.z = 5;
-
-  // === Animation Loop ===
-  function animate() {
-    requestAnimationFrame(animate);
-
-    particlesMesh.rotation.y += 0.0015;
-    particlesMesh.rotation.x += 0.0008;
-
-    renderer.render(scene, camera);
-  }
-
-  animate();
-
-  // === Resize Handler ===
-  window.addEventListener("resize", () => {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-  });
-</script>
 
 
 
