@@ -1806,7 +1806,7 @@ footer img:hover {
 
 <!-- New Grid Section: Course Projects -->
 <h2 style="text-align:center; color:#00ffcc; margin-top:60px; margin-bottom:20px;">
-  Course Projects
+  Course Projects (IITM)
 </h2>
 
 <div class="portfolio-grid">
@@ -1818,7 +1818,7 @@ footer img:hover {
       <div class="overlay"><span class="plus">+</span></div>
     </div>
     <h3>Psychophysical Study on Ergonomic Chair Design in VR</h3>
-    <p>AM5011 : Virtual Reality Engineering (IITM)</p>
+    <p>AM5011 : Virtual Reality Engineering </p>
   </div>
 
   <!-- Course Project 2 -->
@@ -1828,7 +1828,7 @@ footer img:hover {
       <div class="overlay"><span class="plus">+</span></div>
     </div>
     <h3>Comparing Selection Methods in VR using Fitts Law</h3>
-    <p>AM5190 : Haptics in Biomedical Engineering (IITM)</p>
+    <p>AM5190 : Haptics in Biomedical Engineering </p>
   </div>
 
 </div> <!-- END of portfolio-grid -->
