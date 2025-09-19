@@ -1846,7 +1846,7 @@ footer img:hover {
     <!-- Video -->
     <iframe 
       src="https://www.youtube.com/embed/GgkB5KnpJ2k" 
-      width="700" height="500"
+      width="700" height="700"
       frameborder="0" allowfullscreen>
     </iframe>
 
@@ -1889,7 +1889,7 @@ footer img:hover {
     <!-- Video -->
     <iframe 
       src="https://www.youtube.com/embed/gA9Kel7oKMo"
-      width="700" height="500"
+      width="700" height="700"
       frameborder="0" allowfullscreen>
     </iframe>
 
