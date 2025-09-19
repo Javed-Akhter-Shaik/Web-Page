@@ -282,16 +282,6 @@ footer img:hover {
 }
 
 
-/* Course Projects thumbnails - zoomed out and taller */
-.portfolio-grid .project-card img.project-image {
-  object-fit: contain;     /* Show full image */
-  width: 100%;
-  height: 260px;           /* Increased from 200px → gives more space */
-  border-radius: 10px;
-  background: #000;        /* Keeps clean background around if needed */
-  padding: 8px;            /* Adds breathing space inside frame */
-}
-
 
 
 
@@ -1901,7 +1891,7 @@ footer img:hover {
     </iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Course Project 2 Title</h3>
+    <h3 class="modal-title">Psychophysical Study on Ergonomic Chair Design in VR</h3>
 
     <!-- Content Section -->
     <div class="modal-details">
