@@ -1822,7 +1822,7 @@ footer img:hover {
       <div class="overlay"><span class="plus">+</span></div>
     </div>
     <h3>Psychophysical Study on Ergonomic Chair Design in VR</h3>
-    <p>Short description of Course Project 1.</p>
+    <p>AM5011 : Virtual Reality Engineering (IITM)</p>
   </div>
 
   <!-- Course Project 2 -->
@@ -1832,7 +1832,7 @@ footer img:hover {
       <div class="overlay"><span class="plus">+</span></div>
     </div>
     <h3>Comparing Selection Methods in VR using Fitts Law</h3>
-    <p>Short description of Course Project 2.</p>
+    <p>AM5190 : Haptics in Biomedical Engineering (IITM)</p>
   </div>
 
 </div> <!-- END of portfolio-grid -->
@@ -1856,7 +1856,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Course Project 1.</p>
+        <p>Conducted a psychophysics-based VR ergonomic study on user perception, designing a virtual chair evaluation system and analyzing participant responses to visual stimuli, highlighting immersion effects and ergonomic insights</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1865,10 +1865,10 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Key Feature A</li>
-          <li>Key Feature B</li>
-          <li>Key Feature C</li>
-        </ul>
+          <li>Developed a VR-based experimental environment simulating ergonomic chair interactions</li>
+          <liTested parameters such as seat height, backrest angle, and armrest position within VR.</li>
+          <li>Conducted a Subjective Study involving 15 Subjects</li>
+        </ul> 
       </div>
       <div class="modal-section">
         <h4>Tech Stack</h4>
@@ -1897,7 +1897,7 @@ footer img:hover {
     <div class="modal-details">
       <div class="modal-section">
         <h4>About</h4>
-        <p>Detailed description of Course Project 2.</p>
+        <p>This project compares Dwell vs Twister as hands-free VR selection techniques and benchmarks them against the traditional controller-based selection method. Both objective measures (Fitts’ Law: throughput, error rate, movement time) and subjective evaluations (user comfort, fatigue, and preference) were conducted to provide a comprehensive understanding of their performance and usability</p>
       </div>
       <div class="modal-section">
         <h4>Role</h4>
@@ -1906,9 +1906,10 @@ footer img:hover {
       <div class="modal-section">
         <h4>Core Mechanics / Highlights</h4>
         <ul>
-          <li>Key Feature X</li>
-          <li>Key Feature Y</li>
-          <li>Key Feature Z</li>
+          <li>Comparative study of hands-free interaction methods in VR</li>
+          <li>Focus on Dwell Selection (gaze + timer) vs Twister Selection (wrist rotation gesture)</li>
+          <li>Implemented and evaluated through a VR-based Fitts’ Law experiment using Meta Quest 2</li>
+           <li>Conducted Subjective as well as Objective Study</li>
         </ul>
       </div>
       <div class="modal-section">
