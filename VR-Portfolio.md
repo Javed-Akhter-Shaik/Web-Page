@@ -1846,8 +1846,10 @@ footer img:hover {
     <!-- Video -->
     <iframe 
       src="https://www.youtube.com/embed/GgkB5KnpJ2k" 
+      width="700" height="500"
       frameborder="0" allowfullscreen>
     </iframe>
+
 
     <!-- Title -->
     <h3 class="modal-title">Psychophysical Study on Ergonomic Chair Design in VR</h3>
@@ -1866,7 +1868,7 @@ footer img:hover {
         <h4>Core Mechanics / Highlights</h4>
         <ul>
           <li>Developed a VR-based experimental environment simulating ergonomic chair interactions</li>
-          <liTested parameters such as seat height, backrest angle, and armrest position within VR.</li>
+          <li>Tested parameters such as seat height, backrest angle, and armrest position within VR</li>
           <li>Conducted a Subjective Study involving 15 Subjects</li>
         </ul> 
       </div>
@@ -1887,6 +1889,7 @@ footer img:hover {
     <!-- Video -->
     <iframe 
       src="https://www.youtube.com/embed/gA9Kel7oKMo"
+      width="700" height="500"
       frameborder="0" allowfullscreen>
     </iframe>
 
@@ -1907,7 +1910,7 @@ footer img:hover {
         <h4>Core Mechanics / Highlights</h4>
         <ul>
           <li>Comparative study of hands-free interaction methods in VR</li>
-          <li>Focus on Dwell Selection (gaze + timer) vs Twister Selection (wrist rotation gesture)</li>
+          <li>Focus on Dwell Selection (gaze + timer) vs Twister Selection (Head Twist gesture)</li>
           <li>Implemented and evaluated through a VR-based Fitts’ Law experiment using Meta Quest 2</li>
            <li>Conducted Subjective as well as Objective Study</li>
         </ul>
