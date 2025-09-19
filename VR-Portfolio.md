@@ -282,7 +282,19 @@ footer img:hover {
 }
 
 
+/* ✅ Course Projects specific image styling */
+.portfolio-grid .project-card img.project-image {
+  object-fit: contain;   /* Fit whole image inside frame */
+  background: #111;      /* Optional: adds contrast if image has empty space */
+  height: 200px;         /* Make it consistent height */
+  width: 100%;
+}
 
+
+
+
+
+  
   
 
   
