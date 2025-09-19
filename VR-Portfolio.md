@@ -1791,11 +1791,136 @@ footer img:hover {
 
 
 
-
-
-
-
   <!-- Add more projects as needed -->
+
+
+
+
+
+
+
+
+
+<!-- New Grid Section: Course Projects -->
+<h2 style="text-align:center; color:#00ffcc; margin-top:60px; margin-bottom:20px;">
+  Course Projects
+</h2>
+
+<div class="portfolio-grid">
+
+  <!-- Course Project 1 -->
+  <div class="project-card" onclick="openModal('course1')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/course1.png" alt="Course Project 1" class="project-image">
+      <div class="overlay"><span class="plus">+</span></div>
+    </div>
+    <h3>Course Project 1 Title</h3>
+    <p>Short description of Course Project 1.</p>
+  </div>
+
+  <!-- Course Project 2 -->
+  <div class="project-card" onclick="openModal('course2')">
+    <div class="project-image-container">
+      <img src="/Web-Page/assets/images/course2.png" alt="Course Project 2" class="project-image">
+      <div class="overlay"><span class="plus">+</span></div>
+    </div>
+    <h3>Course Project 2 Title</h3>
+    <p>Short description of Course Project 2.</p>
+  </div>
+
+</div> <!-- END of portfolio-grid -->
+
+
+<!-- 🔹 Modal for Course Project 1 -->
+<div id="course1" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('course1')">&times;</span>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/VIDEO_ID_1" 
+      frameborder="0" allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Course Project 1 Title</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Detailed description of Course Project 1.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Key Feature A</li>
+          <li>Key Feature B</li>
+          <li>Key Feature C</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🔹 Modal for Course Project 2 -->
+<div id="course2" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('course2')">&times;</span>
+    
+    <!-- Video -->
+    <iframe 
+      src="https://www.youtube.com/embed/VIDEO_ID_2" 
+      frameborder="0" allowfullscreen>
+    </iframe>
+
+    <!-- Title -->
+    <h3 class="modal-title">Course Project 2 Title</h3>
+
+    <!-- Content Section -->
+    <div class="modal-details">
+      <div class="modal-section">
+        <h4>About</h4>
+        <p>Detailed description of Course Project 2.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Role</h4>
+        <p>Sole Developer</p>
+      </div>
+      <div class="modal-section">
+        <h4>Core Mechanics / Highlights</h4>
+        <ul>
+          <li>Key Feature X</li>
+          <li>Key Feature Y</li>
+          <li>Key Feature Z</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Tech Stack</h4>
+        <p>Unity, C#, Meta XR Toolkit</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
