@@ -282,13 +282,16 @@ footer img:hover {
 }
 
 
-/* ✅ Course Projects images - fill frame completely */
+/* Course Projects thumbnails - zoomed out and taller */
 .portfolio-grid .project-card img.project-image {
-  object-fit: cover;   /* fills frame, no black bars */
+  object-fit: contain;     /* Show full image */
   width: 100%;
-  height: 200px;       /* same height across all cards */
+  height: 260px;           /* Increased from 200px → gives more space */
   border-radius: 10px;
+  background: #000;        /* Keeps clean background around if needed */
+  padding: 8px;            /* Adds breathing space inside frame */
 }
+
 
 
 
