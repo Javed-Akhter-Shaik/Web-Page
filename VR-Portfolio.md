@@ -1821,7 +1821,7 @@ footer img:hover {
       <img src="/Web-Page/assets/images/course1.png" alt="Course Project 1" class="project-image">
       <div class="overlay"><span class="plus">+</span></div>
     </div>
-    <h3>Course Project 1 Title</h3>
+    <h3>Psychophysical Study on Ergonomic Chair Design in VR</h3>
     <p>Short description of Course Project 1.</p>
   </div>
 
@@ -1831,7 +1831,7 @@ footer img:hover {
       <img src="/Web-Page/assets/images/course2.png" alt="Course Project 2" class="project-image">
       <div class="overlay"><span class="plus">+</span></div>
     </div>
-    <h3>Course Project 2 Title</h3>
+    <h3>Comparing Selection Methods in VR using Fitts Law</h3>
     <p>Short description of Course Project 2.</p>
   </div>
 
@@ -1850,7 +1850,7 @@ footer img:hover {
     </iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Course Project 1 Title</h3>
+    <h3 class="modal-title">Psychophysical Study on Ergonomic Chair Design in VR</h3>
 
     <!-- Content Section -->
     <div class="modal-details">
@@ -1891,7 +1891,7 @@ footer img:hover {
     </iframe>
 
     <!-- Title -->
-    <h3 class="modal-title">Psychophysical Study on Ergonomic Chair Design in VR</h3>
+    <h3 class="modal-title">A Comparative Study on Look-and-Twist vs Dwell Time Method in VR using Fitts' Law</h3>
 
     <!-- Content Section -->
     <div class="modal-details">
